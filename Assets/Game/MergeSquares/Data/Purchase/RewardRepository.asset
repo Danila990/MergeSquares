@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519375bbbdd045088409e758a7747201, type: 3}
+  m_Name: RewardRepository
+  m_EditorClassIdentifier: 
+  rewards:
+  - id: Soft
+    rewardType: 0
+    gameStatType: 1
+    sprite: {fileID: 21300000, guid: d1685e8d8515f8041897a01ed2c16e06, type: 3}
+  - id: Unit
+    rewardType: 1
+    gameStatType: 1
+    sprite: {fileID: 21300000, guid: bfac99ffed010384fb2660e1b27e2726, type: 3}
+  - id: Gift
+    rewardType: 2
+    gameStatType: 1
+    sprite: {fileID: 21300000, guid: deaf126bc6e94ea46851710353f77d78, type: 3}

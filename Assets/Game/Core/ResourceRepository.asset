@@ -1,0 +1,408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d228cfefd5174673970cea807c7889c8, type: 3}
+  m_Name: ResourceRepository
+  m_EditorClassIdentifier: 
+  images:
+  - id: Soft
+    sprite: {fileID: 21300000, guid: d1685e8d8515f8041897a01ed2c16e06, type: 3}
+  - id: RatingLevelScores
+    sprite: {fileID: 21300000, guid: 698d5ad6a943c4a37b9e0b04c2c18060, type: 3}
+  - id: LeadboardScores
+    sprite: {fileID: 21300000, guid: 698d5ad6a943c4a37b9e0b04c2c18060, type: 3}
+  squareImages:
+  - value: 0
+    numberSprite: {fileID: 0}
+    baseSprite: {fileID: 21300000, guid: f5dfffac01ea24c4fa61f6a6b3396c0c, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 6ba29135aa262d74bb93dd4ac6134376, type: 3}
+    candySprite: {fileID: 21300000, guid: d1b3ddb91f7924cc8bb963688b8d78c9, type: 3}
+    glassSprite: {fileID: 21300000, guid: bf0c13316f3dd48a59254c02d03f9dd4, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 352fd915b278648eaaa8727c95c553a2, type: 3}
+    softSprite: {fileID: 0}
+    woodSprite: {fileID: 21300000, guid: f1227f0e2c70d48e18ff8115bcb5ca0e, type: 3}
+  - value: 1
+    numberSprite: {fileID: 21300000, guid: 7cd5c37f1a6b5e941939665266ef7574, type: 3}
+    baseSprite: {fileID: 21300000, guid: d2c31a70e2032954cac917dd258269c2, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 04278a173119849ee865cd181c8c3484, type: 3}
+    candySprite: {fileID: 21300000, guid: 06eae0fdab9fa4842befaaf338975129, type: 3}
+    glassSprite: {fileID: 21300000, guid: 5c9243b7a2b584a6baaf311fa2c9dcb4, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: ff25f3885245648d6a42621806505d6e, type: 3}
+    softSprite: {fileID: 21300000, guid: 1afeb5a55ab624079b7ad6e1645c5815, type: 3}
+    woodSprite: {fileID: 21300000, guid: eade321822b8b46289123cbf1428455e, type: 3}
+  - value: 1024
+    numberSprite: {fileID: 21300000, guid: ca0dd5dbd700b08448e540e92f7e86bd, type: 3}
+    baseSprite: {fileID: 21300000, guid: 78eadac91ec47499aaaed8bffceab775, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: ddc167108ed1b4d22b3365e7ab8db204, type: 3}
+    candySprite: {fileID: 21300000, guid: dd99331445e1ac945910e63affc88963, type: 3}
+    glassSprite: {fileID: 21300000, guid: cf25769a3d2cc4d2d96f4d585c688c29, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: adaa89c79b7d54bdb927dd5477074b1e, type: 3}
+    softSprite: {fileID: 21300000, guid: 47cd6dc39b35e45b3bf34cfb5dc1fd40, type: 3}
+    woodSprite: {fileID: 21300000, guid: 8881c2ba8a5e64560987dc4d4658203a, type: 3}
+  - value: 128
+    numberSprite: {fileID: 21300000, guid: 1db88ddc6b9f73a4d979a0fb6653e95a, type: 3}
+    baseSprite: {fileID: 21300000, guid: 357ef3d8093e94f50b5e49d001b32804, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 8bc3eab50ee91445fa5ad4edfdd9c9bd, type: 3}
+    candySprite: {fileID: 21300000, guid: b508ac4746051c14d8577e4ff2a791e1, type: 3}
+    glassSprite: {fileID: 21300000, guid: ae39e05db8c3949598045970e29839eb, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 0800fdba5c78b42da86c1ec807273d4d, type: 3}
+    softSprite: {fileID: 21300000, guid: e212115fdf0c046c2b10adf9bcc0fd85, type: 3}
+    woodSprite: {fileID: 21300000, guid: 387594e42e5624ca8b3f9d21f925d492, type: 3}
+  - value: 16
+    numberSprite: {fileID: 21300000, guid: c098b98b5f7c6da4aa249385059b657b, type: 3}
+    baseSprite: {fileID: 21300000, guid: c49c0917bb5e24dc6b34b94d6c175c00, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 3989801422e184cb3839b63f1c82d34d, type: 3}
+    candySprite: {fileID: 21300000, guid: 5099490c93d090f4590a84a22da067d7, type: 3}
+    glassSprite: {fileID: 21300000, guid: 8ac59dcce1e334f558c74cc390d644dd, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 82a4477bb2c0945399e55bde46584cd1, type: 3}
+    softSprite: {fileID: 21300000, guid: 4a00fd925ad964b669e952da848b5033, type: 3}
+    woodSprite: {fileID: 21300000, guid: 295e32e51a20e4071aefc3dfff077f6f, type: 3}
+  - value: 2
+    numberSprite: {fileID: 21300000, guid: b06c25ec88bb89945ab5f62a4a0a5fce, type: 3}
+    baseSprite: {fileID: 21300000, guid: bfac99ffed010384fb2660e1b27e2726, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: b3597d043157d20408eb2a7b2fe864fe, type: 3}
+    candySprite: {fileID: 21300000, guid: 07e753916ca413648abdbbc7c1bfbedd, type: 3}
+    glassSprite: {fileID: 21300000, guid: 6d1114e9b71e34aaf83f422ae50b65ca, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 667c2a39d932e46b9a2c9c46b2a77be8, type: 3}
+    softSprite: {fileID: 21300000, guid: 29ac16ab94a4c4fc8abb5c2f25862e8c, type: 3}
+    woodSprite: {fileID: 21300000, guid: e5cd92486dde94cb0b2f4ec9952826a3, type: 3}
+  - value: 2048
+    numberSprite: {fileID: 21300000, guid: 9ce64e8d2d36b28419c3df78045fb5d2, type: 3}
+    baseSprite: {fileID: 21300000, guid: a6179a91807854351943b1e2a311ce57, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 56d1fa8b2e8e34bb5b14a17274baa841, type: 3}
+    candySprite: {fileID: 21300000, guid: cb7da58e0e979b64db25b9ae814b0497, type: 3}
+    glassSprite: {fileID: 21300000, guid: 89484f75e1b4f4001a5efd73930a901d, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: fb782dc3796214f3a8e0ceec95df6359, type: 3}
+    softSprite: {fileID: 21300000, guid: 58ca116b6fbc0433bb5644a87b43ea54, type: 3}
+    woodSprite: {fileID: 21300000, guid: 4969515387ab34d439dcb34ecff223ca, type: 3}
+  - value: 256
+    numberSprite: {fileID: 21300000, guid: bc2a0ceea10e83548b7ab66535141604, type: 3}
+    baseSprite: {fileID: 21300000, guid: 7820f5fc814ae408a9ee2ec30ab54231, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: bc7c90651cf294636a74431af8457f5c, type: 3}
+    candySprite: {fileID: 21300000, guid: 669a5b093005dcc409170c4dc805e642, type: 3}
+    glassSprite: {fileID: 21300000, guid: eb77adca8edd148d5bee70e21b6794d2, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 60c4e1835b1c34365bda1ebbce60b1f0, type: 3}
+    softSprite: {fileID: 21300000, guid: 1d53b8f46c18249cb8416b1b5be503c5, type: 3}
+    woodSprite: {fileID: 21300000, guid: 0879aeac66f004d40ad00fcbab38fb61, type: 3}
+  - value: 32
+    numberSprite: {fileID: 21300000, guid: f5842e7ca93d9b643a3d788b44b4a6f7, type: 3}
+    baseSprite: {fileID: 21300000, guid: 9e81d2f7385214984bf69bf5df8116fe, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: d4635f6262d144d8d9b3bdfeb66ccc59, type: 3}
+    candySprite: {fileID: 21300000, guid: 84bcbfde5c603b344b653a52a7eb5e8f, type: 3}
+    glassSprite: {fileID: 21300000, guid: f00cf004a1d81447da310abfbd7d2246, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 7540b320083b7487695f56636d933bb1, type: 3}
+    softSprite: {fileID: 21300000, guid: 4929fc330660a4132ba16372764d1c80, type: 3}
+    woodSprite: {fileID: 21300000, guid: 7547647ebc0534b15835d4d743ca8108, type: 3}
+  - value: 4
+    numberSprite: {fileID: 21300000, guid: 32aa1a8a9e2235b47a7484ab9fda6af9, type: 3}
+    baseSprite: {fileID: 21300000, guid: f04fe6b3c1ba84ce192d9d3b3a40d9fe, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: b06d3ae5721b34b5b96dfc5864b54774, type: 3}
+    candySprite: {fileID: 21300000, guid: c15888c3a183af84492a2a17156dec30, type: 3}
+    glassSprite: {fileID: 21300000, guid: 85b193ce3d48745dda536074452d5369, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: e6765e21d68024f88a88d47f191a006c, type: 3}
+    softSprite: {fileID: 21300000, guid: 7e9dbb080f9a847e59e729408c857c3b, type: 3}
+    woodSprite: {fileID: 21300000, guid: 082b7a6633f7e492487eb39dfb7a5959, type: 3}
+  - value: 512
+    numberSprite: {fileID: 21300000, guid: cc09da1a937230e4ea9780e323c6a070, type: 3}
+    baseSprite: {fileID: 21300000, guid: a45fb7763a81a4dd58a7a6c0609609ee, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 74d2ff28854d04d7183330dc9f5465b8, type: 3}
+    candySprite: {fileID: 21300000, guid: 25dc4fec80bf5e141b745a34a32e4aa9, type: 3}
+    glassSprite: {fileID: 21300000, guid: 4a0c29736520340f1a9525ddf45adc6a, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 0398a07779d794df6845ea77b1fd5e67, type: 3}
+    softSprite: {fileID: 21300000, guid: 6e3b6015987b9487eb37e3e432d736fa, type: 3}
+    woodSprite: {fileID: 21300000, guid: a2ceab851cfb847f0bbf4a9c9dc35b1a, type: 3}
+  - value: 64
+    numberSprite: {fileID: 21300000, guid: 3100380423f9b14449847ea7597213a2, type: 3}
+    baseSprite: {fileID: 21300000, guid: 2ff15ac5ba7284407bdc080d28800775, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: c81468a78c97e4b1cb89362ce05c7bc1, type: 3}
+    candySprite: {fileID: 21300000, guid: a606ba7ce6a81404590a76e0f92c8b4a, type: 3}
+    glassSprite: {fileID: 21300000, guid: 65180ab3997b84d5d8e7ea128adbaf39, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: 7a9921860379e41749138c81f73a6183, type: 3}
+    softSprite: {fileID: 21300000, guid: 21d5aeb60d79e4dbc89eb7adec9a6209, type: 3}
+    woodSprite: {fileID: 21300000, guid: 1adc0f5581ba84d59806764fbe8d0bad, type: 3}
+  - value: 8
+    numberSprite: {fileID: 21300000, guid: 7f3fd0bf94941a04c9cbbffc395f52b3, type: 3}
+    baseSprite: {fileID: 21300000, guid: 21e1f07368e47a747bb075ddb60c842f, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 9b97ec83aa4f64541a6a99420669659e, type: 3}
+    candySprite: {fileID: 21300000, guid: 4e0b4d3647ec9764f908ce2277e4fa38, type: 3}
+    glassSprite: {fileID: 21300000, guid: ae0ceeedb9fe14c7a92b05869531cd5c, type: 3}
+    colorFrame: {fileID: 21300000, guid: 55544882b16e04bca8be733d1f198f47, type: 3}
+    goldFrame: {fileID: 21300000, guid: 978aaca766bb84a838cc13ef5037123a, type: 3}
+    silverFrame: {fileID: 21300000, guid: 44f7d4a36303543db976dd15f9fda73f, type: 3}
+    leavesFrame: {fileID: 21300000, guid: 9e1bf4ffacf424a709afdf10a5875a63, type: 3}
+    woodFrame: {fileID: 21300000, guid: 6d1126eef816846f98aec6854b7c9834, type: 3}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+    skySprite: {fileID: 21300000, guid: e1315c76b05454eccb7ddbd5e6bd3afa, type: 3}
+    softSprite: {fileID: 21300000, guid: f24e04fa0c1eb4ebc8eda35cf041d207, type: 3}
+    woodSprite: {fileID: 21300000, guid: 208fb62ca4bef4db0acdd7ce473c0851, type: 3}
+  square2248Images:
+  - value:
+      coefficient: 1.024
+      magnitude: 1
+    pow: 10
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: 78eadac91ec47499aaaed8bffceab775, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: ddc167108ed1b4d22b3365e7ab8db204, type: 3}
+    candySprite: {fileID: 21300000, guid: dd99331445e1ac945910e63affc88963, type: 3}
+    skySprite: {fileID: 21300000, guid: adaa89c79b7d54bdb927dd5477074b1e, type: 3}
+    woodSprite: {fileID: 21300000, guid: 8881c2ba8a5e64560987dc4d4658203a, type: 3}
+    glassSprite: {fileID: 21300000, guid: cf25769a3d2cc4d2d96f4d585c688c29, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 128
+      magnitude: 0
+    pow: 7
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: 357ef3d8093e94f50b5e49d001b32804, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 8bc3eab50ee91445fa5ad4edfdd9c9bd, type: 3}
+    candySprite: {fileID: 21300000, guid: b508ac4746051c14d8577e4ff2a791e1, type: 3}
+    skySprite: {fileID: 21300000, guid: 0800fdba5c78b42da86c1ec807273d4d, type: 3}
+    woodSprite: {fileID: 21300000, guid: 387594e42e5624ca8b3f9d21f925d492, type: 3}
+    glassSprite: {fileID: 21300000, guid: ae39e05db8c3949598045970e29839eb, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 16
+      magnitude: 0
+    pow: 4
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: c49c0917bb5e24dc6b34b94d6c175c00, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 3989801422e184cb3839b63f1c82d34d, type: 3}
+    candySprite: {fileID: 21300000, guid: 5099490c93d090f4590a84a22da067d7, type: 3}
+    skySprite: {fileID: 21300000, guid: 82a4477bb2c0945399e55bde46584cd1, type: 3}
+    woodSprite: {fileID: 21300000, guid: 295e32e51a20e4071aefc3dfff077f6f, type: 3}
+    glassSprite: {fileID: 21300000, guid: 8ac59dcce1e334f558c74cc390d644dd, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 2
+      magnitude: 0
+    pow: 1
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: bfac99ffed010384fb2660e1b27e2726, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: b3597d043157d20408eb2a7b2fe864fe, type: 3}
+    candySprite: {fileID: 21300000, guid: 07e753916ca413648abdbbc7c1bfbedd, type: 3}
+    skySprite: {fileID: 21300000, guid: 667c2a39d932e46b9a2c9c46b2a77be8, type: 3}
+    woodSprite: {fileID: 21300000, guid: e5cd92486dde94cb0b2f4ec9952826a3, type: 3}
+    glassSprite: {fileID: 21300000, guid: 6d1114e9b71e34aaf83f422ae50b65ca, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 2.048
+      magnitude: 1
+    pow: 11
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: a6179a91807854351943b1e2a311ce57, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 56d1fa8b2e8e34bb5b14a17274baa841, type: 3}
+    candySprite: {fileID: 21300000, guid: cb7da58e0e979b64db25b9ae814b0497, type: 3}
+    skySprite: {fileID: 21300000, guid: fb782dc3796214f3a8e0ceec95df6359, type: 3}
+    woodSprite: {fileID: 21300000, guid: 4969515387ab34d439dcb34ecff223ca, type: 3}
+    glassSprite: {fileID: 21300000, guid: 89484f75e1b4f4001a5efd73930a901d, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 256
+      magnitude: 0
+    pow: 8
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: 7820f5fc814ae408a9ee2ec30ab54231, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: bc7c90651cf294636a74431af8457f5c, type: 3}
+    candySprite: {fileID: 21300000, guid: 669a5b093005dcc409170c4dc805e642, type: 3}
+    skySprite: {fileID: 21300000, guid: 60c4e1835b1c34365bda1ebbce60b1f0, type: 3}
+    woodSprite: {fileID: 21300000, guid: 0879aeac66f004d40ad00fcbab38fb61, type: 3}
+    glassSprite: {fileID: 21300000, guid: eb77adca8edd148d5bee70e21b6794d2, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 32
+      magnitude: 0
+    pow: 5
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: 9e81d2f7385214984bf69bf5df8116fe, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: d4635f6262d144d8d9b3bdfeb66ccc59, type: 3}
+    candySprite: {fileID: 21300000, guid: 84bcbfde5c603b344b653a52a7eb5e8f, type: 3}
+    skySprite: {fileID: 21300000, guid: 7540b320083b7487695f56636d933bb1, type: 3}
+    woodSprite: {fileID: 21300000, guid: 7547647ebc0534b15835d4d743ca8108, type: 3}
+    glassSprite: {fileID: 21300000, guid: f00cf004a1d81447da310abfbd7d2246, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 4
+      magnitude: 0
+    pow: 2
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: f04fe6b3c1ba84ce192d9d3b3a40d9fe, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: b06d3ae5721b34b5b96dfc5864b54774, type: 3}
+    candySprite: {fileID: 21300000, guid: c15888c3a183af84492a2a17156dec30, type: 3}
+    skySprite: {fileID: 21300000, guid: e6765e21d68024f88a88d47f191a006c, type: 3}
+    woodSprite: {fileID: 21300000, guid: 082b7a6633f7e492487eb39dfb7a5959, type: 3}
+    glassSprite: {fileID: 21300000, guid: 85b193ce3d48745dda536074452d5369, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 512
+      magnitude: 0
+    pow: 9
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: a45fb7763a81a4dd58a7a6c0609609ee, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 74d2ff28854d04d7183330dc9f5465b8, type: 3}
+    candySprite: {fileID: 21300000, guid: 25dc4fec80bf5e141b745a34a32e4aa9, type: 3}
+    skySprite: {fileID: 21300000, guid: 0398a07779d794df6845ea77b1fd5e67, type: 3}
+    woodSprite: {fileID: 21300000, guid: a2ceab851cfb847f0bbf4a9c9dc35b1a, type: 3}
+    glassSprite: {fileID: 21300000, guid: 4a0c29736520340f1a9525ddf45adc6a, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 64
+      magnitude: 0
+    pow: 6
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: 2ff15ac5ba7284407bdc080d28800775, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: c81468a78c97e4b1cb89362ce05c7bc1, type: 3}
+    candySprite: {fileID: 21300000, guid: a606ba7ce6a81404590a76e0f92c8b4a, type: 3}
+    skySprite: {fileID: 21300000, guid: 7a9921860379e41749138c81f73a6183, type: 3}
+    woodSprite: {fileID: 21300000, guid: 1adc0f5581ba84d59806764fbe8d0bad, type: 3}
+    glassSprite: {fileID: 21300000, guid: 65180ab3997b84d5d8e7ea128adbaf39, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  - value:
+      coefficient: 8
+      magnitude: 0
+    pow: 3
+    color: {r: 0, g: 0, b: 0, a: 0}
+    baseSprite: {fileID: 21300000, guid: 21e1f07368e47a747bb075ddb60c842f, type: 3}
+    bubbleSprite: {fileID: 21300000, guid: 9b97ec83aa4f64541a6a99420669659e, type: 3}
+    candySprite: {fileID: 21300000, guid: 4e0b4d3647ec9764f908ce2277e4fa38, type: 3}
+    skySprite: {fileID: 21300000, guid: e1315c76b05454eccb7ddbd5e6bd3afa, type: 3}
+    woodSprite: {fileID: 21300000, guid: 208fb62ca4bef4db0acdd7ce473c0851, type: 3}
+    glassSprite: {fileID: 21300000, guid: ae0ceeedb9fe14c7a92b05869531cd5c, type: 3}
+    normalSprite: {fileID: 0}
+    shineSprite: {fileID: 0}
+    lightFrame: {fileID: 0}
+    external: {fileID: 0}
+    externalFrame: {fileID: 0}
+  imageUpdateName: Wood

@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f7ce12670c2984f9710e5f151e4505, type: 3}
+  m_Name: SquaresSkinsManager
+  m_EditorClassIdentifier: 
+  skins:
+  - _skin: 0
+    _openCost: 0
+    rarity: 0
+  - _skin: 8
+    _openCost: 20
+    rarity: 1
+  - _skin: 9
+    _openCost: 100
+    rarity: 1
+  - _skin: 11
+    _openCost: 150
+    rarity: 1
+  - _skin: 6
+    _openCost: 300
+    rarity: 2
+  - _skin: 7
+    _openCost: 400
+    rarity: 2
+  - _skin: 12
+    _openCost: 400
+    rarity: 2
+  - _skin: 5
+    _openCost: 500
+    rarity: 3
+  - _skin: 2
+    _openCost: 650
+    rarity: 3
+  - _skin: 1
+    _openCost: 800
+    rarity: 4
+  - _skin: 3
+    _openCost: 1000
+    rarity: 4
+  - _skin: 10
+    _openCost: 1600
+    rarity: 5
+  rarityData:
+  - rarity: 0
+    color: {r: 0, g: 0.7254902, b: 0.85490197, a: 1}
+    chanceForLevel:
+    - 95
+    - 85
+    - 70
+    - 45
+    - 20
+    - 12.5
+    - 9
+    cashBack: 1
+    multiplier: 0
+  - rarity: 1
+    color: {r: 0.11764706, g: 0.8352941, b: 0.3882353, a: 1}
+    chanceForLevel:
+    - 5
+    - 15
+    - 25
+    - 46
+    - 65
+    - 45
+    - 20
+    cashBack: 2
+    multiplier: 1.5
+  - rarity: 2
+    color: {r: 0.24705882, g: 0.42352942, b: 1, a: 1}
+    chanceForLevel:
+    - 0
+    - 0
+    - 5
+    - 9
+    - 15
+    - 22
+    - 30
+    cashBack: 3
+    multiplier: 1.5
+  - rarity: 3
+    color: {r: 0.72156864, g: 0.3647059, b: 1, a: 1}
+    chanceForLevel:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 6
+    - 12
+    - 18
+    cashBack: 4
+    multiplier: 2
+  - rarity: 4
+    color: {r: 0.6431373, g: 0.50980395, b: 0.22352941, a: 1}
+    chanceForLevel:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0.2
+    - 0.653
+    - 0.83
+    cashBack: 40
+    multiplier: 4
+  - rarity: 5
+    color: {r: 0.9529412, g: 0.30980393, b: 0.24313726, a: 1}
+    chanceForLevel:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0.017
+    - 0.03
+    cashBack: 400
+    multiplier: 10
+  localizationRepository: {fileID: 11400000, guid: 661eb821403784aa9a03a325a7f13421, type: 2}

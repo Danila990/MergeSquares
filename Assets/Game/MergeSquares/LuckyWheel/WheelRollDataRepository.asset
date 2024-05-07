@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f886c4c98b70e44a539860d0f51edf, type: 3}
+  m_Name: WheelRollDataRepository
+  m_EditorClassIdentifier: 
+  data:
+  - id: childrens
+    isCallback: 0
+    fixedSector: 7
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 0
+      cost: 4
+    - isNegative: 0
+      isAdv: 0
+      cost: 4
+    - isNegative: 1
+      isAdv: 0
+      cost: 5
+    - isNegative: 0
+      isAdv: 0
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 1
+      isAdditional: 0
+  - id: fluff
+    isCallback: 1
+    fixedSector: -1
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 1
+      cost: 4
+    - isNegative: 0
+      isAdv: 1
+      cost: 4
+    - isNegative: 1
+      isAdv: 1
+      cost: 5
+    - isNegative: 0
+      isAdv: 1
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 5
+      isAdditional: 0
+  - id: lapochka
+    isCallback: 1
+    fixedSector: -1
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 1
+      cost: 4
+    - isNegative: 0
+      isAdv: 1
+      cost: 4
+    - isNegative: 1
+      isAdv: 1
+      cost: 5
+    - isNegative: 0
+      isAdv: 1
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 5
+      isAdditional: 0
+  - id: cherry
+    isCallback: 1
+    fixedSector: -1
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 1
+      cost: 4
+    - isNegative: 0
+      isAdv: 1
+      cost: 4
+    - isNegative: 1
+      isAdv: 1
+      cost: 5
+    - isNegative: 0
+      isAdv: 1
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 5
+      isAdditional: 0
+  - id: carrot
+    isCallback: 1
+    fixedSector: -1
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 1
+      cost: 4
+    - isNegative: 0
+      isAdv: 1
+      cost: 4
+    - isNegative: 1
+      isAdv: 1
+      cost: 5
+    - isNegative: 0
+      isAdv: 1
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 5
+      isAdditional: 0
+  - id: soup
+    isCallback: 1
+    fixedSector: -1
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 1
+      cost: 4
+    - isNegative: 0
+      isAdv: 1
+      cost: 4
+    - isNegative: 1
+      isAdv: 1
+      cost: 5
+    - isNegative: 0
+      isAdv: 1
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 5
+      isAdditional: 0
+  - id: dish
+    isCallback: 1
+    fixedSector: -1
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 1
+      cost: 4
+    - isNegative: 0
+      isAdv: 1
+      cost: 4
+    - isNegative: 1
+      isAdv: 1
+      cost: 5
+    - isNegative: 0
+      isAdv: 1
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 5
+      isAdditional: 0
+  - id: tent
+    isCallback: 1
+    fixedSector: -1
+    sectors:
+    - isNegative: 1
+      isAdv: 0
+      cost: 1
+    - isNegative: 0
+      isAdv: 0
+      cost: 1
+    - isNegative: 1
+      isAdv: 0
+      cost: 2
+    - isNegative: 0
+      isAdv: 0
+      cost: 2
+    - isNegative: 1
+      isAdv: 0
+      cost: 3
+    - isNegative: 0
+      isAdv: 0
+      cost: 3
+    - isNegative: 1
+      isAdv: 1
+      cost: 4
+    - isNegative: 0
+      isAdv: 1
+      cost: 4
+    - isNegative: 1
+      isAdv: 1
+      cost: 5
+    - isNegative: 0
+      isAdv: 1
+      cost: 5
+    rewards:
+    - id: Experience
+      unit: 
+      value: 5
+      isAdditional: 0
+  rewardRepository: {fileID: 11400000, guid: ecd5cb108528fe147bcbc827753ba140, type: 2}

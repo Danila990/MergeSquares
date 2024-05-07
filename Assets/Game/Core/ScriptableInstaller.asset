@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167dff2f3ca384b7386ccbb38d50638b, type: 3}
+  m_Name: ScriptableInstaller
+  m_EditorClassIdentifier: 
+  localizationRepository: {fileID: 11400000, guid: 661eb821403784aa9a03a325a7f13421, type: 2}
+  foldersToScan:
+  - Assets/Game/Audio/Music
+  - Assets/Game/Audio/Sound
+  - Assets/Game/MergeSquares/Audio
+  soundSources:
+  - {fileID: 11400000, guid: 609a89fb713806c4bb687b7573d43d0e, type: 2}
+  - {fileID: 11400000, guid: e2aac170324751141ab3fac24311bb70, type: 2}
+  - {fileID: 11400000, guid: b7bd330e57ca86746960a3760364728e, type: 2}
+  - {fileID: 11400000, guid: 04b447404b219c94c8df6138997a0dea, type: 2}
+  - {fileID: 11400000, guid: 342460e2ae5394c4687e68b6529a3bb4, type: 2}
+  - {fileID: 11400000, guid: 26458235da5707e4581f255852814961, type: 2}
+  - {fileID: 11400000, guid: 5c84fd3f71d9ea64ebd16a6ad2699b1c, type: 2}
+  - {fileID: 11400000, guid: 42fff7d8b6785fe489442b8ba7b155d7, type: 2}
+  - {fileID: 11400000, guid: ad5f91cee0895914dbef1245c0aaa85c, type: 2}
+  - {fileID: 11400000, guid: 9ce293b5ea59e2745bebb62e4d643687, type: 2}
+  - {fileID: 11400000, guid: b294b9f231fcc8e48a6739feb07ccb52, type: 2}
+  _scriptableRepositories:
+  - {fileID: 11400000, guid: 829d17a1985094dee9cd3ee762403583, type: 2}
+  - {fileID: 11400000, guid: a0e8374fd96a8e64e9ec80ad92e9067b, type: 2}

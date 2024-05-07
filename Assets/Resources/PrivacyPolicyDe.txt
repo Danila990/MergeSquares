@@ -1,0 +1,68 @@
+Diese Seite wird verwendet, um Besucher über meine Richtlinien zur Erfassung, Verwendung und Offenlegung personenbezogener Daten zu informieren, falls sich jemand für die Nutzung meines Dienstes entscheidet.
+
+Wenn Sie sich für die Nutzung meines Dienstes entscheiden, stimmen Sie der Erfassung und Nutzung von Informationen im Zusammenhang mit dieser Richtlinie zu.
+Die von mir erfassten personenbezogenen Daten werden zur Bereitstellung und Verbesserung des Dienstes verwendet. Ich werde Ihre Daten nicht verwenden oder an Dritte weitergeben, außer wie in dieser Datenschutzrichtlinie beschrieben.
+
+Die in dieser Datenschutzrichtlinie verwendeten Begriffe haben dieselbe Bedeutung wie in unseren Allgemeinen Geschäftsbedingungen.
+die im Merge Board zugänglich sind, sofern in dieser Datenschutzrichtlinie nichts anderes festgelegt ist.
+
+Sammlung und Nutzung von Informationen
+
+Für ein besseres Erlebnis bei der Nutzung unseres Dienstes kann es sein, dass ich Sie auffordere, uns bestimmte personenbezogene Daten zur Verfügung zu stellen, darunter unter anderem Analysedaten, Fehler und Debugdaten.
+Die von mir angeforderten Informationen werden auf Ihrem Gerät gespeichert und in keiner Weise von mir erfasst.
+
+Die App nutzt Dienste von Drittanbietern, die möglicherweise Informationen sammeln, die zu Ihrer Identifizierung dienen.
+
+Link zu den Datenschutzbestimmungen der von der App genutzten Drittanbieter
+
+Yandex-Dienste
+
+Logdaten
+Ich möchte Sie darüber informieren, dass ich bei jeder Nutzung meines Dienstes im Falle eines Fehlers in der App Daten und Informationen (über Produkte von Drittanbietern) auf Ihrem Telefon erhebe, die als Protokolldaten bezeichnet werden. Diese Protokolldaten können Informationen wie die Internetprotokolladresse („IP“) Ihres Geräts, den Gerätenamen, die Betriebssystemversion usw. enthalten.
+die Konfiguration der App bei der Nutzung meines Dienstes, die Uhrzeit und das Datum Ihrer Nutzung des Dienstes sowie andere Statistiken.
+
+Cookies
+
+Cookies sind Dateien mit einer kleinen Datenmenge, die üblicherweise als anonyme eindeutige Kennungen verwendet werden. Diese werden von den von Ihnen besuchten Websites an Ihren Browser gesendet und im internen Speicher Ihres Geräts gespeichert.
+
+Dieser Dienst verwendet diese „Cookies“ nicht ausdrücklich. Die App kann jedoch Code und Bibliotheken von Drittanbietern verwenden, die „Cookies“ verwenden, um Informationen zu sammeln und ihre Dienste zu verbessern. Sie haben die Möglichkeit, diese Cookies entweder zu akzeptieren oder abzulehnen und zu erfahren, wann ein Cookie an Ihr Gerät gesendet wird. Wenn Sie unsere Cookies ablehnen,
+können Sie möglicherweise einige Teile unseres Dienstes nicht nutzen.
+
+Dienstleister
+
+Ich kann aus folgenden Gründen Drittunternehmen und Einzelpersonen beauftragen:
+
+Um unseren Service zu erleichtern;
+Um den Service in unserem Namen bereitzustellen;
+Zur Erbringung dienstbezogener Dienstleistungen; oder
+Um uns bei der Analyse der Nutzung unseres Dienstes zu unterstützen.
+
+Ich möchte Benutzer dieses Dienstes darüber informieren, dass diese Dritten Zugriff auf Ihre persönlichen Daten haben. Der Zweck besteht darin, die Ihnen übertragenen Aufgaben in unserem Namen auszuführen. Sie sind jedoch verpflichtet, die Informationen nicht weiterzugeben oder für andere Zwecke zu verwenden.
+
+Sicherheit
+
+Ich schätze Ihr Vertrauen in die Bereitstellung Ihrer persönlichen Daten.
+Daher sind wir bestrebt, kommerziell akzeptable Mittel zum Schutz einzusetzen. Bedenken Sie jedoch, dass keine Methode der Übertragung über das Internet oder Methode der elektronischen Speicherung zu 100 % sicher und zuverlässig ist und ich für deren absolute Sicherheit keine Garantie übernehmen kann.
+
+Links zu anderen Websites
+
+Dieser Dienst kann Links zu anderen Websites enthalten. Wenn Sie auf den Party-Link klicken, werden Sie zu dieser Seite weitergeleitet. Bitte beachten Sie, dass diese externen Seiten nicht von mir betrieben werden. Daher empfehle ich Ihnen dringend, die Datenschutzrichtlinien dieser Websites zu lesen. Ich habe keine Kontrolle über die Inhalte, Datenschutzrichtlinien oder Praktiken von Websites oder Dienste Dritter und übernehme keine Verantwortung dafür.
+
+Privatsphäre von Kindern
+
+Diese Dienste richten sich nicht an Personen unter 13 Jahren. Ich sammle wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Sollte ich feststellen, dass mir ein Kind unter 13 Jahren personenbezogene Daten zur Verfügung gestellt hat, lösche ich diese umgehend von unseren Servern.
+Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und wissen, dass Ihr Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktieren Sie mich bitte, damit ich die erforderlichen Maßnahmen ergreifen kann.
+
+Änderungen dieser Datenschutzrichtlinie
+
+Ich kann unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir empfehlen Ihnen daher, diese Seite regelmäßig auf etwaige Änderungen zu überprüfen.
+Ich werde Sie über etwaige Änderungen informieren, indem ich die neue Datenschutzrichtlinie auf dieser Seite veröffentliche.
+
+Diese Richtlinie gilt ab dem 19.04.2022
+
+Kontaktieren Sie uns
+
+Wenn Sie Fragen oder Anregungen zu meiner Datenschutzrichtlinie haben, zögern Sie nicht, mich unter afternaoagain@ya.ru zu kontaktieren.
+
+Diese Datenschutzrichtlinie wurde unter „privacypolicytemplate“ erstellt.
+net und vom App Privacy Policy Generator geändert/generiert

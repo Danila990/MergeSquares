@@ -1,0 +1,2320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1080497464182009090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2794293187772124305}
+  - component: {fileID: 928757152996841558}
+  - component: {fileID: 2753674416487076633}
+  - component: {fileID: 6729793078790544564}
+  m_Layer: 0
+  m_Name: GameStatLargeService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2794293187772124305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080497464182009090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3834760091168291577}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928757152996841558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080497464182009090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ecb0a764ef27c42b34c7334795a8a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maps: []
+  saver: {fileID: 2753674416487076633}
+  defaultStats: []
+--- !u!114 &2753674416487076633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080497464182009090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+  key: GameStatLargeService
+--- !u!114 &6729793078790544564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080497464182009090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 928757152996841558}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
+--- !u!1 &1341843489011134737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2960491009309635433}
+  - component: {fileID: 5218927054012498115}
+  m_Layer: 0
+  m_Name: SoftOfferService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2960491009309635433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341843489011134737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6587485170971529442}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5218927054012498115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341843489011134737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d24b54c99a54aaf45ae29f10ee7c1e84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offerModels:
+  - {fileID: 11400000, guid: 0b511727c543c4e8e9e8806cdaed6b0e, type: 2}
+  - {fileID: 11400000, guid: 50ebdc2a2c6ff4442b7eecae048002b4, type: 2}
+  - {fileID: 11400000, guid: cb588f1a011434c358c19bdf47a446dd, type: 2}
+  - {fileID: 11400000, guid: 242c770aa54ea46169a8eca401d04257, type: 2}
+  oneAtTime: 1
+  chanceToAddAll: 0.2
+--- !u!1 &1362419515360790367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4388425520353053480}
+  - component: {fileID: 7527508884238632985}
+  - component: {fileID: 8304860760392147415}
+  - component: {fileID: 3578714834445095236}
+  m_Layer: 0
+  m_Name: TaskService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4388425520353053480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362419515360790367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3834760091168291577}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7527508884238632985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362419515360790367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f763ea86934d49ba461f2e1422b635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatedTasks:
+  - type: 0
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 5
+      isAdditional: 0
+    targetValue: 30
+  - type: 1
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 5
+      isAdditional: 0
+    targetValue: 20
+  - type: 2
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 5
+      isAdditional: 0
+    targetValue: 4
+  - type: 3
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 5
+      isAdditional: 0
+    targetValue: 100
+  - type: 6
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 5
+      isAdditional: 0
+    targetValue: 2
+  dailyTasks:
+  - type: 0
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 10
+      isAdditional: 0
+    targetValue: 10
+  - type: 1
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 10
+      isAdditional: 0
+    targetValue: 5
+  - type: 2
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 10
+      isAdditional: 0
+    targetValue: 1
+  - type: 3
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 10
+      isAdditional: 0
+    targetValue: 30
+  - type: 4
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 10
+      isAdditional: 0
+    targetValue: 1
+  - type: 6
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 10
+      isAdditional: 0
+    targetValue: 1
+  - type: 7
+    id: 
+    rewards:
+    - id: Soft
+      unit: 
+      value: 20
+      isAdditional: 0
+    targetValue: 6
+  saver: {fileID: 8304860760392147415}
+--- !u!114 &8304860760392147415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362419515360790367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+  key: TaskService
+--- !u!114 &3578714834445095236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362419515360790367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 7527508884238632985}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
+--- !u!1 &1980195815232985356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8013816632995536253}
+  - component: {fileID: 857076170126241653}
+  - component: {fileID: 63656639325481268}
+  - component: {fileID: 7119706988034057443}
+  m_Layer: 0
+  m_Name: NotifyService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8013816632995536253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980195815232985356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3834760091168291577}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &857076170126241653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980195815232985356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de6b9dc39c04f90a37bee1dc24f7842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saver: {fileID: 63656639325481268}
+--- !u!114 &63656639325481268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980195815232985356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+  key: NotifyService
+--- !u!114 &7119706988034057443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980195815232985356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 857076170126241653}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
+--- !u!1 &3624974444610836811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164758055609596247}
+  - component: {fileID: 8228406687870312311}
+  m_Layer: 0
+  m_Name: StarterPackOfferService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164758055609596247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624974444610836811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6587485170971529442}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8228406687870312311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624974444610836811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c137948402f130542b656a896ea74ab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offerShowLevel: 10
+  offerModel: {fileID: 11400000, guid: 34425ce81a98fd24d8232a2f5c040b36, type: 2}
+--- !u!1 &8184146712708430959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4915086343672354078}
+  - component: {fileID: 7816920935696943112}
+  - component: {fileID: 3638571814391951549}
+  - component: {fileID: 2358592036241638021}
+  m_Layer: 0
+  m_Name: GridManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4915086343672354078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184146712708430959}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3834760091168291577}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7816920935696943112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184146712708430959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b9c75be71a9674f88dc21128ae4d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _resourceRepository: {fileID: 0}
+  merge: {fileID: 11400000, guid: b7bd330e57ca86746960a3760364728e, type: 2}
+  wave: {fileID: 11400000, guid: b294b9f231fcc8e48a6739feb07ccb52, type: 2}
+  slide: {fileID: 11400000, guid: ad5f91cee0895914dbef1245c0aaa85c, type: 2}
+  taskScoresView: {fileID: 0}
+  grids:
+  - {fileID: 0}
+  - {fileID: 0}
+  levelView: {fileID: 0}
+  minPoints: 10
+  maxPoints: 15
+  gridChangeTime: 2
+  inactiveGridAlpha: 0.5
+  endFlyPosition: {x: 0, y: 2000}
+  targetView: {fileID: 0}
+  saver: {fileID: 2358592036241638021}
+  levelRepository: {fileID: 11400000, guid: b27273eda33a2445c8d5c007eea72b23, type: 2}
+  wallsRemovingGroup: {fileID: 0}
+  changeGroup: {fileID: 0}
+  shopGroup: {fileID: 0}
+  stopRemoveWallsButton: {fileID: 0}
+  stopChangeButton: {fileID: 0}
+  wallOverlaySortingOrder: 60
+  wallSortingOrder: 80
+  authAfterLevel: 2
+  cheatLevelInput: {fileID: 0}
+--- !u!114 &3638571814391951549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184146712708430959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 7816920935696943112}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
+--- !u!114 &2358592036241638021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184146712708430959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+  key: GridManager
+--- !u!1 &9026527328425038031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6587485170971529442}
+  - component: {fileID: 5605214287318608100}
+  - component: {fileID: 7044882210579323932}
+  - component: {fileID: 4537868809381750778}
+  m_Layer: 0
+  m_Name: OfferService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6587485170971529442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026527328425038031}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.4360614, y: 4.0330653, z: 8.905487}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 164758055609596247}
+  - {fileID: 2960491009309635433}
+  m_Father: {fileID: 3834760091168291577}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5605214287318608100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026527328425038031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+  key: OfferService
+--- !u!114 &7044882210579323932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026527328425038031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec67deca967ebb468e779e86c0df111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saver: {fileID: 5605214287318608100}
+  models:
+  - {fileID: 11400000, guid: 34425ce81a98fd24d8232a2f5c040b36, type: 2}
+  - {fileID: 11400000, guid: 0b511727c543c4e8e9e8806cdaed6b0e, type: 2}
+  - {fileID: 11400000, guid: 50ebdc2a2c6ff4442b7eecae048002b4, type: 2}
+  - {fileID: 11400000, guid: cb588f1a011434c358c19bdf47a446dd, type: 2}
+  - {fileID: 11400000, guid: 242c770aa54ea46169a8eca401d04257, type: 2}
+--- !u!114 &4537868809381750778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026527328425038031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 7044882210579323932}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
+--- !u!1001 &2941506428242409299
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 507232610857903201, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: purchases.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: f5ac5f0de850b4d38ac1b91c11a2e647, type: 2}
+    - target: {fileID: 1385869884488021279, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: saver
+      value: 
+      objectReference: {fileID: 1220090901350453241}
+    - target: {fileID: 1517457717456154677, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: gameType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.data[4]
+      value: 
+      objectReference: {fileID: 4856746784608415759}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.data[5]
+      value: 
+      objectReference: {fileID: 2358592036241638021}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.data[6]
+      value: 
+      objectReference: {fileID: 5461705597431035515}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.data[7]
+      value: 
+      objectReference: {fileID: 5605214287318608100}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.data[8]
+      value: 
+      objectReference: {fileID: 63656639325481268}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.data[9]
+      value: 
+      objectReference: {fileID: 1220090901350453241}
+    - target: {fileID: 2154296765782570648, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: savers.Array.data[10]
+      value: 
+      objectReference: {fileID: 8304860760392147415}
+    - target: {fileID: 2154296765782570649, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766231069090, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[0]
+      value: 
+      objectReference: {fileID: 6131566231147367439, guid: 8538ef841aeee924997f9be8a927076f, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[1]
+      value: 
+      objectReference: {fileID: 1861877305105451601, guid: ad7b57d6e7327a14683b91905fd5aa4b, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[2]
+      value: 
+      objectReference: {fileID: 7079114149493157062, guid: e34dc32c69d9cc4468436bfa453540b6, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[3]
+      value: 
+      objectReference: {fileID: 819110678947666881, guid: 4e2c7f77383e00e4a904580212de58c6, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[4]
+      value: 
+      objectReference: {fileID: 7864552252749124695, guid: 2efdc79716b407c488e5dcff0d868aaf, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[5]
+      value: 
+      objectReference: {fileID: 6131566231147367439, guid: e07a1d108f5c157409d89e4874ba9a1c, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[6]
+      value: 
+      objectReference: {fileID: 3969121407657843034, guid: 16ca3694931773043a39748d2eb96610, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[7]
+      value: 
+      objectReference: {fileID: 7079114149493157062, guid: ecb8189caac4044a58a5999ef8e73aa3, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[8]
+      value: 
+      objectReference: {fileID: 6599208770996716574, guid: 0b3401c4f2485ab4186ffa80256d0f72, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[9]
+      value: 
+      objectReference: {fileID: 7079114149493157062, guid: 72b5c024ede6cc24da5bcd87b8698957, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[10]
+      value: 
+      objectReference: {fileID: 6944538932134466392, guid: 1e6e2b4c74a6d44d08bcb444f5592fcd, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[11]
+      value: 
+      objectReference: {fileID: 7079114149493157062, guid: c0773972d0cc24684a93296be12ff1b3, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[12]
+      value: 
+      objectReference: {fileID: 6131566231147367439, guid: e07a1d108f5c157409d89e4874ba9a1c, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[13]
+      value: 
+      objectReference: {fileID: 6131566231147367439, guid: e07a1d108f5c157409d89e4874ba9a1c, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _windows.Array.data[14]
+      value: 
+      objectReference: {fileID: 819110678947666881, guid: 4e2c7f77383e00e4a904580212de58c6, type: 3}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _createdWindows.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766231069093, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _createdWindows.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766282108331, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_Name
+      value: ServicesSquares
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766323257996, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: defaultStats.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766323257996, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: defaultStats.Array.data[3].type
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766323257996, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: defaultStats.Array.data[4].type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766323257996, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: defaultStats.Array.data[5].type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766323257996, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: defaultStats.Array.data[4].realValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296766323257996, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: defaultStats.Array.data[5].realValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296767375583200, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154296767375583205, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: defaultLanguage
+      value: en
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888305494168049337, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_Name
+      value: SquaresSkinsManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888305494168049337, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116066772549938417, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145997998969613915, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _components.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233936299865246520, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[0].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[0].pauseTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[1].pauseTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[0].platformType
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[1].platformType
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335353754450249142, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: configs.Array.data[2].platformType
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434140843111931048, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _components.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434140843111931048, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _components.Array.data[0]
+      value: 
+      objectReference: {fileID: 4630059402367972988}
+    - target: {fileID: 4434140843111931048, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: _components.Array.data[1]
+      value: 
+      objectReference: {fileID: 1398282408345993417}
+    - target: {fileID: 5434883622640303956, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: saver
+      value: 
+      objectReference: {fileID: 5461705597431035515}
+    - target: {fileID: 5434883622640303956, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: testMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775350886491485630, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: fader
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775350886491485630, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: lockLayer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775350886491485630, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: tapHandler
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775350886491485630, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: sortingOrder
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775350886491485630, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: startLockLayer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775350886491485630, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: fingerController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6097180127718726220, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535387475883262255, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: tutorialView
+      value: 
+      objectReference: {fileID: 8715731412862714605}
+    - target: {fileID: 7535387475883262255, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: tutorialEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535387475883262255, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: tutorialProvider
+      value: 
+      objectReference: {fileID: 1398282408345993417}
+    - target: {fileID: 8500666895418404103, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: gameType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534930539955132772, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731799502384186571, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798017348093711234, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025325354333677506, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1163540453806858883, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+    - {fileID: 3145997998969613915, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+--- !u!1 &282647857886272418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3116066772549938417, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_PrefabInstance: {fileID: 2941506428242409299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1398282408345993417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282647857886272418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6076591c939e4d2eabe6d79a0fc81b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingLayerName: TutorialFinger
+  sortingOrder: 110
+  settingsButton: {fileID: 0}
+  tutorials:
+  - name: Merge
+    lockSaves: 1
+    enabled: 1
+    forceStart: 1
+    type: 0
+    startConditions:
+    - type: 1
+      finishedTutorial: 0
+      num: 1
+      gameStatType: 0
+    steps:
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 8247712057835070293, guid: cc5f9d18d14fa4a4da5cd696b956d29b, type: 3}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 2, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 4
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 1
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 5
+      squareClickPos: {x: 1, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 8247712057835070293, guid: ab0469ee52ddd38428e4ea2685a64b47, type: 3}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 8247712057835070293, guid: ab0469ee52ddd38428e4ea2685a64b47, type: 3}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 0, y: 1}
+      tutorialCluePrefab: {fileID: 8247712057835070293, guid: ab0469ee52ddd38428e4ea2685a64b47, type: 3}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 0, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 4
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 5
+      squareClickPos: {x: 0, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 5
+      squareClickPos: {x: 1, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 2, y: 0}
+      tutorialCluePrefab: {fileID: 8247712057835070293, guid: ab0469ee52ddd38428e4ea2685a64b47, type: 3}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 0}
+      tutorialCluePrefab: {fileID: 8247712057835070293, guid: ab0469ee52ddd38428e4ea2685a64b47, type: 3}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 1
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 1
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 1}
+      tutorialCluePrefab: {fileID: 8247712057835070293, guid: ab0469ee52ddd38428e4ea2685a64b47, type: 3}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+  - name: Jocker
+    lockSaves: 1
+    enabled: 1
+    forceStart: 1
+    type: 1
+    startConditions:
+    - type: 1
+      finishedTutorial: 0
+      num: 4
+      gameStatType: 0
+    steps:
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 1.5
+        clue: {fileID: 8247712057835070293, guid: e88e5d9b7a920654a87352e91adc461b, type: 3}
+        clearClue: 1
+        waitClick: 1
+        closeAllWindows: 0
+      stepType: 5
+      squareClickPos: {x: 0, y: 1}
+      tutorialCluePrefab: {fileID: 8247712057835070293, guid: e88e5d9b7a920654a87352e91adc461b, type: 3}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 5
+      squareClickPos: {x: 1, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 0
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0.5
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 4
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 5
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 1
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 1
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 0, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 4
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+  - name: RemoveWall&Change&Skins
+    lockSaves: 1
+    enabled: 1
+    forceStart: 1
+    type: 2
+    startConditions:
+    - type: 1
+      finishedTutorial: 0
+      num: 7
+      gameStatType: 0
+    steps:
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 1
+        clue: {fileID: 8247712057835070293, guid: b26e7c7147c46f44eabc2627860a3ba1, type: 3}
+        clearClue: 1
+        waitClick: 1
+        closeAllWindows: 0
+      stepType: -1
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 8247712057835070293, guid: b26e7c7147c46f44eabc2627860a3ba1, type: 3}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 18
+        anchorId: RemoveWall
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 4
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 8247712057835070293, guid: 8ba86865799a32b4eb7cc4b84c3d72e7, type: 3}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 2
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 8
+      statCount: 1
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 1
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 2, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 0
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 2, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 4
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 3, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 4
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 18
+        anchorId: Change
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 4
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 8247712057835070293, guid: 639d15a231bb8c947b16a95d886cf3e9, type: 3}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 2
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 11
+      statCount: 1
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 1
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 3, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 2, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 0
+        clearFader: 1
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 1.6
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: -1
+      squareClickPos: {x: 2, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 0
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 4
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 18
+        anchorId: ShopButton
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 8247712057835070293, guid: 5518f0b817885f7498d9b4705ef16cff, type: 3}
+        clearClue: 1
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 2
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 1
+      statCount: 20
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 17
+        anchorId: SkinButton1
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 8247712057835070293, guid: 58a07bb8061a18241913296d31b546c2, type: 3}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 2
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 1
+      statCount: 20
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 8
+        anchorId: SquaresShopClose
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 1
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 2
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 0
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 1, y: 2}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 0
+        anchorId: 
+        lockLayer: 0
+        showFader: 1
+        clearFader: 1
+        arrowDir: 0
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 0}
+        clearClue: 0
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 0
+      squareClickPos: {x: 0, y: 1}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 0
+      statCount: 0
+      keepAfterStep: 1
+  - name: Change
+    lockSaves: 1
+    enabled: 1
+    forceStart: 1
+    type: 3
+    startConditions:
+    - type: 4
+      finishedTutorial: 0
+      num: 7
+      gameStatType: 0
+    - type: 3
+      finishedTutorial: 2
+      num: 7
+      gameStatType: 0
+    - type: 5
+      finishedTutorial: 2
+      num: 1
+      gameStatType: 0
+    steps:
+    - baseData:
+        skipCondition:
+          conditions: []
+          expression: A
+        activationCondition:
+          conditions: []
+          expression: A
+        completionCondition:
+          conditions: []
+          expression: A
+        anchorType: 18
+        anchorId: Change
+        lockLayer: 1
+        showFader: 1
+        clearFader: 1
+        arrowDir: 4
+        arrowOffset: {x: 0, y: 0, z: 0}
+        delayOnStartInSec: 0
+        clue: {fileID: 8247712057835070293, guid: 639d15a231bb8c947b16a95d886cf3e9, type: 3}
+        clearClue: 1
+        waitClick: 0
+        closeAllWindows: 0
+      stepType: 2
+      squareClickPos: {x: 0, y: 0}
+      tutorialCluePrefab: {fileID: 0}
+      squareValue: 2
+      needsStat: 11
+      statCount: 1
+      keepAfterStep: 1
+--- !u!1 &1476761650749377680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4372105077569928131, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_PrefabInstance: {fileID: 2941506428242409299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5461705597431035515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476761650749377680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+  key: AdvertisingService
+--- !u!4 &3834760091168291577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2154296766282108330, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_PrefabInstance: {fileID: 2941506428242409299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4630059402367972988 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7535387475883262255, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_PrefabInstance: {fileID: 2941506428242409299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282647857886272418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d601d658b8403abe0e6336e856e6d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4856746784608415759 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7761098490808125276, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_PrefabInstance: {fileID: 2941506428242409299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6865705317009624159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8616993705887546124, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_PrefabInstance: {fileID: 2941506428242409299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1220090901350453241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6865705317009624159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0295ca20017d4ab28ccc1b7ad024e347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+  key: TimeService
+--- !u!114 &8715731412862714605 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5775350886491485630, guid: fe6c7baa121e59b44b85821f3fb198ac, type: 3}
+  m_PrefabInstance: {fileID: 2941506428242409299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50b7c688bb14f9bac37890a2a32f795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

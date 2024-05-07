@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 167dff2f3ca384b7386ccbb38d50638b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - resourceDatabase: {instanceID: 0}
+  - unitDatabase: {instanceID: 0}
+  - mergeChainDatabase: {instanceID: 0}
+  - mergeNodeDatabase: {instanceID: 0}
+  - roomNodeDatabase: {instanceID: 0}
+  - worldChainDatabase: {instanceID: 0}
+  - worldNodeDatabase: {instanceID: 0}
+  - localizationDatabase: {instanceID: 0}
+  - levelDatabase: {instanceID: 0}
+  - offlinePopupLevelDatabase: {instanceID: 0}
+  - buildingCostDatabase: {instanceID: 0}
+  - buildingDatabase: {instanceID: 0}
+  - buildingRequirementDatabase: {instanceID: 0}
+  - buildingTypeDatabase: {instanceID: 0}
+  - roomSlotDatabase: {instanceID: 0}
+  - playerLevelDatabase: {instanceID: 0}
+  - playerLevelBonusDatabase: {fileID: 11400000, guid: 2ec15ede57d84b7499fdb4f3cb48cd3a, type: 2}
+  - inAppShopDataset: {fileID: 11400000, guid: 6d5e1ae5c4d9bbc49832c52338679b26, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

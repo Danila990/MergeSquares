@@ -1,0 +1,18 @@
+{
+    "name": "UnityInterfaceSupport.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:851534d9b69313e44a35671aec659c33"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

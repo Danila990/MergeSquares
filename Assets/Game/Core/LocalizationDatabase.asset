@@ -1,0 +1,5515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302ab5c4d9ad94d90a2ccabd6c4dd369, type: 3}
+  m_Name: LocalizationDatabase
+  m_EditorClassIdentifier: 
+  data:
+  - fieldName: ComeBackAfterText
+  - fieldName: HText
+  - fieldName: MinText
+  - fieldName: SecText
+  - fieldName: ItemsLeftText
+  - fieldName: enLanguageName
+  - fieldName: ruLanguageName
+  - fieldName: SettingsPopupMoreGames
+  - fieldName: SettingsPopupSound
+  - fieldName: SettingsPopupMusic
+  - fieldName: SettingsPopupVibro
+  - fieldName: ContactUs
+  - fieldName: RestorePurchase
+  - fieldName: PrivacySettings
+  - fieldName: SettingsPopupNotifications
+  - fieldName: SettingsPopupLanguage
+  - fieldName: SettingsPopupTutorial
+  - fieldName: SettingsPopupT&C
+  - fieldName: SupportButtonText
+  - fieldName: AgreeButtonText
+  - fieldName: OkButtonText
+  - fieldName: SourceNani
+  - fieldName: Often
+  - fieldName: Rare
+  - fieldName: FromStart
+  - fieldName: LevelWithCount
+  - fieldName: Unlocking
+  - fieldName: Inactive
+  - fieldName: Locked
+  - fieldName: BallsClue1
+  - fieldName: BallsClue2
+  - fieldName: BallsClue3
+  - fieldName: NewInGame
+  - fieldName: NewLoginText
+  - fieldName: WantToBuyText
+  - fieldName: LoginText
+  - fieldName: RateUsText
+  - fieldName: HavingFunText
+  - fieldName: LevelNumTile
+  - fieldName: Discharged
+  - fieldName: VersionText
+  - fieldName: PrivacyText
+  - fieldName: LevelTextWithParams
+  - fieldName: WarningPT
+  - fieldName: UnitsPT
+  - fieldName: CarrotsPT
+  - fieldName: CrystalsPT
+  - fieldName: SettingsPopupTitle
+  - fieldName: ChooseLanguageTitle
+  - fieldName: MergeChainInfoPopupTitle
+  - fieldName: NewLevelTitle
+  - fieldName: GiftTitle
+  - fieldName: RewardTitle
+  - fieldName: WheatTitle
+  - fieldName: TermOfUseTitle
+  - fieldName: PrivacyPolicyTitle
+  - fieldName: OfferEnergyTitle
+  - fieldName: OfferCarrotsShopTitle
+  - fieldName: OfferCarrotsBuildTitle
+  - fieldName: Can'tBeImprovedTitle
+  - fieldName: MarketSaleTitle
+  - fieldName: CoinMarketTitle
+  - fieldName: CarrotMarketTitle
+  - fieldName: LuckyWheelTitle
+  - fieldName: AuthTitle
+  - fieldName: RateUsTile
+  - fieldName: LevelFiledTile
+  - fieldName: LevelCompletedTile1
+  - fieldName: LevelCompletedTile2
+  - fieldName: BallsMainTile
+  - fieldName: BallsSkinTile
+  - fieldName: RotateDeviceTile
+  - fieldName: AdsIsDisabledTile
+  - fieldName: NoAdsTile
+  - fieldName: RabbitShopTitle
+  - fieldName: ShopTitle
+  - fieldName: StarterPackOfferTitle
+  - fieldName: ShopCategoryOffers
+  - fieldName: ShopCategoryClues
+  - fieldName: ShopCategorySkins
+  - fieldName: ShopCategoryCoinByAds
+  - fieldName: ShopCategoryInApps
+  - fieldName: StarterPackOfferPopupTitle
+  - fieldName: ShopCategoryNoAds
+  - fieldName: UnderstoodBT
+  - fieldName: FreeBT
+  - fieldName: ReadyBT
+  - fieldName: DestroyBT
+  - fieldName: UndoBT
+  - fieldName: SellBT
+  - fieldName: SpeedUpBT
+  - fieldName: UpdateOfferBT
+  - fieldName: YesBT
+  - fieldName: NoBT
+  - fieldName: OpenBT
+  - fieldName: TakeBT
+  - fieldName: TakeAllBT
+  - fieldName: CartoonBT
+  - fieldName: UpgradeHoldButton
+  - fieldName: UpgradeFinalButton
+  - fieldName: PrivacyPolicyButton
+  - fieldName: StartBT
+  - fieldName: NoThanksBT
+  - fieldName: SkipLevelBT
+  - fieldName: BuyNoAdsButton
+  - fieldName: NoAdsBT
+  - fieldName: UnlockSkinBT
+  - fieldName: RateNowButton
+  - fieldName: RateLaterButton
+  - fieldName: InviteForHelp
+  - fieldName: JoinCommunityButton
+  - fieldName: InviteToGame
+  - fieldName: ShareText
+  - fieldName: ShareButton
+  - fieldName: OpenGiftBT
+  - fieldName: SelectButton
+  - fieldName: Clue1_1
+  - fieldName: Clue1_2
+  - fieldName: Clue2_1
+  - fieldName: Clue2_2
+  - fieldName: Clue3
+  - fieldName: Clue4
+  - fieldName: Clue5
+  - fieldName: Clue6
+  - fieldName: Clue7
+  - fieldName: Clue8
+  - fieldName: Clue9
+  - fieldName: RollButton
+  - fieldName: DailyTaskResetDesc
+  - fieldName: LevelCompleteCountDesc
+  - fieldName: ClueSwapSpentDesc
+  - fieldName: ClueBombSpentDesc
+  - fieldName: AdShowedDesc
+  - fieldName: AllTaskCompleteDesc
+  - fieldName: DailyButton
+  - fieldName: RepeatButton
+  - fieldName: TasksTitle
+  - fieldName: CloseButton
+  - fieldName: WaveCountDesc
+  - fieldName: CritCountDesc
+  - fieldName: SquaresMergedDesc
+  - fieldName: LevelEndTitle
+  - fieldName: NoMoreTurns
+  - fieldName: RarityChanceTitle
+  - fieldName: CommonName
+  - fieldName: UncommonName
+  - fieldName: RareName
+  - fieldName: EpicName
+  - fieldName: LegendaryName
+  - fieldName: MythicName
+  - fieldName: SummonSkins
+  - fieldName: SummonButton
+  - fieldName: ChooseSeedTitle
+  - fieldName: AddSeedButton
+  - fieldName: MaxCount
+  - fieldName: BonusLevelCategory
+  - fieldName: Multiplier
+  - fieldName: SkinsRareCountTile
+  - fieldName: LeadboardStatsTile
+  - fieldName: NoLeadPrewAwards
+  - fieldName: PrevLeadRewardsBT
+  - fieldName: CurrentLeadRewardsBT
+  - fieldName: RatingPlace
+  - fieldName: RewardsTile
+  - fieldName: Month
+  - fieldName: Week
+  - fieldName: RestartBT
+  - fieldName: ShowMultiplierBT
+  - fieldName: InfinityLevel
+  - fieldName: Cashback
+  - fieldName: NoMovesTile
+  - fieldName: ResultScores
+  - fieldName: NewBestScores
+  - fieldName: YourRewardsText
+  - fieldName: GeneratedSeedsText
+  - fieldName: MonthlyText
+  - fieldName: WeeklyText
+  - fieldName: LvTextWithParams
+  - fieldName: TryCountText
+  - fieldName: ResultsText
+  - fieldName: AllRewardsPlace
+  - fieldName: AllRewardsRewards
+  - fieldName: CompetitionsTile
+  - fieldName: LevelEndedTile
+  - fieldName: BackAgainText
+  - fieldName: ClueRating4_5
+  - fieldName: ClueInf1
+  - fieldName: ClueInf2
+  - fieldName: ClueInf2_5
+  - fieldName: ClueInf3
+  - fieldName: ClueRating1
+  - fieldName: ClueRating2
+  - fieldName: ClueRating2_5
+  - fieldName: ClueRating3
+  - fieldName: ClueRating4
+  - fieldName: NotPlayedText
+  additionalWorksheets:
+  - Squares
+  localizeSave:
+  - fieldName: ComeBackAfterText
+    language: en
+    value: Come back after
+  - fieldName: ComeBackAfterText
+    language: ru
+    value: "\u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0439\u0442\u0435\u0441\u044C
+      \u0447\u0435\u0440\u0435\u0437"
+  - fieldName: ComeBackAfterText
+    language: de
+    value: Zurueckkommen ueber
+  - fieldName: ComeBackAfterText
+    language: es
+    value: "Volver despu\xE9s del texto"
+  - fieldName: ComeBackAfterText
+    language: it
+    value: Torna dopo
+  - fieldName: ComeBackAfterText
+    language: tr
+    value: Sonra geri gel
+  - fieldName: ComeBackAfterText
+    language: pt
+    value: Volte depois
+  - fieldName: ComeBackAfterText
+    language: id
+    value: Kembalilah setelahnya
+  - fieldName: ComeBackAfterText
+    language: tg
+    value: "\u041F\u0430\u0441 \u0430\u0437 \u043E\u043D \u0431\u0430\u0440\u0433\u0430\u0440\u0434\u0435\u0434"
+  - fieldName: ComeBackAfterText
+    language: uz
+    value: Keyin qaytib keling
+  - fieldName: ComeBackAfterText
+    language: fr
+    value: "Reviens apr\xE8s"
+  - fieldName: ComeBackAfterText
+    language: kk
+    value: "\u041A\u0435\u0439\u0456\u043D \u049B\u0430\u0439\u0442\u044B\u043F \u043A\u0435\u043B"
+  - fieldName: HText
+    language: en
+    value: h
+  - fieldName: HText
+    language: ru
+    value: "\u0447"
+  - fieldName: HText
+    language: de
+    value: h
+  - fieldName: HText
+    language: es
+    value: h
+  - fieldName: HText
+    language: it
+    value: h
+  - fieldName: HText
+    language: tr
+    value: H
+  - fieldName: HText
+    language: pt
+    value: h
+  - fieldName: HText
+    language: id
+    value: H
+  - fieldName: HText
+    language: tg
+    value: "\u0447"
+  - fieldName: HText
+    language: uz
+    value: h
+  - fieldName: HText
+    language: fr
+    value: h
+  - fieldName: HText
+    language: kk
+    value: h
+  - fieldName: MinText
+    language: en
+    value: m
+  - fieldName: MinText
+    language: ru
+    value: "\u043C"
+  - fieldName: MinText
+    language: de
+    value: m
+  - fieldName: MinText
+    language: es
+    value: m
+  - fieldName: MinText
+    language: it
+    value: m
+  - fieldName: MinText
+    language: tr
+    value: M
+  - fieldName: MinText
+    language: pt
+    value: eu
+  - fieldName: MinText
+    language: id
+    value: M
+  - fieldName: MinText
+    language: tg
+    value: "\u043C"
+  - fieldName: MinText
+    language: uz
+    value: m
+  - fieldName: MinText
+    language: fr
+    value: m
+  - fieldName: MinText
+    language: kk
+    value: "\u043C"
+  - fieldName: SecText
+    language: en
+    value: s
+  - fieldName: SecText
+    language: ru
+    value: "\u0441"
+  - fieldName: SecText
+    language: de
+    value: s
+  - fieldName: SecText
+    language: es
+    value: s
+  - fieldName: SecText
+    language: it
+    value: s
+  - fieldName: SecText
+    language: tr
+    value: S
+  - fieldName: SecText
+    language: pt
+    value: "\xE9"
+  - fieldName: SecText
+    language: id
+    value: S
+  - fieldName: SecText
+    language: tg
+    value: "\u0441"
+  - fieldName: SecText
+    language: uz
+    value: s
+  - fieldName: SecText
+    language: fr
+    value: s
+  - fieldName: SecText
+    language: kk
+    value: "\u0441"
+  - fieldName: ItemsLeftText
+    language: en
+    value: left
+  - fieldName: ItemsLeftText
+    language: ru
+    value: "\u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C"
+  - fieldName: ItemsLeftText
+    language: de
+    value: uebrig
+  - fieldName: ItemsLeftText
+    language: es
+    value: Izquierda
+  - fieldName: ItemsLeftText
+    language: it
+    value: Sinistra
+  - fieldName: ItemsLeftText
+    language: tr
+    value: sol
+  - fieldName: ItemsLeftText
+    language: pt
+    value: esquerda
+  - fieldName: ItemsLeftText
+    language: id
+    value: kiri
+  - fieldName: ItemsLeftText
+    language: tg
+    value: "\u0447\u0430\u043F"
+  - fieldName: ItemsLeftText
+    language: uz
+    value: chap
+  - fieldName: ItemsLeftText
+    language: fr
+    value: gauche
+  - fieldName: ItemsLeftText
+    language: kk
+    value: "\u0441\u043E\u043B"
+  - fieldName: enLanguageName
+    language: en
+    value: English
+  - fieldName: enLanguageName
+    language: ru
+    value: "\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439"
+  - fieldName: enLanguageName
+    language: de
+    value: Englisch
+  - fieldName: enLanguageName
+    language: es
+    value: "Ingl\xE9s"
+  - fieldName: enLanguageName
+    language: it
+    value: Inglese
+  - fieldName: enLanguageName
+    language: tr
+    value: "\u0130ngilizce"
+  - fieldName: enLanguageName
+    language: pt
+    value: "Ingl\xEAs"
+  - fieldName: enLanguageName
+    language: id
+    value: Bahasa inggris
+  - fieldName: enLanguageName
+    language: tg
+    value: "\u0430\u043D\u0433\u043B\u0438\u0441\u04E3"
+  - fieldName: enLanguageName
+    language: uz
+    value: Ingliz
+  - fieldName: enLanguageName
+    language: fr
+    value: Anglais
+  - fieldName: enLanguageName
+    language: kk
+    value: "\u0410\u0493\u044B\u043B\u0448\u044B\u043D"
+  - fieldName: ruLanguageName
+    language: en
+    value: Russian
+  - fieldName: ruLanguageName
+    language: ru
+    value: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+  - fieldName: ruLanguageName
+    language: de
+    value: Russisch
+  - fieldName: ruLanguageName
+    language: es
+    value: Ruso
+  - fieldName: ruLanguageName
+    language: it
+    value: Russo
+  - fieldName: ruLanguageName
+    language: tr
+    value: "Rus\xE7a"
+  - fieldName: ruLanguageName
+    language: pt
+    value: russo
+  - fieldName: ruLanguageName
+    language: id
+    value: Rusia
+  - fieldName: ruLanguageName
+    language: tg
+    value: "\u0440\u0443\u0441\u04E3"
+  - fieldName: ruLanguageName
+    language: uz
+    value: rus
+  - fieldName: ruLanguageName
+    language: fr
+    value: russe
+  - fieldName: ruLanguageName
+    language: kk
+    value: "\u043E\u0440\u044B\u0441"
+  - fieldName: SettingsPopupMoreGames
+    language: en
+    value: Reset saves
+  - fieldName: SettingsPopupMoreGames
+    language: ru
+    value: "\u0421\u0431\u0440\u043E\u0441 \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441\u0430"
+  - fieldName: SettingsPopupMoreGames
+    language: de
+    value: Speicher zuruecksetzen
+  - fieldName: SettingsPopupMoreGames
+    language: es
+    value: Restablecer memoria
+  - fieldName: SettingsPopupMoreGames
+    language: it
+    value: Reimposta i salvataggi
+  - fieldName: SettingsPopupMoreGames
+    language: tr
+    value: "Kay\u0131tlar\u0131 s\u0131f\u0131rla"
+  - fieldName: SettingsPopupMoreGames
+    language: pt
+    value: Redefinir salvamentos
+  - fieldName: SettingsPopupMoreGames
+    language: id
+    value: Setel ulang simpanan
+  - fieldName: SettingsPopupMoreGames
+    language: tg
+    value: "\u0417\u0430\u0445\u0438\u0440\u0430\u04B3\u043E\u0440\u043E \u0430\u0437
+      \u043D\u0430\u0432 \u0431\u0430\u0440\u049B\u0430\u0440\u043E\u0440 \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: SettingsPopupMoreGames
+    language: uz
+    value: Saqlashlarni tiklash
+  - fieldName: SettingsPopupMoreGames
+    language: fr
+    value: "R\xE9initialiser les sauvegardes"
+  - fieldName: SettingsPopupMoreGames
+    language: kk
+    value: "\u0421\u0430\u049B\u0442\u0430\u0443\u043B\u0430\u0440\u0434\u044B \u049B\u0430\u043B\u043F\u044B\u043D\u0430
+      \u043A\u0435\u043B\u0442\u0456\u0440\u0443"
+  - fieldName: SettingsPopupSound
+    language: en
+    value: Sound
+  - fieldName: SettingsPopupSound
+    language: ru
+    value: "\u0417\u0432\u0443\u043A"
+  - fieldName: SettingsPopupSound
+    language: de
+    value: Ton
+  - fieldName: SettingsPopupSound
+    language: es
+    value: El sonido
+  - fieldName: SettingsPopupSound
+    language: it
+    value: Suono
+  - fieldName: SettingsPopupSound
+    language: tr
+    value: Ses
+  - fieldName: SettingsPopupSound
+    language: pt
+    value: Som
+  - fieldName: SettingsPopupSound
+    language: id
+    value: Suara
+  - fieldName: SettingsPopupSound
+    language: tg
+    value: "\u0421\u0430\u0434\u043E"
+  - fieldName: SettingsPopupSound
+    language: uz
+    value: Ovoz
+  - fieldName: SettingsPopupSound
+    language: fr
+    value: Son
+  - fieldName: SettingsPopupSound
+    language: kk
+    value: "\u0414\u044B\u0431\u044B\u0441"
+  - fieldName: SettingsPopupMusic
+    language: en
+    value: Music
+  - fieldName: SettingsPopupMusic
+    language: ru
+    value: "\u041C\u0443\u0437\u044B\u043A\u0430"
+  - fieldName: SettingsPopupMusic
+    language: de
+    value: Musik
+  - fieldName: SettingsPopupMusic
+    language: es
+    value: "M\xFAsica"
+  - fieldName: SettingsPopupMusic
+    language: it
+    value: Musica
+  - fieldName: SettingsPopupMusic
+    language: tr
+    value: "M\xFCzik"
+  - fieldName: SettingsPopupMusic
+    language: pt
+    value: "M\xFAsica"
+  - fieldName: SettingsPopupMusic
+    language: id
+    value: Musik
+  - fieldName: SettingsPopupMusic
+    language: tg
+    value: "\u041C\u0443\u0441\u0438\u049B\u04E3"
+  - fieldName: SettingsPopupMusic
+    language: uz
+    value: Musiqa
+  - fieldName: SettingsPopupMusic
+    language: fr
+    value: Musique
+  - fieldName: SettingsPopupMusic
+    language: kk
+    value: "\u041C\u0443\u0437\u044B\u043A\u0430"
+  - fieldName: SettingsPopupVibro
+    language: en
+    value: Vibration
+  - fieldName: SettingsPopupVibro
+    language: ru
+    value: "\u0412\u0438\u0431\u0440\u0430\u0446\u0438\u044F"
+  - fieldName: SettingsPopupVibro
+    language: de
+    value: Vibration
+  - fieldName: SettingsPopupVibro
+    language: es
+    value: "Vibraci\xF3n"
+  - fieldName: SettingsPopupVibro
+    language: it
+    value: Vibrazione
+  - fieldName: SettingsPopupVibro
+    language: tr
+    value: "Titre\u015Fim"
+  - fieldName: SettingsPopupVibro
+    language: pt
+    value: "Vibra\xE7\xE3o"
+  - fieldName: SettingsPopupVibro
+    language: id
+    value: Getaran
+  - fieldName: SettingsPopupVibro
+    language: tg
+    value: "\u0412\u0438\u0431\u0440\u0430\u0446\u0438\u044F"
+  - fieldName: SettingsPopupVibro
+    language: uz
+    value: Tebranish
+  - fieldName: SettingsPopupVibro
+    language: fr
+    value: Vibration
+  - fieldName: SettingsPopupVibro
+    language: kk
+    value: "\u0414\u0456\u0440\u0456\u043B"
+  - fieldName: ContactUs
+    language: en
+    value: Contact us
+  - fieldName: ContactUs
+    language: ru
+    value: "\u0421\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0441 \u043D\u0430\u043C\u0438"
+  - fieldName: ContactUs
+    language: de
+    value: Kontakt mit uns
+  - fieldName: ContactUs
+    language: es
+    value: Contacta con nosotras
+  - fieldName: ContactUs
+    language: it
+    value: Contattaci
+  - fieldName: ContactUs
+    language: tr
+    value: "Bize Ula\u015F\u0131n"
+  - fieldName: ContactUs
+    language: pt
+    value: Contate-nos
+  - fieldName: ContactUs
+    language: id
+    value: Hubungi kami
+  - fieldName: ContactUs
+    language: tg
+    value: "\u0411\u043E \u043C\u043E \u0442\u0430\u043C\u043E\u0441 \u0433\u0438\u0440\u0435\u0434"
+  - fieldName: ContactUs
+    language: uz
+    value: Biz bilan bog'lanish
+  - fieldName: ContactUs
+    language: fr
+    value: Contactez-nous
+  - fieldName: ContactUs
+    language: kk
+    value: "\u0411\u0456\u0437\u0431\u0435\u043D \u0445\u0430\u0431\u0430\u0440\u043B\u0430\u0441\u044B\u04A3\u044B"
+  - fieldName: RestorePurchase
+    language: en
+    value: Restore purchase
+  - fieldName: RestorePurchase
+    language: ru
+    value: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+      \u043F\u043E\u043A\u0443\u043F\u043A\u0443"
+  - fieldName: RestorePurchase
+    language: de
+    value: Kauf wiederherstellen
+  - fieldName: RestorePurchase
+    language: es
+    value: Restaurar compra
+  - fieldName: RestorePurchase
+    language: it
+    value: Ripristinare acquisto
+  - fieldName: RestorePurchase
+    language: tr
+    value: "Sat\u0131n alma i\u015Flemini geri y\xFCkle"
+  - fieldName: RestorePurchase
+    language: pt
+    value: Restaurar compra
+  - fieldName: RestorePurchase
+    language: id
+    value: Pulihkan pembelian
+  - fieldName: RestorePurchase
+    language: tg
+    value: "\u0411\u0430\u0440\u049B\u0430\u0440\u043E\u0440 \u043A\u0430\u0440\u0434\u0430\u043D\u0438
+      \u0445\u0430\u0440\u0438\u0434"
+  - fieldName: RestorePurchase
+    language: uz
+    value: Xaridni tiklash
+  - fieldName: RestorePurchase
+    language: fr
+    value: Restaurer l'achat
+  - fieldName: RestorePurchase
+    language: kk
+    value: "\u0421\u0430\u0442\u044B\u043F \u0430\u043B\u0443\u0434\u044B \u049B\u0430\u043B\u043F\u044B\u043D\u0430
+      \u043A\u0435\u043B\u0442\u0456\u0440\u0443"
+  - fieldName: PrivacySettings
+    language: en
+    value: Privacy policy
+  - fieldName: PrivacySettings
+    language: ru
+    value: "\u041F\u043E\u043B\u0438\u0442\u0438\u043A\u0430 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
+  - fieldName: PrivacySettings
+    language: de
+    value: Datenschutzrichtlinie
+  - fieldName: PrivacySettings
+    language: es
+    value: "La configuraci\xF3n de privacidad"
+  - fieldName: PrivacySettings
+    language: it
+    value: Politica sulla riservatezza
+  - fieldName: PrivacySettings
+    language: tr
+    value: "Gizlilik Politikas\u0131"
+  - fieldName: PrivacySettings
+    language: pt
+    value: "Pol\xEDtica de Privacidade"
+  - fieldName: PrivacySettings
+    language: id
+    value: Kebijakan pribadi
+  - fieldName: PrivacySettings
+    language: tg
+    value: "\u0421\u0438\u0451\u0441\u0430\u0442\u0438 \u041A\u043E\u0440\u0431\u0443\u0440\u0434\u0438
+      \u041C\u0430\u044A\u043B\u0443\u043C\u043E\u0442\u0438 \u0428\u0430\u0445\u0441\u04E3"
+  - fieldName: PrivacySettings
+    language: uz
+    value: Maxfiylik siyosati
+  - fieldName: PrivacySettings
+    language: fr
+    value: "Politique de confidentialit\xE9"
+  - fieldName: PrivacySettings
+    language: kk
+    value: "\u049A\u04B1\u043F\u0438\u044F\u043B\u044B\u043B\u044B\u049B \u0441\u0430\u044F\u0441\u0430\u0442\u044B"
+  - fieldName: SettingsPopupNotifications
+    language: en
+    value: Notifications
+  - fieldName: SettingsPopupNotifications
+    language: ru
+    value: "\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F"
+  - fieldName: SettingsPopupNotifications
+    language: de
+    value: Benachrichtigungen
+  - fieldName: SettingsPopupNotifications
+    language: es
+    value: 'Notificaciones '
+  - fieldName: SettingsPopupNotifications
+    language: it
+    value: Notifiche
+  - fieldName: SettingsPopupNotifications
+    language: tr
+    value: Bildirimler
+  - fieldName: SettingsPopupNotifications
+    language: pt
+    value: "Notifica\xE7\xF5es"
+  - fieldName: SettingsPopupNotifications
+    language: id
+    value: Pemberitahuan
+  - fieldName: SettingsPopupNotifications
+    language: tg
+    value: "\u041E\u0433\u043E\u04B3\u0438\u043D\u043E\u043C\u0430\u04B3\u043E"
+  - fieldName: SettingsPopupNotifications
+    language: uz
+    value: Bildirishnomalar
+  - fieldName: SettingsPopupNotifications
+    language: fr
+    value: Notifications
+  - fieldName: SettingsPopupNotifications
+    language: kk
+    value: "\u0425\u0430\u0431\u0430\u0440\u043B\u0430\u043D\u0434\u044B\u0440\u0443\u043B\u0430\u0440"
+  - fieldName: SettingsPopupLanguage
+    language: en
+    value: English
+  - fieldName: SettingsPopupLanguage
+    language: ru
+    value: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+  - fieldName: SettingsPopupLanguage
+    language: de
+    value: Englisch
+  - fieldName: SettingsPopupLanguage
+    language: es
+    value: "Ingl\xE9s"
+  - fieldName: SettingsPopupLanguage
+    language: it
+    value: Inglese
+  - fieldName: SettingsPopupLanguage
+    language: tr
+    value: "\u0130ngilizce"
+  - fieldName: SettingsPopupLanguage
+    language: pt
+    value: "Ingl\xEAs"
+  - fieldName: SettingsPopupLanguage
+    language: id
+    value: Bahasa inggris
+  - fieldName: SettingsPopupLanguage
+    language: tg
+    value: "\u0430\u043D\u0433\u043B\u0438\u0441\u04E3"
+  - fieldName: SettingsPopupLanguage
+    language: uz
+    value: Ingliz
+  - fieldName: SettingsPopupLanguage
+    language: fr
+    value: Anglais
+  - fieldName: SettingsPopupLanguage
+    language: kk
+    value: "\u0410\u0493\u044B\u043B\u0448\u044B\u043D"
+  - fieldName: SettingsPopupTutorial
+    language: en
+    value: Tutorial
+  - fieldName: SettingsPopupTutorial
+    language: ru
+    value: "\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435"
+  - fieldName: SettingsPopupTutorial
+    language: de
+    value: Lernprogramm
+  - fieldName: SettingsPopupTutorial
+    language: es
+    value: "La tutor\xEDa"
+  - fieldName: SettingsPopupTutorial
+    language: it
+    value: Esercitazione
+  - fieldName: SettingsPopupTutorial
+    language: tr
+    value: "\xF6\u011Fretici"
+  - fieldName: SettingsPopupTutorial
+    language: pt
+    value: Tutorial
+  - fieldName: SettingsPopupTutorial
+    language: id
+    value: tutorial
+  - fieldName: SettingsPopupTutorial
+    language: tg
+    value: "\u0414\u0430\u0440\u0441\u04E3"
+  - fieldName: SettingsPopupTutorial
+    language: uz
+    value: "O\u02BBquv qo\u02BBllanma"
+  - fieldName: SettingsPopupTutorial
+    language: fr
+    value: Didacticiel
+  - fieldName: SettingsPopupTutorial
+    language: kk
+    value: "\u041E\u049B\u0443\u043B\u044B\u049B"
+  - fieldName: SettingsPopupT&C
+    language: en
+    value: Saving slots
+  - fieldName: SettingsPopupT&C
+    language: ru
+    value: "\u042F\u0447\u0435\u0439\u043A\u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F"
+  - fieldName: SettingsPopupT&C
+    language: de
+    value: Zellen speichern
+  - fieldName: SettingsPopupT&C
+    language: es
+    value: Espacios para guardar
+  - fieldName: SettingsPopupT&C
+    language: it
+    value: Salvataggio degli slot
+  - fieldName: SettingsPopupT&C
+    language: tr
+    value: "Yuvalar\u0131 kaydetme"
+  - fieldName: SettingsPopupT&C
+    language: pt
+    value: Salvando slots
+  - fieldName: SettingsPopupT&C
+    language: id
+    value: Menyimpan slot
+  - fieldName: SettingsPopupT&C
+    language: tg
+    value: "\u0417\u0430\u0445\u0438\u0440\u0430\u0438 \u0441\u043B\u043E\u0442"
+  - fieldName: SettingsPopupT&C
+    language: uz
+    value: Slotlarni saqlash
+  - fieldName: SettingsPopupT&C
+    language: fr
+    value: Sauvegarde des emplacements
+  - fieldName: SettingsPopupT&C
+    language: kk
+    value: "\u0421\u043B\u043E\u0442\u0442\u0430\u0440\u0434\u044B \u0441\u0430\u049B\u0442\u0430\u0443"
+  - fieldName: SupportButtonText
+    language: en
+    value: Support
+  - fieldName: SupportButtonText
+    language: ru
+    value: "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430"
+  - fieldName: SupportButtonText
+    language: de
+    value: Unterstuetzung
+  - fieldName: SupportButtonText
+    language: es
+    value: Apoyo
+  - fieldName: SupportButtonText
+    language: it
+    value: Supporto
+  - fieldName: SupportButtonText
+    language: tr
+    value: Destek
+  - fieldName: SupportButtonText
+    language: pt
+    value: Apoiar
+  - fieldName: SupportButtonText
+    language: id
+    value: Mendukung
+  - fieldName: SupportButtonText
+    language: tg
+    value: "\u0414\u0430\u0441\u0442\u0433\u0438\u0440\u04E3"
+  - fieldName: SupportButtonText
+    language: uz
+    value: Qo'llab-quvvatlash
+  - fieldName: SupportButtonText
+    language: fr
+    value: Soutien
+  - fieldName: SupportButtonText
+    language: kk
+    value: "\u049A\u043E\u043B\u0434\u0430\u0443"
+  - fieldName: AgreeButtonText
+    language: en
+    value: AGREE
+  - fieldName: AgreeButtonText
+    language: ru
+    value: "\u0421\u041E\u0413\u041B\u0410\u0421\u0415\u041D"
+  - fieldName: AgreeButtonText
+    language: de
+    value: STIMME ZU
+  - fieldName: AgreeButtonText
+    language: es
+    value: ACEPTAR
+  - fieldName: AgreeButtonText
+    language: it
+    value: ESSERE D'ACCORDO
+  - fieldName: AgreeButtonText
+    language: tr
+    value: KABUL ETMEK
+  - fieldName: AgreeButtonText
+    language: pt
+    value: CONCORDAR
+  - fieldName: AgreeButtonText
+    language: id
+    value: SETUJU
+  - fieldName: AgreeButtonText
+    language: tg
+    value: "\u0440\u043E\u0437\u0439 \u0448\u0430\u0432\u0435\u0434"
+  - fieldName: AgreeButtonText
+    language: uz
+    value: QAZIRISH
+  - fieldName: AgreeButtonText
+    language: fr
+    value: ACCEPTER
+  - fieldName: AgreeButtonText
+    language: kk
+    value: "\u041A\u0415\u041B\u0406\u0421\u0406\u041C"
+  - fieldName: OkButtonText
+    language: en
+    value: OK
+  - fieldName: OkButtonText
+    language: ru
+    value: "O\u041A"
+  - fieldName: OkButtonText
+    language: de
+    value: OK
+  - fieldName: OkButtonText
+    language: es
+    value: OK
+  - fieldName: OkButtonText
+    language: it
+    value: OK
+  - fieldName: OkButtonText
+    language: tr
+    value: TAMAM
+  - fieldName: OkButtonText
+    language: pt
+    value: OK
+  - fieldName: OkButtonText
+    language: id
+    value: OKE
+  - fieldName: OkButtonText
+    language: tg
+    value: "\u0414\u0423\u0420\u0423\u0421\u0422"
+  - fieldName: OkButtonText
+    language: uz
+    value: KELISHDIKMI
+  - fieldName: OkButtonText
+    language: fr
+    value: D'ACCORD
+  - fieldName: OkButtonText
+    language: kk
+    value: "\u0416\u0410\u0420\u0410\u0419\u0414\u042B \u041C\u0410"
+  - fieldName: SourceNani
+    language: en
+    value: 'Gen: Hello world!
+
+      @stop'
+  - fieldName: SourceNani
+    language: ru
+    value: "Gen: \u041F\u0440\u0438\u0432\u0435\u0442 \u043C\u0438\u0440!\n@stop"
+  - fieldName: SourceNani
+    language: de
+    value: 'Gen: Hallo Welt! @stop'
+  - fieldName: SourceNani
+    language: es
+    value: "Gen: \xA1Hola mundo! @stop"
+  - fieldName: SourceNani
+    language: it
+    value: '"Gen: Ciao mondo! @stop"'
+  - fieldName: SourceNani
+    language: tr
+    value: "Gen: Merhaba d\xFCnya!\n@durmak"
+  - fieldName: SourceNani
+    language: pt
+    value: "Gen: Ol\xE1, mundo!\n@parar"
+  - fieldName: SourceNani
+    language: id
+    value: 'Gen: Halo dunia!
+
+      @berhenti'
+  - fieldName: SourceNani
+    language: tg
+    value: "\u0413\u0435\u043D: \u0421\u0430\u043B\u043E\u043C \u04B7\u0430\u04B3\u043E\u043D!\n@\u0418\u0441\u0442"
+  - fieldName: SourceNani
+    language: uz
+    value: 'Gen: Salom dunyo!
+
+      @STOP'
+  - fieldName: SourceNani
+    language: fr
+    value: "Gen\_:\_Bonjour tout le monde\_! @stop"
+  - fieldName: SourceNani
+    language: kk
+    value: "\u0413\u0435\u043D: \u0421\u04D9\u043B\u0435\u043C \u04D9\u043B\u0435\u043C!@stop"
+  - fieldName: Often
+    language: en
+    value: Often
+  - fieldName: Often
+    language: ru
+    value: "\u0427\u0430\u0441\u0442\u043E"
+  - fieldName: Often
+    language: de
+    value: Oft
+  - fieldName: Often
+    language: es
+    value: A menudo
+  - fieldName: Often
+    language: it
+    value: Spesso
+  - fieldName: Often
+    language: tr
+    value: "S\u0131kl\u0131kla"
+  - fieldName: Often
+    language: pt
+    value: Muitas vezes
+  - fieldName: Often
+    language: id
+    value: Sering
+  - fieldName: Often
+    language: tg
+    value: "\u0410\u043A\u0441\u0430\u0440 \u0432\u0430\u049B\u0442"
+  - fieldName: Often
+    language: uz
+    value: Ko'pincha
+  - fieldName: Often
+    language: fr
+    value: Souvent
+  - fieldName: Often
+    language: kk
+    value: "\u0416\u0438\u0456"
+  - fieldName: Rare
+    language: en
+    value: Rare
+  - fieldName: Rare
+    language: ru
+    value: "\u0420\u0435\u0434\u043A\u043E"
+  - fieldName: Rare
+    language: de
+    value: Selten
+  - fieldName: Rare
+    language: es
+    value: "Extra\xF1o"
+  - fieldName: Rare
+    language: it
+    value: Raro
+  - fieldName: Rare
+    language: tr
+    value: Nadir
+  - fieldName: Rare
+    language: pt
+    value: Cru
+  - fieldName: Rare
+    language: id
+    value: Langka
+  - fieldName: Rare
+    language: tg
+    value: "\u041D\u043E\u0434\u0438\u0440"
+  - fieldName: Rare
+    language: uz
+    value: Kamdan-kam
+  - fieldName: Rare
+    language: fr
+    value: Rare
+  - fieldName: Rare
+    language: kk
+    value: "\u0421\u0438\u0440\u0435\u043A"
+  - fieldName: FromStart
+    language: en
+    value: From start
+  - fieldName: FromStart
+    language: ru
+    value: "\u0421\u043E \u0441\u0442\u0430\u0440\u0442\u0430"
+  - fieldName: FromStart
+    language: de
+    value: Vom Start
+  - fieldName: FromStart
+    language: es
+    value: Desde el principio
+  - fieldName: FromStart
+    language: it
+    value: Dall'inizio
+  - fieldName: FromStart
+    language: tr
+    value: "Ba\u015Flang\u0131\xE7tan"
+  - fieldName: FromStart
+    language: pt
+    value: "Do come\xE7o"
+  - fieldName: FromStart
+    language: id
+    value: Dari awal
+  - fieldName: FromStart
+    language: tg
+    value: "\u0410\u0437 \u0438\u0431\u0442\u0438\u0434\u043E"
+  - fieldName: FromStart
+    language: uz
+    value: Boshidan
+  - fieldName: FromStart
+    language: fr
+    value: "Depuis le d\xE9but"
+  - fieldName: FromStart
+    language: kk
+    value: "\u0411\u0430\u0441\u044B\u043D\u0430\u043D"
+  - fieldName: LevelWithCount
+    language: en
+    value: '{0} lvl'
+  - fieldName: LevelWithCount
+    language: ru
+    value: "{0} \u0443\u0440."
+  - fieldName: LevelWithCount
+    language: de
+    value: '{0} ebene'
+  - fieldName: LevelWithCount
+    language: es
+    value: '{0} nivel'
+  - fieldName: LevelWithCount
+    language: it
+    value: '{0} liv'
+  - fieldName: LevelWithCount
+    language: tr
+    value: '{0} seviye'
+  - fieldName: LevelWithCount
+    language: pt
+    value: "n\xEDvel {0}"
+  - fieldName: LevelWithCount
+    language: id
+    value: '{0} tingkat'
+  - fieldName: LevelWithCount
+    language: tg
+    value: '{0} lvl'
+  - fieldName: LevelWithCount
+    language: uz
+    value: '{0} lvl'
+  - fieldName: LevelWithCount
+    language: fr
+    value: '{0} niveau'
+  - fieldName: LevelWithCount
+    language: kk
+    value: '{0} lvl'
+  - fieldName: Unlocking
+    language: en
+    value: Unlocking
+  - fieldName: Unlocking
+    language: ru
+    value: "\u041E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F"
+  - fieldName: Unlocking
+    language: de
+    value: Entsperren
+  - fieldName: Unlocking
+    language: es
+    value: Desbloqueo
+  - fieldName: Unlocking
+    language: it
+    value: Sblocco
+  - fieldName: Unlocking
+    language: tr
+    value: "Kilit a\xE7ma"
+  - fieldName: Unlocking
+    language: pt
+    value: Desbloqueio
+  - fieldName: Unlocking
+    language: id
+    value: Membuka kunci
+  - fieldName: Unlocking
+    language: tg
+    value: "\u041A\u0443\u0448\u043E\u0434\u0430\u043D"
+  - fieldName: Unlocking
+    language: uz
+    value: Qulfni ochish
+  - fieldName: Unlocking
+    language: fr
+    value: "D\xE9verrouillage"
+  - fieldName: Unlocking
+    language: kk
+    value: "\u049A\u04B1\u043B\u044B\u043F \u0430\u0448\u044B\u043B\u0443\u0434\u0430"
+  - fieldName: Inactive
+    language: en
+    value: Not available
+  - fieldName: Inactive
+    language: ru
+    value: "\u041D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u043E"
+  - fieldName: Inactive
+    language: de
+    value: Nicht erreichbar
+  - fieldName: Inactive
+    language: es
+    value: No disponible
+  - fieldName: Inactive
+    language: it
+    value: Non disponibile
+  - fieldName: Inactive
+    language: tr
+    value: "M\xFCsait de\u011Fil"
+  - fieldName: Inactive
+    language: pt
+    value: "N\xE3o dispon\xEDvel"
+  - fieldName: Inactive
+    language: id
+    value: Tidak tersedia
+  - fieldName: Inactive
+    language: tg
+    value: "\u0414\u0430\u0441\u0442\u0440\u0430\u0441 \u043D\u0435\u0441\u0442"
+  - fieldName: Inactive
+    language: uz
+    value: Mavjud emas
+  - fieldName: Inactive
+    language: fr
+    value: Pas disponible
+  - fieldName: Inactive
+    language: kk
+    value: "\u0416\u043E\u049B"
+  - fieldName: Locked
+    language: en
+    value: Locked
+  - fieldName: Locked
+    language: ru
+    value: "\u0417\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u043E"
+  - fieldName: Locked
+    language: de
+    value: Gesperrt
+  - fieldName: Locked
+    language: es
+    value: Bloqueado
+  - fieldName: Locked
+    language: it
+    value: Bloccato
+  - fieldName: Locked
+    language: tr
+    value: Kilitli
+  - fieldName: Locked
+    language: pt
+    value: Bloqueado
+  - fieldName: Locked
+    language: id
+    value: Terkunci
+  - fieldName: Locked
+    language: tg
+    value: "\u049A\u0443\u043B\u0444 \u043A\u0430\u0440\u0434\u0430 \u0448\u0443\u0434\u0430\u0430\u0441\u0442"
+  - fieldName: Locked
+    language: uz
+    value: Qulflangan
+  - fieldName: Locked
+    language: fr
+    value: "Ferm\xE9 \xE0 cl\xE9"
+  - fieldName: Locked
+    language: kk
+    value: "\u049A\u04B1\u043B\u044B\u043F\u0442\u0430\u043B\u0493\u0430\u043D"
+  - fieldName: BallsClue1
+    language: en
+    value: Wrong place
+  - fieldName: BallsClue1
+    language: ru
+    value: "\u041D\u0435 \u0442\u043E \u043C\u0435\u0441\u0442\u043E"
+  - fieldName: BallsClue1
+    language: de
+    value: Falscher Ort
+  - fieldName: BallsClue1
+    language: es
+    value: Lugar equivocado
+  - fieldName: BallsClue1
+    language: it
+    value: Posto sbagliato
+  - fieldName: BallsClue1
+    language: tr
+    value: "Yanl\u0131\u015F yer"
+  - fieldName: BallsClue1
+    language: pt
+    value: Lugar errado
+  - fieldName: BallsClue1
+    language: id
+    value: Salah tempat
+  - fieldName: BallsClue1
+    language: tg
+    value: "\u04B6\u043E\u0438 \u043D\u043E\u0434\u0443\u0440\u0443\u0441\u0442"
+  - fieldName: BallsClue1
+    language: uz
+    value: Noto'g'ri joy
+  - fieldName: BallsClue1
+    language: fr
+    value: Mauvais endroit
+  - fieldName: BallsClue1
+    language: kk
+    value: "\u049A\u0430\u0442\u0435 \u043E\u0440\u044B\u043D"
+  - fieldName: BallsClue2
+    language: en
+    value: Correct
+  - fieldName: BallsClue2
+    language: ru
+    value: "\u0412\u0435\u0440\u043D\u043E"
+  - fieldName: BallsClue2
+    language: de
+    value: Richtig
+  - fieldName: BallsClue2
+    language: es
+    value: Correcto
+  - fieldName: BallsClue2
+    language: it
+    value: Corretto
+  - fieldName: BallsClue2
+    language: tr
+    value: "Do\u011Fru"
+  - fieldName: BallsClue2
+    language: pt
+    value: Correto
+  - fieldName: BallsClue2
+    language: id
+    value: Benar
+  - fieldName: BallsClue2
+    language: tg
+    value: "\u0414\u0443\u0440\u0443\u0441\u0442"
+  - fieldName: BallsClue2
+    language: uz
+    value: To'g'ri
+  - fieldName: BallsClue2
+    language: fr
+    value: Correct
+  - fieldName: BallsClue2
+    language: kk
+    value: "\u0414\u04B1\u0440\u044B\u0441"
+  - fieldName: BallsClue3
+    language: en
+    value: Incorrect
+  - fieldName: BallsClue3
+    language: ru
+    value: "\u041D\u0435\u0432\u0435\u0440\u043D\u043E"
+  - fieldName: BallsClue3
+    language: de
+    value: Falsch
+  - fieldName: BallsClue3
+    language: es
+    value: Incorrecto
+  - fieldName: BallsClue3
+    language: it
+    value: Errato
+  - fieldName: BallsClue3
+    language: tr
+    value: "Yanl\u0131\u015F"
+  - fieldName: BallsClue3
+    language: pt
+    value: Incorreta
+  - fieldName: BallsClue3
+    language: id
+    value: Salah
+  - fieldName: BallsClue3
+    language: tg
+    value: "\u043D\u043E\u0434\u0443\u0440\u0443\u0441\u0442"
+  - fieldName: BallsClue3
+    language: uz
+    value: Noto'g'ri
+  - fieldName: BallsClue3
+    language: fr
+    value: Incorrect
+  - fieldName: BallsClue3
+    language: kk
+    value: "\u0414\u04B1\u0440\u044B\u0441 \u0435\u043C\u0435\u0441"
+  - fieldName: NewInGame
+    language: en
+    value: Are you new in this game?
+  - fieldName: NewInGame
+    language: ru
+    value: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0440\u0430\u0437 \u0432 \u0438\u0433\u0440\u0435?"
+  - fieldName: NewInGame
+    language: de
+    value: Sie spielen zum ersten Mal?
+  - fieldName: NewInGame
+    language: es
+    value: "\xBFEres nueva en este juego?"
+  - fieldName: NewInGame
+    language: it
+    value: Sei nuovo in questo gioco?
+  - fieldName: NewInGame
+    language: tr
+    value: Bu oyunda yeni misin?
+  - fieldName: NewInGame
+    language: pt
+    value: "Voc\xEA \xE9 novo neste jogo?"
+  - fieldName: NewInGame
+    language: id
+    value: Apakah Anda baru dalam game ini?
+  - fieldName: NewInGame
+    language: tg
+    value: "\u041E\u0451 \u0448\u0443\u043C\u043E \u0434\u0430\u0440 \u0438\u043D
+      \u0431\u043E\u0437\u04E3 \u043D\u0430\u0432 \u04B3\u0430\u0441\u0442\u0435\u0434?"
+  - fieldName: NewInGame
+    language: uz
+    value: Siz bu o'yinda yangimisiz?
+  - fieldName: NewInGame
+    language: fr
+    value: "\xCAtes-vous nouveau dans ce jeu?"
+  - fieldName: NewInGame
+    language: kk
+    value: "\u0421\u0456\u0437 \u0431\u04B1\u043B \u043E\u0439\u044B\u043D\u0434\u0430
+      \u0436\u0430\u04A3\u0430\u0441\u044B\u0437 \u0431\u0430?"
+  - fieldName: NewLoginText
+    language: en
+    value: Please, login
+  - fieldName: NewLoginText
+    language: ru
+    value: "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0443\u0439\u0442\u0435\u0441\u044C"
+  - fieldName: NewLoginText
+    language: de
+    value: Bitte, melden Sie sich an
+  - fieldName: NewLoginText
+    language: es
+    value: "Por favor Iniciar sesi\xF3n"
+  - fieldName: NewLoginText
+    language: it
+    value: Accedere prego
+  - fieldName: NewLoginText
+    language: tr
+    value: "L\xFCtfen giri\u015F yap\u0131n"
+  - fieldName: NewLoginText
+    language: pt
+    value: Por favor entre
+  - fieldName: NewLoginText
+    language: id
+    value: Silahkan masuk
+  - fieldName: NewLoginText
+    language: tg
+    value: "\u041B\u0443\u0442\u0444\u0430\u043D \u0432\u043E\u0440\u0438\u0434 \u0448\u0430\u0432\u0435\u0434"
+  - fieldName: NewLoginText
+    language: uz
+    value: Iltimos, kiring
+  - fieldName: NewLoginText
+    language: fr
+    value: "S'il vous pla\xEEt, connectez-vous"
+  - fieldName: NewLoginText
+    language: kk
+    value: "\u04E8\u0442\u0456\u043D\u0435\u043C\u0456\u043D, \u043A\u0456\u0440\u0456\u04A3\u0456\u0437"
+  - fieldName: WantToBuyText
+    language: en
+    value: Do you want to buy sth?
+  - fieldName: WantToBuyText
+    language: ru
+    value: "\u0425\u043E\u0442\u0438\u0442\u0435 \u043A\u0443\u043F\u0438\u0442\u044C
+      \u0447\u0442\u043E-\u0442\u043E?"
+  - fieldName: WantToBuyText
+    language: de
+    value: Wollen Sie etwas kaufen?
+  - fieldName: WantToBuyText
+    language: es
+    value: "\xBFQuieres comprar algo?"
+  - fieldName: WantToBuyText
+    language: it
+    value: Vuoi comprare qc?
+  - fieldName: WantToBuyText
+    language: tr
+    value: "Bir \u015Fey sat\u0131n almak istiyor musun?"
+  - fieldName: WantToBuyText
+    language: pt
+    value: "Voc\xEA quer comprar alguma coisa?"
+  - fieldName: WantToBuyText
+    language: id
+    value: Anda ingin membeli sth?
+  - fieldName: WantToBuyText
+    language: tg
+    value: "\u041E\u0451 \u0448\u0443\u043C\u043E \u043C\u0435\u0445\u043E\u04B3\u0435\u0434
+      sth \u0445\u0430\u0440\u0435\u0434?"
+  - fieldName: WantToBuyText
+    language: uz
+    value: sth sotib olmoqchimisiz?
+  - fieldName: WantToBuyText
+    language: fr
+    value: Veux-tu acheter qc ?
+  - fieldName: WantToBuyText
+    language: kk
+    value: "sth \u0441\u0430\u0442\u044B\u043F \u0430\u043B\u0493\u044B\u04A3\u044B\u0437
+      \u043A\u0435\u043B\u0435 \u043C\u0435?"
+  - fieldName: LoginText
+    language: en
+    value: Please, login to do this
+  - fieldName: LoginText
+    language: ru
+    value: "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0432\u043E\u0439\u0434\u0438\u0442\u0435,
+      \u0447\u0442\u043E\u0431\u044B \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u044D\u0442\u043E"
+  - fieldName: LoginText
+    language: de
+    value: Bitte, melden Sie sich an
+  - fieldName: LoginText
+    language: es
+    value: "Por favor, inicia sesi\xF3n para hacer esto"
+  - fieldName: LoginText
+    language: it
+    value: Per favore, effettua il login per farlo
+  - fieldName: LoginText
+    language: tr
+    value: "L\xFCtfen bunu yapmak i\xE7in giri\u015F yap\u0131n"
+  - fieldName: LoginText
+    language: pt
+    value: "Por favor, fa\xE7a login para fazer isso"
+  - fieldName: LoginText
+    language: id
+    value: Silakan masuk untuk melakukan ini
+  - fieldName: LoginText
+    language: tg
+    value: "\u041B\u0443\u0442\u0444\u0430\u043D, \u0431\u0430\u0440\u043E\u0438
+      \u0438\u043D \u043A\u043E\u0440 \u0432\u043E\u0440\u0438\u0434 \u0448\u0430\u0432\u0435\u0434"
+  - fieldName: LoginText
+    language: uz
+    value: Iltimos, buni amalga oshirish uchun tizimga kiring
+  - fieldName: LoginText
+    language: fr
+    value: Veuillez vous connecter pour ce faire
+  - fieldName: LoginText
+    language: kk
+    value: "\u041C\u04B1\u043D\u044B \u0456\u0441\u0442\u0435\u0443 \u04AF\u0448\u0456\u043D
+      \u0436\u04AF\u0439\u0435\u0433\u0435 \u043A\u0456\u0440\u0456\u04A3\u0456\u0437"
+  - fieldName: RateUsText
+    language: en
+    value: Please, rate and tell us your opinion.
+  - fieldName: RateUsText
+    language: ru
+    value: "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043E\u0446\u0435\u043D\u0438\u0442\u0435
+      \u0438 \u0441\u043A\u0430\u0436\u0438\u0442\u0435 \u043D\u0430\u043C, \u0447\u0442\u043E
+      \u0412\u044B \u0434\u0443\u043C\u0430\u0435\u0442\u0435."
+  - fieldName: RateUsText
+    language: de
+    value: Bitte, bewerten Sie, und teilen Ihre Meinung mit.
+  - fieldName: RateUsText
+    language: es
+    value: "Por favor, califica y cu\xE9ntanos tu opini\xF3n."
+  - fieldName: RateUsText
+    language: it
+    value: Per favore, vota e dicci la tua opinione.
+  - fieldName: RateUsText
+    language: tr
+    value: "L\xFCtfen puan verin ve fikrinizi bize bildirin."
+  - fieldName: RateUsText
+    language: pt
+    value: "Por favor, avalie e diga-nos a sua opini\xE3o."
+  - fieldName: RateUsText
+    language: id
+    value: Silakan beri peringkat dan beri tahu kami pendapat Anda.
+  - fieldName: RateUsText
+    language: tg
+    value: "\u041B\u0443\u0442\u0444\u0430\u043D \u0431\u0430\u04B3\u043E \u0434\u0438\u04B3\u0435\u0434
+      \u0432\u0430 \u0430\u043D\u0434\u0435\u0448\u0430\u0438 \u0445\u0443\u0434\u0440\u043E
+      \u0431\u0430 \u043C\u043E \u0431\u0438\u0433\u04EF\u0435\u0434."
+  - fieldName: RateUsText
+    language: uz
+    value: Iltimos, baho bering va fikringizni bildiring.
+  - fieldName: RateUsText
+    language: fr
+    value: "S'il vous pla\xEEt, \xE9valuez et dites-nous votre opinion."
+  - fieldName: RateUsText
+    language: kk
+    value: "\u0411\u0430\u0493\u0430\u043B\u0430\u043F, \u04E9\u0437 \u043F\u0456\u043A\u0456\u0440\u0456\u04A3\u0456\u0437\u0434\u0456
+      \u0431\u0456\u043B\u0434\u0456\u0440\u0456\u04A3\u0456\u0437."
+  - fieldName: HavingFunText
+    language: en
+    value: Do you like it?
+  - fieldName: HavingFunText
+    language: ru
+    value: "\u0412\u0430\u043C \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F?"
+  - fieldName: HavingFunText
+    language: de
+    value: Gefaellt es Ihnen?
+  - fieldName: HavingFunText
+    language: es
+    value: "\xBFTe gusta?"
+  - fieldName: HavingFunText
+    language: it
+    value: Ti piace?
+  - fieldName: HavingFunText
+    language: tr
+    value: "Ho\u015Funa gitti mi?"
+  - fieldName: HavingFunText
+    language: pt
+    value: "Voc\xEA gosta disso?"
+  - fieldName: HavingFunText
+    language: id
+    value: Apakah kamu menyukainya?
+  - fieldName: HavingFunText
+    language: tg
+    value: "\u0418\u043D \u0431\u0430 \u0442\u0443 \u043C\u0430\u044A\u049B\u0443\u043B
+      \u0430\u0441\u0442?"
+  - fieldName: HavingFunText
+    language: uz
+    value: Senga yoqdimi?
+  - fieldName: HavingFunText
+    language: fr
+    value: Aimez-vous?
+  - fieldName: HavingFunText
+    language: kk
+    value: "\u041E\u043B \u0441\u0430\u0493\u0430\u043D \u04B1\u043D\u0430\u0439\u0434\u044B
+      \u043C\u0430?"
+  - fieldName: LevelNumTile
+    language: en
+    value: Level
+  - fieldName: LevelNumTile
+    language: ru
+    value: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+  - fieldName: LevelNumTile
+    language: de
+    value: Ebene
+  - fieldName: LevelNumTile
+    language: es
+    value: Nivel
+  - fieldName: LevelNumTile
+    language: it
+    value: Livello
+  - fieldName: LevelNumTile
+    language: tr
+    value: Seviye
+  - fieldName: LevelNumTile
+    language: pt
+    value: "N\xEDvel"
+  - fieldName: LevelNumTile
+    language: id
+    value: Tingkat
+  - fieldName: LevelNumTile
+    language: tg
+    value: "\u0421\u0430\u0442\u04B3\u0438"
+  - fieldName: LevelNumTile
+    language: uz
+    value: Daraja
+  - fieldName: LevelNumTile
+    language: fr
+    value: Niveau
+  - fieldName: LevelNumTile
+    language: kk
+    value: "\u0414\u0435\u04A3\u0433\u0435\u0439"
+  - fieldName: Discharged
+    language: en
+    value: Discharged
+  - fieldName: Discharged
+    language: ru
+    value: "\u0420\u0430\u0437\u0440\u044F\u0436\u0435\u043D"
+  - fieldName: Discharged
+    language: de
+    value: Entladen
+  - fieldName: Discharged
+    language: es
+    value: Descargado
+  - fieldName: Discharged
+    language: it
+    value: Dimesso
+  - fieldName: Discharged
+    language: tr
+    value: "\u015Eartl\u0131 tahliye"
+  - fieldName: Discharged
+    language: pt
+    value: Alta
+  - fieldName: Discharged
+    language: id
+    value: Boleh pulang
+  - fieldName: Discharged
+    language: tg
+    value: "\u0411\u0430\u0440\u043E\u0432\u0430\u0440\u0434"
+  - fieldName: Discharged
+    language: uz
+    value: Bo'shatilgan
+  - fieldName: Discharged
+    language: fr
+    value: "D\xE9charg\xE9"
+  - fieldName: Discharged
+    language: kk
+    value: "\u0417\u0430\u0440\u044F\u0434\u0442\u0430\u043B\u0493\u0430\u043D"
+  - fieldName: VersionText
+    language: en
+    value: Version {0}
+  - fieldName: VersionText
+    language: ru
+    value: "\u0412\u0435\u0440\u0441\u0438\u044F {0}"
+  - fieldName: VersionText
+    language: de
+    value: Version {0}
+  - fieldName: VersionText
+    language: es
+    value: "Versi\xF3n {0}"
+  - fieldName: VersionText
+    language: it
+    value: Versione {0}
+  - fieldName: VersionText
+    language: tr
+    value: "S\xFCr\xFCm {0}"
+  - fieldName: VersionText
+    language: pt
+    value: "Vers\xE3o {0}"
+  - fieldName: VersionText
+    language: id
+    value: Versi {0}
+  - fieldName: VersionText
+    language: tg
+    value: "\u0412\u0435\u0440\u0441\u0438\u044F\u0438 {0}"
+  - fieldName: VersionText
+    language: uz
+    value: Versiya {0}
+  - fieldName: VersionText
+    language: fr
+    value: "Version\_{0}"
+  - fieldName: VersionText
+    language: kk
+    value: "{0} \u043D\u04B1\u0441\u049B\u0430\u0441\u044B"
+  - fieldName: PrivacyText
+    language: en
+    value: Artem Fedorenko built the {0} app as a Commercial app. This SERVICE is
+      provided by Artem Fedorenko and is intended for use as is.
+  - fieldName: PrivacyText
+    language: ru
+    value: "\u0410\u0440\u0442\u0435\u043C \u0424\u0435\u0434\u043E\u0440\u0435\u043D\u043A\u043E
+      \u0441\u043E\u0437\u0434\u0430\u043B \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435
+      {0} \u043A\u0430\u043A \u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u043E\u0435
+      \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435. \u0414\u0430\u043D\u043D\u0430\u044F
+      \u0421\u041B\u0423\u0416\u0411\u0410 \u043F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+      \u0410\u0440\u0442\u0435\u043C\u043E\u043C \u0424\u0435\u0434\u043E\u0440\u0435\u043D\u043A\u043E
+      \u0438 \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0430
+      \u0434\u043B\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F
+      \u043A\u0430\u043A \u0435\u0441\u0442\u044C."
+  - fieldName: PrivacyText
+    language: de
+    value: Artem Fedorenko hat die {0}-App als kommerzielle App erstellt. Dieser
+      DIENST wird von Artem Fedorenko bereitgestellt und soll so genutzt werden,
+      wie er ist.
+  - fieldName: PrivacyText
+    language: es
+    value: "Artem Fedorenko cre\xF3 la aplicaci\xF3n {0} como una aplicaci\xF3n comercial.
+      Este SERVICIO es proporcionado por Artem Fedorenko y est\xE1 dise\xF1ado para
+      usarse tal como est\xE1."
+  - fieldName: PrivacyText
+    language: it
+    value: "Artem Fedorenko ha creato l'app {0} come app commerciale. Questo SERVIZIO
+      \xE8 fornito da Artem Fedorenko ed \xE8 destinato all'uso cos\xEC com'\xE8."
+  - fieldName: PrivacyText
+    language: tr
+    value: "Artem Fedorenko, {0} uygulamas\u0131n\u0131 Ticari bir uygulama olarak
+      geli\u015Ftirdi. Bu H\u0130ZMET Artem Fedorenko taraf\u0131ndan sa\u011Flanmaktad\u0131r
+      ve oldu\u011Fu gibi kullan\u0131lmas\u0131 ama\xE7lanm\u0131\u015Ft\u0131r."
+  - fieldName: PrivacyText
+    language: pt
+    value: "Artem Fedorenko criou o aplicativo {0} como um aplicativo comercial.
+      Este SERVI\xC7O \xE9 fornecido por Artem Fedorenko e deve ser usado como est\xE1."
+  - fieldName: PrivacyText
+    language: id
+    value: Artem Fedorenko membuat aplikasi {0} sebagai aplikasi Komersial. LAYANAN
+      ini disediakan oleh Artem Fedorenko dan dimaksudkan untuk digunakan sebagaimana
+      adanya.
+  - fieldName: PrivacyText
+    language: tg
+    value: "\u0410\u0440\u0442\u0435\u043C \u0424\u0435\u0434\u043E\u0440\u0435\u043D\u043A\u043E
+      \u0431\u0430\u0440\u043D\u043E\u043C\u0430\u0438 {0}-\u0440\u043E \u04B3\u0430\u043C\u0447\u0443\u043D
+      \u044F\u043A \u0431\u0430\u0440\u043D\u043E\u043C\u0430\u0438 \u0442\u0438\u04B7\u043E\u0440\u0430\u0442\u04E3
+      \u0441\u043E\u0445\u0442\u0430\u0430\u0441\u0442. \u0418\u043D \u0425\u0418\u0417\u041C\u0410\u0422\u0420\u0410\u0421\u041E\u041D
+      \u0430\u0437 \u04B7\u043E\u043D\u0438\u0431\u0438 \u0410\u0440\u0442\u0435\u043C
+      \u0424\u0435\u0434\u043E\u0440\u0435\u043D\u043A\u043E \u043F\u0435\u0448\u043D\u0438\u04B3\u043E\u0434
+      \u0448\u0443\u0434\u0430\u0430\u0441\u0442 \u0432\u0430 \u0431\u0430\u0440\u043E\u0438
+      \u0438\u0441\u0442\u0438\u0444\u043E\u0434\u0430 \u043F\u0435\u0448\u0431\u0438\u043D\u04E3
+      \u0448\u0443\u0434\u0430\u0430\u0441\u0442."
+  - fieldName: PrivacyText
+    language: uz
+    value: Artem Fedorenko {0} ilovasini Tijorat ilovasi sifatida yaratdi. Ushbu
+      XIZMAT Artem Fedorenko tomonidan taqdim etilgan bo'lib, avvalgidek foydalanish
+      uchun mo'ljallangan.
+  - fieldName: PrivacyText
+    language: fr
+    value: "Artem Fedorenko a cr\xE9\xE9 l'application {0} en tant qu'application
+      commerciale. Ce SERVICE est fourni par Artem Fedorenko et est destin\xE9 \xE0
+      \xEAtre utilis\xE9 tel quel."
+  - fieldName: PrivacyText
+    language: kk
+    value: "\u0410\u0440\u0442\u0435\u043C \u0424\u0435\u0434\u043E\u0440\u0435\u043D\u043A\u043E
+      {0} \u049B\u043E\u043B\u0434\u0430\u043D\u0431\u0430\u0441\u044B\u043D \u043A\u043E\u043C\u043C\u0435\u0440\u0446\u0438\u044F\u043B\u044B\u049B
+      \u049B\u043E\u043B\u0434\u0430\u043D\u0431\u0430 \u0440\u0435\u0442\u0456\u043D\u0434\u0435
+      \u049B\u04B1\u0440\u0430\u0441\u0442\u044B\u0440\u0434\u044B. \u0411\u04B1\u043B
+      \u049A\u042B\u0417\u041C\u0415\u0422 \u0410\u0440\u0442\u0435\u043C \u0424\u0435\u0434\u043E\u0440\u0435\u043D\u043A\u043E
+      \u04B1\u0441\u044B\u043D\u0493\u0430\u043D \u0436\u04D9\u043D\u0435 \u0441\u043E\u043B
+      \u049B\u0430\u043B\u043F\u044B\u043D\u0434\u0430 \u043F\u0430\u0439\u0434\u0430\u043B\u0430\u043D\u0443\u0493\u0430
+      \u0430\u0440\u043D\u0430\u043B\u0493\u0430\u043D."
+  - fieldName: LevelTextWithParams
+    language: en
+    value: Level {0}
+  - fieldName: LevelTextWithParams
+    language: ru
+    value: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C {0}"
+  - fieldName: LevelTextWithParams
+    language: de
+    value: Ebene {0}
+  - fieldName: LevelTextWithParams
+    language: es
+    value: Nivel {0}
+  - fieldName: LevelTextWithParams
+    language: it
+    value: Livello {0}
+  - fieldName: LevelTextWithParams
+    language: tr
+    value: Seviye {0}
+  - fieldName: LevelTextWithParams
+    language: pt
+    value: "N\xEDvel {0}"
+  - fieldName: LevelTextWithParams
+    language: id
+    value: Tingkat {0}
+  - fieldName: LevelTextWithParams
+    language: tg
+    value: "\u0421\u0430\u0442\u04B3\u0438 {0}"
+  - fieldName: LevelTextWithParams
+    language: uz
+    value: '{0}-daraja'
+  - fieldName: LevelTextWithParams
+    language: fr
+    value: "Niveau\_{0}"
+  - fieldName: LevelTextWithParams
+    language: kk
+    value: "{0}-\u0434\u0435\u04A3\u0433\u0435\u0439"
+  - fieldName: WarningPT
+    language: en
+    value: Attention
+  - fieldName: WarningPT
+    language: ru
+    value: "\u0412\u043D\u0438\u043C\u0430\u043D\u0438\u0435"
+  - fieldName: WarningPT
+    language: de
+    value: Achtung
+  - fieldName: WarningPT
+    language: es
+    value: "Atenci\xF3n"
+  - fieldName: WarningPT
+    language: it
+    value: Attenzione
+  - fieldName: WarningPT
+    language: tr
+    value: Dikkat
+  - fieldName: WarningPT
+    language: pt
+    value: "Aten\xE7\xE3o"
+  - fieldName: WarningPT
+    language: id
+    value: Perhatian
+  - fieldName: WarningPT
+    language: tg
+    value: "\u0414\u0438\u049B\u049B\u0430\u0442"
+  - fieldName: WarningPT
+    language: uz
+    value: Diqqat
+  - fieldName: WarningPT
+    language: fr
+    value: Attention
+  - fieldName: WarningPT
+    language: kk
+    value: "\u041D\u0430\u0437\u0430\u0440 \u0430\u0443\u0434\u0430\u0440\u044B\u04A3\u044B\u0437"
+  - fieldName: UnitsPT
+    language: en
+    value: Units
+  - fieldName: UnitsPT
+    language: ru
+    value: "\u042E\u043D\u0438\u0442\u044B"
+  - fieldName: UnitsPT
+    language: de
+    value: Einheiten
+  - fieldName: UnitsPT
+    language: es
+    value: Unidades
+  - fieldName: UnitsPT
+    language: it
+    value: "Unit\xE0"
+  - fieldName: UnitsPT
+    language: tr
+    value: Birimler
+  - fieldName: UnitsPT
+    language: pt
+    value: Unidades
+  - fieldName: UnitsPT
+    language: id
+    value: Satuan
+  - fieldName: UnitsPT
+    language: tg
+    value: "\u0412\u043E\u04B3\u0438\u0434\u04B3\u043E"
+  - fieldName: UnitsPT
+    language: uz
+    value: Birliklar
+  - fieldName: UnitsPT
+    language: fr
+    value: "Unit\xE9s"
+  - fieldName: UnitsPT
+    language: kk
+    value: "\u0411\u0456\u0440\u043B\u0456\u043A\u0442\u0435\u0440"
+  - fieldName: CarrotsPT
+    language: en
+    value: Carrots
+  - fieldName: CarrotsPT
+    language: ru
+    value: "\u041C\u043E\u0440\u043A\u043E\u0432\u044C"
+  - fieldName: CarrotsPT
+    language: de
+    value: Moehren
+  - fieldName: CarrotsPT
+    language: es
+    value: Zanahorias
+  - fieldName: CarrotsPT
+    language: it
+    value: Carote
+  - fieldName: CarrotsPT
+    language: tr
+    value: "Havu\xE7lar"
+  - fieldName: CarrotsPT
+    language: pt
+    value: Cenouras
+  - fieldName: CarrotsPT
+    language: id
+    value: Wortel
+  - fieldName: CarrotsPT
+    language: tg
+    value: "\u0421\u0430\u0431\u0437\u04E3"
+  - fieldName: CarrotsPT
+    language: uz
+    value: Sabzi
+  - fieldName: CarrotsPT
+    language: fr
+    value: Carottes
+  - fieldName: CarrotsPT
+    language: kk
+    value: "\u0421\u04D9\u0431\u0456\u0437\u0434\u0435\u0440"
+  - fieldName: CrystalsPT
+    language: en
+    value: Crystals
+  - fieldName: CrystalsPT
+    language: ru
+    value: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B"
+  - fieldName: CrystalsPT
+    language: de
+    value: Kristalle
+  - fieldName: CrystalsPT
+    language: es
+    value: Cristales
+  - fieldName: CrystalsPT
+    language: it
+    value: Cristalli
+  - fieldName: CrystalsPT
+    language: tr
+    value: Kristaller
+  - fieldName: CrystalsPT
+    language: pt
+    value: Cristais
+  - fieldName: CrystalsPT
+    language: id
+    value: Kristal
+  - fieldName: CrystalsPT
+    language: tg
+    value: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u04B3\u043E"
+  - fieldName: CrystalsPT
+    language: uz
+    value: Kristallar
+  - fieldName: CrystalsPT
+    language: fr
+    value: Cristaux
+  - fieldName: CrystalsPT
+    language: kk
+    value: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u0434\u0430\u0440"
+  - fieldName: SettingsPopupTitle
+    language: en
+    value: Settings
+  - fieldName: SettingsPopupTitle
+    language: ru
+    value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+  - fieldName: SettingsPopupTitle
+    language: de
+    value: Einstellungen
+  - fieldName: SettingsPopupTitle
+    language: es
+    value: Ajustes
+  - fieldName: SettingsPopupTitle
+    language: it
+    value: Impostazioni
+  - fieldName: SettingsPopupTitle
+    language: tr
+    value: Ayarlar
+  - fieldName: SettingsPopupTitle
+    language: pt
+    value: "Configura\xE7\xF5es"
+  - fieldName: SettingsPopupTitle
+    language: id
+    value: Pengaturan
+  - fieldName: SettingsPopupTitle
+    language: tg
+    value: "\u0422\u0430\u043D\u0437\u0438\u043C\u043E\u0442\u04B3\u043E"
+  - fieldName: SettingsPopupTitle
+    language: uz
+    value: Sozlamalar
+  - fieldName: SettingsPopupTitle
+    language: fr
+    value: "Param\xE8tres"
+  - fieldName: SettingsPopupTitle
+    language: kk
+    value: "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u043B\u0435\u0440"
+  - fieldName: ChooseLanguageTitle
+    language: en
+    value: 'Choose language:'
+  - fieldName: ChooseLanguageTitle
+    language: ru
+    value: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u044F\u0437\u044B\u043A:"
+  - fieldName: ChooseLanguageTitle
+    language: de
+    value: 'Sprache auswaehlen:'
+  - fieldName: ChooseLanguageTitle
+    language: es
+    value: 'Elige lengua:'
+  - fieldName: ChooseLanguageTitle
+    language: it
+    value: 'Scegli la lingua:'
+  - fieldName: ChooseLanguageTitle
+    language: tr
+    value: "Dil se\xE7iniz:"
+  - fieldName: ChooseLanguageTitle
+    language: pt
+    value: 'Escolha o seu idioma:'
+  - fieldName: ChooseLanguageTitle
+    language: id
+    value: 'Pilih bahasa:'
+  - fieldName: ChooseLanguageTitle
+    language: tg
+    value: "\u0417\u0430\u0431\u043E\u043D\u0440\u043E \u0438\u043D\u0442\u0438\u0445\u043E\u0431
+      \u043A\u0443\u043D\u0435\u0434:"
+  - fieldName: ChooseLanguageTitle
+    language: uz
+    value: 'Tilni tanlang:'
+  - fieldName: ChooseLanguageTitle
+    language: fr
+    value: 'Choisissez la langue:'
+  - fieldName: ChooseLanguageTitle
+    language: kk
+    value: "\u0422\u0456\u043B\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u04A3\u044B\u0437:"
+  - fieldName: MergeChainInfoPopupTitle
+    language: en
+    value: Merge chain
+  - fieldName: MergeChainInfoPopupTitle
+    language: ru
+    value: "\u0426\u0435\u043F\u043E\u0447\u043A\u0430 \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u044F"
+  - fieldName: MergeChainInfoPopupTitle
+    language: de
+    value: Verbindungskette
+  - fieldName: MergeChainInfoPopupTitle
+    language: es
+    value: Fusionar cadena
+  - fieldName: MergeChainInfoPopupTitle
+    language: it
+    value: Unisci catena
+  - fieldName: MergeChainInfoPopupTitle
+    language: tr
+    value: "Zinciri birle\u015Ftir"
+  - fieldName: MergeChainInfoPopupTitle
+    language: pt
+    value: Cadeia de mesclagem
+  - fieldName: MergeChainInfoPopupTitle
+    language: id
+    value: Gabungkan rantai
+  - fieldName: MergeChainInfoPopupTitle
+    language: tg
+    value: "\u042F\u043A\u04B7\u043E\u044F \u043A\u0430\u0440\u0434\u0430\u043D\u0438
+      \u0437\u0430\u043D\u04B7\u0438\u0440"
+  - fieldName: MergeChainInfoPopupTitle
+    language: uz
+    value: Birlashtirish zanjiri
+  - fieldName: MergeChainInfoPopupTitle
+    language: fr
+    value: "Fusionner la cha\xEEne"
+  - fieldName: MergeChainInfoPopupTitle
+    language: kk
+    value: "\u0422\u0456\u0437\u0431\u0435\u043A\u0442\u0456 \u0431\u0456\u0440\u0456\u043A\u0442\u0456\u0440\u0443"
+  - fieldName: NewLevelTitle
+    language: en
+    value: NEW LEVEL?!
+  - fieldName: NewLevelTitle
+    language: ru
+    value: "\u041D\u041E\u0412\u042B\u0419 \u0423\u0420\u041E\u0412\u0415\u041D\u042C?!"
+  - fieldName: NewLevelTitle
+    language: de
+    value: NEUE EBENE?!
+  - fieldName: NewLevelTitle
+    language: es
+    value: "\xA1\xBFNUEVO NIVEL?!"
+  - fieldName: NewLevelTitle
+    language: it
+    value: NUOVO LIVELLO?!
+  - fieldName: NewLevelTitle
+    language: tr
+    value: "YEN\u0130 SEV\u0130YE?!"
+  - fieldName: NewLevelTitle
+    language: pt
+    value: "NOVO N\xCDVEL?!"
+  - fieldName: NewLevelTitle
+    language: id
+    value: TINGKAT BARU?!
+  - fieldName: NewLevelTitle
+    language: tg
+    value: "\u0414\u0410\u0420\u0410\u0427\u0410\u0418 \u041D\u0410\u0412?!"
+  - fieldName: NewLevelTitle
+    language: uz
+    value: YANGI DARAJA?!
+  - fieldName: NewLevelTitle
+    language: fr
+    value: NOUVEAU NIVEAU ?!
+  - fieldName: NewLevelTitle
+    language: kk
+    value: "\u0416\u0410\u04A2\u0410 \u0414\u0415\u04A2\u0413\u0415\u0419?!"
+  - fieldName: GiftTitle
+    language: en
+    value: Gift?
+  - fieldName: GiftTitle
+    language: ru
+    value: "\u041F\u043E\u0434\u0430\u0440\u043E\u043A?"
+  - fieldName: GiftTitle
+    language: de
+    value: Geschenk?
+  - fieldName: GiftTitle
+    language: es
+    value: "\xBF\xA1Un regalo!?"
+  - fieldName: GiftTitle
+    language: it
+    value: Regalo?
+  - fieldName: GiftTitle
+    language: tr
+    value: Hediye?
+  - fieldName: GiftTitle
+    language: pt
+    value: Presente?
+  - fieldName: GiftTitle
+    language: id
+    value: Hadiah?
+  - fieldName: GiftTitle
+    language: tg
+    value: "\u0422\u04EF\u04B3\u0444\u0430?"
+  - fieldName: GiftTitle
+    language: uz
+    value: Sovg'a?
+  - fieldName: GiftTitle
+    language: fr
+    value: Cadeau?
+  - fieldName: GiftTitle
+    language: kk
+    value: "\u0421\u044B\u0439\u043B\u044B\u049B?"
+  - fieldName: RewardTitle
+    language: en
+    value: REWARD
+  - fieldName: RewardTitle
+    language: ru
+    value: "\u041D\u0410\u0413\u0420\u0410\u0414\u0410"
+  - fieldName: RewardTitle
+    language: de
+    value: Belohnung
+  - fieldName: RewardTitle
+    language: es
+    value: PREMIO
+  - fieldName: RewardTitle
+    language: it
+    value: RICOMPENSA
+  - fieldName: RewardTitle
+    language: tr
+    value: "\xD6D\xDCL"
+  - fieldName: RewardTitle
+    language: pt
+    value: RECOMPENSA
+  - fieldName: RewardTitle
+    language: id
+    value: HADIAH
+  - fieldName: RewardTitle
+    language: tg
+    value: "\u041C\u0423\u041A\u041E\u0424\u041E\u0422"
+  - fieldName: RewardTitle
+    language: uz
+    value: MUKOFOT
+  - fieldName: RewardTitle
+    language: fr
+    value: "R\xC9COMPENSE"
+  - fieldName: RewardTitle
+    language: kk
+    value: "\u0421\u042B\u0419\u0410\u049A\u042B"
+  - fieldName: WheatTitle
+    language: en
+    value: Wheat
+  - fieldName: WheatTitle
+    language: ru
+    value: "\u041F\u0448\u0435\u043D\u0438\u0446\u0430"
+  - fieldName: WheatTitle
+    language: de
+    value: Weizen
+  - fieldName: WheatTitle
+    language: es
+    value: Trigo
+  - fieldName: WheatTitle
+    language: it
+    value: Grano
+  - fieldName: WheatTitle
+    language: tr
+    value: "Bu\u011Fday"
+  - fieldName: WheatTitle
+    language: pt
+    value: Trigo
+  - fieldName: WheatTitle
+    language: id
+    value: Gandum
+  - fieldName: WheatTitle
+    language: tg
+    value: "\u0413\u0430\u043D\u0434\u0443\u043C"
+  - fieldName: WheatTitle
+    language: uz
+    value: Bug'doy
+  - fieldName: WheatTitle
+    language: fr
+    value: "Bl\xE9"
+  - fieldName: WheatTitle
+    language: kk
+    value: "\u0411\u0438\u0434\u0430\u0439"
+  - fieldName: TermOfUseTitle
+    language: en
+    value: Term of use
+  - fieldName: TermOfUseTitle
+    language: ru
+    value: "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F"
+  - fieldName: TermOfUseTitle
+    language: de
+    value: Nutzungsbedingungen
+  - fieldName: TermOfUseTitle
+    language: es
+    value: Terminos de uso
+  - fieldName: TermOfUseTitle
+    language: it
+    value: Termini d'uso
+  - fieldName: TermOfUseTitle
+    language: tr
+    value: "Kullan\u0131m ko\u015Fulu"
+  - fieldName: TermOfUseTitle
+    language: pt
+    value: Termo de uso
+  - fieldName: TermOfUseTitle
+    language: id
+    value: Jangka waktu penggunaan
+  - fieldName: TermOfUseTitle
+    language: tg
+    value: "\u041C\u04EF\u04B3\u043B\u0430\u0442\u0438 \u0438\u0441\u0442\u0438\u0444\u043E\u0434\u0430"
+  - fieldName: TermOfUseTitle
+    language: uz
+    value: Foydalanish muddati
+  - fieldName: TermOfUseTitle
+    language: fr
+    value: Conditions d'utilisation
+  - fieldName: TermOfUseTitle
+    language: kk
+    value: "\u049A\u043E\u043B\u0434\u0430\u043D\u0443 \u043C\u0435\u0440\u0437\u0456\u043C\u0456"
+  - fieldName: PrivacyPolicyTitle
+    language: en
+    value: TERMS OF USE
+  - fieldName: PrivacyPolicyTitle
+    language: ru
+    value: "\u0423\u0421\u041B\u041E\u0412\u0418\u042F \u0418\u0421\u041F\u041E\u041B\u042C\u0417\u041E\u0412\u0410\u041D\u0418\u042F"
+  - fieldName: PrivacyPolicyTitle
+    language: de
+    value: NUTZUNGSBEDINGUNGEN
+  - fieldName: PrivacyPolicyTitle
+    language: es
+    value: CONDICIONES DE USO
+  - fieldName: PrivacyPolicyTitle
+    language: it
+    value: TERMINI DI UTILIZZO
+  - fieldName: PrivacyPolicyTitle
+    language: tr
+    value: "KULLANIM \u015EARTLARI"
+  - fieldName: PrivacyPolicyTitle
+    language: pt
+    value: TERMOS DE USO
+  - fieldName: PrivacyPolicyTitle
+    language: id
+    value: SYARAT PENGGUNAAN
+  - fieldName: PrivacyPolicyTitle
+    language: tg
+    value: "\u0428\u0410\u0420\u0422\u04B2\u041E\u0418 \u0418\u0421\u0422\u0418\u0424\u041E\u0414\u0410"
+  - fieldName: PrivacyPolicyTitle
+    language: uz
+    value: FOYDALANISH SHARTLARI
+  - fieldName: PrivacyPolicyTitle
+    language: fr
+    value: CONDITIONS D'UTILISATION
+  - fieldName: PrivacyPolicyTitle
+    language: kk
+    value: "\u049A\u041E\u041B\u0414\u0410\u041D\u0423 \u0415\u0420\u0415\u0416\u0415\u041B\u0415\u0420\u0406"
+  - fieldName: OfferEnergyTitle
+    language: en
+    value: Energy is over!
+  - fieldName: OfferEnergyTitle
+    language: ru
+    value: "\u042D\u043D\u0435\u0440\u0433\u0438\u044F \u043A\u043E\u043D\u0447\u0438\u043B\u0430\u0441\u044C!"
+  - fieldName: OfferEnergyTitle
+    language: de
+    value: Keine Energie mehr!
+  - fieldName: OfferEnergyTitle
+    language: es
+    value: "\xA1Se acab\xF3 la energ\xEDa!"
+  - fieldName: OfferEnergyTitle
+    language: it
+    value: "L'energia \xE8 finita!"
+  - fieldName: OfferEnergyTitle
+    language: tr
+    value: Enerji bitti!
+  - fieldName: OfferEnergyTitle
+    language: pt
+    value: A energia acabou!
+  - fieldName: OfferEnergyTitle
+    language: id
+    value: Energi sudah habis!
+  - fieldName: OfferEnergyTitle
+    language: tg
+    value: "\u042D\u043D\u0435\u0440\u0433\u0438\u044F \u0442\u0430\u043C\u043E\u043C
+      \u0448\u0443\u0434!"
+  - fieldName: OfferEnergyTitle
+    language: uz
+    value: Energiya tugadi!
+  - fieldName: OfferEnergyTitle
+    language: fr
+    value: "L'\xE9nergie, c'est fini !"
+  - fieldName: OfferEnergyTitle
+    language: kk
+    value: "\u042D\u043D\u0435\u0440\u0433\u0438\u044F \u0431\u0456\u0442\u0442\u0456!"
+  - fieldName: OfferCarrotsShopTitle
+    language: en
+    value: So few carrots!
+  - fieldName: OfferCarrotsShopTitle
+    language: ru
+    value: "\u0422\u0430\u043A \u043C\u0430\u043B\u043E \u043C\u043E\u0440\u043A\u043E\u0432\u043E\u043A!"
+  - fieldName: OfferCarrotsShopTitle
+    language: de
+    value: Wenige Moehren uebrig!
+  - fieldName: OfferCarrotsShopTitle
+    language: es
+    value: "\xA1Tan pocas zanahorias!"
+  - fieldName: OfferCarrotsShopTitle
+    language: it
+    value: "Cos\xEC poche carote!"
+  - fieldName: OfferCarrotsShopTitle
+    language: tr
+    value: "\xC7ok az havu\xE7!"
+  - fieldName: OfferCarrotsShopTitle
+    language: pt
+    value: "T\xE3o poucas cenouras!"
+  - fieldName: OfferCarrotsShopTitle
+    language: id
+    value: Sangat sedikit wortel!
+  - fieldName: OfferCarrotsShopTitle
+    language: tg
+    value: "\u0418\u043D \u049B\u0430\u0434\u0430\u0440 \u0441\u0430\u0431\u0437\u04E3!"
+  - fieldName: OfferCarrotsShopTitle
+    language: uz
+    value: Juda oz sabzi!
+  - fieldName: OfferCarrotsShopTitle
+    language: fr
+    value: Si peu de carottes !
+  - fieldName: OfferCarrotsShopTitle
+    language: kk
+    value: "\u0421\u04D9\u0431\u0456\u0437 \u0430\u0437!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: en
+    value: Stock of carrots is empty!
+  - fieldName: OfferCarrotsBuildTitle
+    language: ru
+    value: "\u0421\u043A\u043B\u0430\u0434 \u043C\u043E\u0440\u043A\u043E\u0432\u043E\u043A
+      \u043F\u0443\u0441\u0442!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: de
+    value: Moehrenvorraete sind alle!
+  - fieldName: OfferCarrotsBuildTitle
+    language: es
+    value: "\xA1El stock de zanahorias est\xE1 vac\xEDo!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: it
+    value: "La scorta di carote \xE8 vuota!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: tr
+    value: "Havu\xE7 sto\u011Fu bo\u015F!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: pt
+    value: "O estoque de cenouras est\xE1 vazio!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: id
+    value: Stok wortel kosong!
+  - fieldName: OfferCarrotsBuildTitle
+    language: tg
+    value: "\u0417\u0430\u0445\u0438\u0440\u0430\u0438 \u0441\u0430\u0431\u0437\u04E3
+      \u0445\u043E\u043B\u04E3 \u0430\u0441\u0442!"
+  - fieldName: OfferCarrotsBuildTitle
+    language: uz
+    value: Sabzi zaxirasi bo'sh!
+  - fieldName: OfferCarrotsBuildTitle
+    language: fr
+    value: Le stock de carottes est vide !
+  - fieldName: OfferCarrotsBuildTitle
+    language: kk
+    value: "\u0421\u04D9\u0431\u0456\u0437 \u049B\u043E\u0440\u044B \u0431\u043E\u0441!"
+  - fieldName: Can'tBeImprovedTitle
+    language: en
+    value: Perfect, can't be improved
+  - fieldName: Can'tBeImprovedTitle
+    language: ru
+    value: "\u0411\u0435\u0437\u0443\u043F\u0440\u0435\u0447\u043D\u043E, \u043D\u0435\u043B\u044C\u0437\u044F
+      \u0443\u043B\u0443\u0447\u0448\u0438\u0442\u044C"
+  - fieldName: Can'tBeImprovedTitle
+    language: de
+    value: Hervorragend, kann man nicht besser machen
+  - fieldName: Can'tBeImprovedTitle
+    language: es
+    value: Perfecto, no se puede mejorar.
+  - fieldName: Can'tBeImprovedTitle
+    language: it
+    value: "Perfetto, non pu\xF2 essere migliorato"
+  - fieldName: Can'tBeImprovedTitle
+    language: tr
+    value: "M\xFCkemmel, geli\u015Ftirilemez"
+  - fieldName: Can'tBeImprovedTitle
+    language: pt
+    value: "Perfeito, n\xE3o pode ser melhorado"
+  - fieldName: Can'tBeImprovedTitle
+    language: id
+    value: Sempurna, tidak bisa diperbaiki
+  - fieldName: Can'tBeImprovedTitle
+    language: tg
+    value: "\u041C\u0443\u043A\u0430\u043C\u043C\u0430\u043B, \u0442\u0430\u043A\u043C\u0438\u043B
+      \u0434\u043E\u0434\u0430\u043D \u043C\u0443\u043C\u043A\u0438\u043D \u043D\u0435\u0441\u0442"
+  - fieldName: Can'tBeImprovedTitle
+    language: uz
+    value: Mukammal, uni yaxshilash mumkin emas
+  - fieldName: Can'tBeImprovedTitle
+    language: fr
+    value: "Parfait, ne peut pas \xEAtre am\xE9lior\xE9"
+  - fieldName: Can'tBeImprovedTitle
+    language: kk
+    value: "\u041A\u0435\u0440\u0435\u043C\u0435\u0442, \u0436\u0430\u049B\u0441\u0430\u0440\u0442\u0443
+      \u043C\u04AF\u043C\u043A\u0456\u043D \u0435\u043C\u0435\u0441"
+  - fieldName: MarketSaleTitle
+    language: en
+    value: Market Sale
+  - fieldName: MarketSaleTitle
+    language: ru
+    value: "\u0420\u0430\u0441\u043F\u0440\u043E\u0434\u0430\u0436\u0430"
+  - fieldName: MarketSaleTitle
+    language: de
+    value: Ausverkauf
+  - fieldName: MarketSaleTitle
+    language: es
+    value: Venta de mercado
+  - fieldName: MarketSaleTitle
+    language: it
+    value: Vendita al mercato
+  - fieldName: MarketSaleTitle
+    language: tr
+    value: "Pazar Sat\u0131\u015F\u0131"
+  - fieldName: MarketSaleTitle
+    language: pt
+    value: Venda de mercado
+  - fieldName: MarketSaleTitle
+    language: id
+    value: Penjualan Pasar
+  - fieldName: MarketSaleTitle
+    language: tg
+    value: "\u0424\u0443\u0440\u04EF\u0448\u0438 \u0431\u043E\u0437\u043E\u0440"
+  - fieldName: MarketSaleTitle
+    language: uz
+    value: Bozor sotuvi
+  - fieldName: MarketSaleTitle
+    language: fr
+    value: "Vente au march\xE9"
+  - fieldName: MarketSaleTitle
+    language: kk
+    value: "\u041D\u0430\u0440\u044B\u049B\u0442\u044B\u049B \u0441\u0430\u0442\u0443"
+  - fieldName: CoinMarketTitle
+    language: en
+    value: Coin Market
+  - fieldName: CoinMarketTitle
+    language: ru
+    value: "\u0420\u044B\u043D\u043E\u043A \u043C\u043E\u043D\u0435\u0442"
+  - fieldName: CoinMarketTitle
+    language: de
+    value: Muenzmarket
+  - fieldName: CoinMarketTitle
+    language: es
+    value: Mercado de monedas
+  - fieldName: CoinMarketTitle
+    language: it
+    value: Mercato delle monete
+  - fieldName: CoinMarketTitle
+    language: tr
+    value: "Madeni Para Piyasas\u0131"
+  - fieldName: CoinMarketTitle
+    language: pt
+    value: Mercado de moedas
+  - fieldName: CoinMarketTitle
+    language: id
+    value: Pasar Koin
+  - fieldName: CoinMarketTitle
+    language: tg
+    value: "\u0411\u043E\u0437\u043E\u0440\u0438 \u0442\u0430\u043D\u0433\u0430"
+  - fieldName: CoinMarketTitle
+    language: uz
+    value: Tangalar bozori
+  - fieldName: CoinMarketTitle
+    language: fr
+    value: "March\xE9 des pi\xE8ces de monnaie"
+  - fieldName: CoinMarketTitle
+    language: kk
+    value: "\u041C\u043E\u043D\u0435\u0442\u0430 \u043D\u0430\u0440\u044B\u0493\u044B"
+  - fieldName: CarrotMarketTitle
+    language: en
+    value: Carrot Market
+  - fieldName: CarrotMarketTitle
+    language: ru
+    value: "\u041C\u043E\u0440\u043A\u043E\u0432\u043D\u044B\u0439 \u0440\u044B\u043D\u043E\u043A"
+  - fieldName: CarrotMarketTitle
+    language: de
+    value: Moehrenmarket
+  - fieldName: CarrotMarketTitle
+    language: es
+    value: Mercado de zanahorias
+  - fieldName: CarrotMarketTitle
+    language: it
+    value: Mercato delle carote
+  - fieldName: CarrotMarketTitle
+    language: tr
+    value: "Havu\xE7 Pazar\u0131"
+  - fieldName: CarrotMarketTitle
+    language: pt
+    value: Mercado de cenoura
+  - fieldName: CarrotMarketTitle
+    language: id
+    value: Pasar Wortel
+  - fieldName: CarrotMarketTitle
+    language: tg
+    value: "\u0411\u043E\u0437\u043E\u0440\u0438 \u0441\u0430\u0431\u0437\u04E3"
+  - fieldName: CarrotMarketTitle
+    language: uz
+    value: Sabzi bozori
+  - fieldName: CarrotMarketTitle
+    language: fr
+    value: "March\xE9 aux carottes"
+  - fieldName: CarrotMarketTitle
+    language: kk
+    value: "\u0421\u04D9\u0431\u0456\u0437 \u0431\u0430\u0437\u0430\u0440\u044B"
+  - fieldName: LuckyWheelTitle
+    language: en
+    value: Lucky wheel
+  - fieldName: LuckyWheelTitle
+    language: ru
+    value: "\u041A\u043E\u043B\u0435\u0441\u043E \u0444\u043E\u0440\u0442\u0443\u043D\u044B"
+  - fieldName: LuckyWheelTitle
+    language: de
+    value: Gluecksrad
+  - fieldName: LuckyWheelTitle
+    language: es
+    value: Rueda de la suerte
+  - fieldName: LuckyWheelTitle
+    language: it
+    value: Ruota fortunata
+  - fieldName: LuckyWheelTitle
+    language: tr
+    value: "\u015Eansl\u0131 tekerlek"
+  - fieldName: LuckyWheelTitle
+    language: pt
+    value: Roda da sorte
+  - fieldName: LuckyWheelTitle
+    language: id
+    value: Roda keberuntungan
+  - fieldName: LuckyWheelTitle
+    language: tg
+    value: "\u0427\u0430\u0440\u0445\u0438 \u0431\u0430\u0445\u0442"
+  - fieldName: LuckyWheelTitle
+    language: uz
+    value: Baxtli g'ildirak
+  - fieldName: LuckyWheelTitle
+    language: fr
+    value: Roue porte-bonheur
+  - fieldName: LuckyWheelTitle
+    language: kk
+    value: "\u0411\u0430\u049B\u044B\u0442\u0442\u044B \u0434\u04E9\u04A3\u0433\u0435\u043B\u0435\u043A"
+  - fieldName: AuthTitle
+    language: en
+    value: LOGIN
+  - fieldName: AuthTitle
+    language: ru
+    value: "\u0410\u0412\u0422\u041E\u0420\u0418\u0417\u0410\u0426\u0418\u042F"
+  - fieldName: AuthTitle
+    language: de
+    value: LOGIN
+  - fieldName: AuthTitle
+    language: es
+    value: ACCESO
+  - fieldName: AuthTitle
+    language: it
+    value: LOGIN
+  - fieldName: AuthTitle
+    language: tr
+    value: "G\u0130R\u0130\u015E YAPMAK"
+  - fieldName: AuthTitle
+    language: pt
+    value: CONECTE-SE
+  - fieldName: AuthTitle
+    language: id
+    value: GABUNG
+  - fieldName: AuthTitle
+    language: tg
+    value: "\u0414\u0410\u0420\u041E\u041C\u0410\u0414\u0410\u041D"
+  - fieldName: AuthTitle
+    language: uz
+    value: TIZIMGA KIRISH
+  - fieldName: AuthTitle
+    language: fr
+    value: SE CONNECTER
+  - fieldName: AuthTitle
+    language: kk
+    value: "\u041A\u0406\u0420\u0423"
+  - fieldName: RateUsTile
+    language: en
+    value: RATE US
+  - fieldName: RateUsTile
+    language: ru
+    value: "\u041E\u0426\u0415\u041D\u0418\u0422\u0415 \u041D\u0410\u0421"
+  - fieldName: RateUsTile
+    language: de
+    value: BEWERTEN SIE UNS
+  - fieldName: RateUsTile
+    language: es
+    value: NOS CALIFICA
+  - fieldName: RateUsTile
+    language: it
+    value: VALUTACI
+  - fieldName: RateUsTile
+    language: tr
+    value: "B\u0130Z\u0130 DE\u011EERLEND\u0130R\u0130N"
+  - fieldName: RateUsTile
+    language: pt
+    value: NOS AVALIE
+  - fieldName: RateUsTile
+    language: id
+    value: NILAI KAMI
+  - fieldName: RateUsTile
+    language: tg
+    value: "\u0411\u0410 \u041C\u041E \u0411\u0410\u0425\u041E \u0434\u0438\u04B3\u0435\u0434"
+  - fieldName: RateUsTile
+    language: uz
+    value: BIZGA baho bering
+  - fieldName: RateUsTile
+    language: fr
+    value: "\xC9VALUEZ NOUS"
+  - fieldName: RateUsTile
+    language: kk
+    value: "\u0411\u0406\u0417\u0413\u0415 \u0411\u0410\u0492\u0410\u041B\u0410\u04A2\u042B\u0417"
+  - fieldName: LevelFiledTile
+    language: en
+    value: LEVEL FAILED
+  - fieldName: LevelFiledTile
+    language: ru
+    value: "\u0423\u0420\u041E\u0412\u0415\u041D\u042C \u041F\u0420\u041E\u0418\u0413\u0420\u0410\u041D"
+  - fieldName: LevelFiledTile
+    language: de
+    value: EBENE VERLOREN
+  - fieldName: LevelFiledTile
+    language: es
+    value: CAMPO DE NIVEL
+  - fieldName: LevelFiledTile
+    language: it
+    value: CAMPO DI LIVELLO
+  - fieldName: LevelFiledTile
+    language: tr
+    value: "SEV\u0130YE A\xC7ILDI"
+  - fieldName: LevelFiledTile
+    language: pt
+    value: "N\xCDVEL ARQUIVADO"
+  - fieldName: LevelFiledTile
+    language: id
+    value: TINGKAT DIAJUKAN
+  - fieldName: LevelFiledTile
+    language: tg
+    value: "\u0414\u0410\u0420\u0410\u0427\u0410 \u041F\u0415\u0428\u041A\u0410\u0414\u0410\u041C"
+  - fieldName: LevelFiledTile
+    language: uz
+    value: DARAJA BERILGAN
+  - fieldName: LevelFiledTile
+    language: fr
+    value: "NIVEAU D\xC9POS\xC9"
+  - fieldName: LevelFiledTile
+    language: kk
+    value: "\u0414\u0415\u04A2\u0413\u0415\u0419 \u0411\u0415\u0420\u0406\u041B\u0414\u0406"
+  - fieldName: LevelCompletedTile1
+    language: en
+    value: LEVEL
+  - fieldName: LevelCompletedTile1
+    language: ru
+    value: "\u0423\u0420\u041E\u0412\u0415\u041D\u042C"
+  - fieldName: LevelCompletedTile1
+    language: de
+    value: EBENE
+  - fieldName: LevelCompletedTile1
+    language: es
+    value: NIVEL
+  - fieldName: LevelCompletedTile1
+    language: it
+    value: LIVELLO
+  - fieldName: LevelCompletedTile1
+    language: tr
+    value: "SEV\u0130YE"
+  - fieldName: LevelCompletedTile1
+    language: pt
+    value: "N\xCDVEL"
+  - fieldName: LevelCompletedTile1
+    language: id
+    value: TINGKAT
+  - fieldName: LevelCompletedTile1
+    language: tg
+    value: "\u0414\u0410\u0420\u0410\u0427\u0410"
+  - fieldName: LevelCompletedTile1
+    language: uz
+    value: DARAJA
+  - fieldName: LevelCompletedTile1
+    language: fr
+    value: NIVEAU
+  - fieldName: LevelCompletedTile1
+    language: kk
+    value: "\u0414\u0415\u04A2\u0413\u0415\u0419"
+  - fieldName: LevelCompletedTile2
+    language: en
+    value: COMPLETED
+  - fieldName: LevelCompletedTile2
+    language: ru
+    value: "\u0417\u0410\u0412\u0415\u0420\u0428\u0415\u041D"
+  - fieldName: LevelCompletedTile2
+    language: de
+    value: VOLLENDET
+  - fieldName: LevelCompletedTile2
+    language: es
+    value: TERMINADO
+  - fieldName: LevelCompletedTile2
+    language: it
+    value: COMPLETATO
+  - fieldName: LevelCompletedTile2
+    language: tr
+    value: "TAMAMLANMI\u015E"
+  - fieldName: LevelCompletedTile2
+    language: pt
+    value: "CONCLU\xCDDO"
+  - fieldName: LevelCompletedTile2
+    language: id
+    value: LENGKAP
+  - fieldName: LevelCompletedTile2
+    language: tg
+    value: "\u0410\u041D\u0427\u041E\u041C \u0414\u041E\u0414\u0410 \u0428\u0423\u0414"
+  - fieldName: LevelCompletedTile2
+    language: uz
+    value: TUGLANDI
+  - fieldName: LevelCompletedTile2
+    language: fr
+    value: "COMPL\xC9T\xC9"
+  - fieldName: LevelCompletedTile2
+    language: kk
+    value: "\u0410\u042F\u049A\u0422\u0410\u041B\u0414\u042B"
+  - fieldName: BallsMainTile
+    language: en
+    value: BALLS
+  - fieldName: BallsMainTile
+    language: ru
+    value: BALLS
+  - fieldName: BallsMainTile
+    language: de
+    value: BALLS
+  - fieldName: BallsMainTile
+    language: es
+    value: BALLS
+  - fieldName: BallsMainTile
+    language: it
+    value: BALLS
+  - fieldName: BallsMainTile
+    language: tr
+    value: TOPLAR
+  - fieldName: BallsMainTile
+    language: pt
+    value: BOLAS
+  - fieldName: BallsMainTile
+    language: id
+    value: BOLA
+  - fieldName: BallsMainTile
+    language: tg
+    value: "\u0422\u04EF\u0431\u04B3\u043E"
+  - fieldName: BallsMainTile
+    language: uz
+    value: SHARLAR
+  - fieldName: BallsMainTile
+    language: fr
+    value: DES BALLES
+  - fieldName: BallsMainTile
+    language: kk
+    value: "\u0414\u041E\u041F\u0422\u0410\u0420"
+  - fieldName: BallsSkinTile
+    language: en
+    value: BALLS
+  - fieldName: BallsSkinTile
+    language: ru
+    value: "\u041C\u042F\u0427\u0418"
+  - fieldName: BallsSkinTile
+    language: de
+    value: BAELLE
+  - fieldName: BallsSkinTile
+    language: es
+    value: PELOTAS
+  - fieldName: BallsSkinTile
+    language: it
+    value: SFERE
+  - fieldName: BallsSkinTile
+    language: tr
+    value: TOPLAR
+  - fieldName: BallsSkinTile
+    language: pt
+    value: BOLAS
+  - fieldName: BallsSkinTile
+    language: id
+    value: BOLA
+  - fieldName: BallsSkinTile
+    language: tg
+    value: "\u0422\u04EF\u0431\u04B3\u043E"
+  - fieldName: BallsSkinTile
+    language: uz
+    value: SHARLAR
+  - fieldName: BallsSkinTile
+    language: fr
+    value: DES BALLES
+  - fieldName: BallsSkinTile
+    language: kk
+    value: "\u0414\u041E\u041F\u0422\u0410\u0420"
+  - fieldName: RotateDeviceTile
+    language: en
+    value: ROTATE YOUR DEVICE TO PORTRAIT ORIENTATION
+  - fieldName: RotateDeviceTile
+    language: ru
+    value: "\u041F\u0415\u0420\u0415\u0412\u0415\u0414\u0418\u0422\u0415 \u0423\u0421\u0422\u0420\u041E\u0419\u0421\u0422\u0412\u041E
+      \u0412 \u041F\u041E\u0420\u0422\u0420\u0415\u0422\u041D\u042B\u0419 \u0420\u0415\u0416\u0418\u041C"
+  - fieldName: RotateDeviceTile
+    language: de
+    value: VERSETZEN SIE IHR GERAET IN DEN PORTRAETMODUS
+  - fieldName: RotateDeviceTile
+    language: es
+    value: "GIRA TU DISPOSITIVO EN ORIENTACI\xD3N RETRATO"
+  - fieldName: RotateDeviceTile
+    language: it
+    value: RUOTA IL TUO DISPOSITIVO IN ORIENTAMENTO VERTICALE
+  - fieldName: RotateDeviceTile
+    language: tr
+    value: "C\u0130HAZINIZI PORTRE Y\xD6NLEND\u0130RMEYE D\xD6ND\xDCR\xDCN"
+  - fieldName: RotateDeviceTile
+    language: pt
+    value: "GIRE SEU DISPOSITIVO PARA ORIENTA\xC7\xC3O RETRATO"
+  - fieldName: RotateDeviceTile
+    language: id
+    value: PUTAR PERANGKAT ANDA KE ORIENTASI POTRET
+  - fieldName: RotateDeviceTile
+    language: tg
+    value: "\u0414\u0410\u0421\u0422\u0413\u041E\u04B2\u0418 \u0425\u0423\u0414\u0420\u041E
+      \u0411\u0410 \u0421\u0410\u041C\u041E\u042F\u0422\u0418 \u043F\u043E\u0440\u0442\u0440\u0435\u0442\u04E3
+      \u0433\u0430\u0440\u0434\u043E\u043D\u0435\u0434"
+  - fieldName: RotateDeviceTile
+    language: uz
+    value: QURILMANI PORTRET YO'NALISHGA AYLANTING
+  - fieldName: RotateDeviceTile
+    language: fr
+    value: FAITES TOURNER VOTRE APPAREIL EN ORIENTATION PORTRAIT
+  - fieldName: RotateDeviceTile
+    language: kk
+    value: "\u049A\u04B0\u0420\u042B\u041B\u0492\u042B\u04A2\u042B\u0417\u0414\u042B
+      \u041F\u041E\u0420\u0422\u0420\u0415\u0422 \u0411\u0410\u0492\u042B\u0422\u042B\u041D\u0410
+      \u0411\u04B0\u0420\u042B\u04A2\u042B\u0417"
+  - fieldName: AdsIsDisabledTile
+    language: en
+    value: AD ALREADY DISABLED
+  - fieldName: AdsIsDisabledTile
+    language: ru
+    value: "\u0420\u0415\u041A\u041B\u0410\u041C\u0410 \u0423\u0416\u0415 \u041E\u0422\u041A\u041B\u042E\u0427\u0415\u041D\u0410"
+  - fieldName: AdsIsDisabledTile
+    language: de
+    value: WERBUNG IST SCHON AUS
+  - fieldName: AdsIsDisabledTile
+    language: es
+    value: ANUNCIO YA DESHABILITADO
+  - fieldName: AdsIsDisabledTile
+    language: it
+    value: ANNUNCIO GIA DISABILITATO
+  - fieldName: AdsIsDisabledTile
+    language: tr
+    value: "REKLAM ZATEN DEVRE DI\u015EI BIRAKILDI"
+  - fieldName: AdsIsDisabledTile
+    language: pt
+    value: "AN\xDANCIO J\xC1 DESATIVADO"
+  - fieldName: AdsIsDisabledTile
+    language: id
+    value: IKLAN SUDAH DINONAKTIFKAN
+  - fieldName: AdsIsDisabledTile
+    language: tg
+    value: "\u0420\u0415\u041A\u041B\u0410\u041C\u0410 \u0410\u041B\u041B\u0410\u043A\u0430\u0439
+      \u0493\u0430\u0439\u0440\u0438\u0444\u0430\u044A\u043E\u043B"
+  - fieldName: AdsIsDisabledTile
+    language: uz
+    value: REKLAMA O'CHIRILGAN
+  - fieldName: AdsIsDisabledTile
+    language: fr
+    value: "PUBLICIT\xC9 D\xC9J\xC0 D\xC9SACTIV\xC9E"
+  - fieldName: AdsIsDisabledTile
+    language: kk
+    value: "\u0416\u0410\u0420\u041D\u0410\u041C\u0410 \u04E8\u0428\u0406\u0420\u0406\u041B\u0413\u0415\u041D"
+  - fieldName: NoAdsTile
+    language: en
+    value: TURN OFF ADS
+  - fieldName: NoAdsTile
+    language: ru
+    value: "\u041E\u0422\u041A\u041B\u042E\u0427\u0418\u0422\u042C \u0420\u0415\u041A\u041B\u0410\u041C\u0423"
+  - fieldName: NoAdsTile
+    language: de
+    value: WERBUNG AUSSCHALTEN
+  - fieldName: NoAdsTile
+    language: es
+    value: APAGAR ANUNCIOS
+  - fieldName: NoAdsTile
+    language: it
+    value: DISATTIVARE GLI ANNUNCI
+  - fieldName: NoAdsTile
+    language: tr
+    value: REKLAMLARI KAPATIN
+  - fieldName: NoAdsTile
+    language: pt
+    value: "DESLIGAR AN\xDANCIOS"
+  - fieldName: NoAdsTile
+    language: id
+    value: MATIKAN IKLAN
+  - fieldName: NoAdsTile
+    language: tg
+    value: "\u0420\u0415\u041A\u041B\u0410\u041C\u0410\u0425\u041E\u0420\u041E \u0425\u041E\u041C\u0423\u0428
+      \u041A\u0423\u041D\u0415\u0414"
+  - fieldName: NoAdsTile
+    language: uz
+    value: REKLAMALARNI O'CHIRISh
+  - fieldName: NoAdsTile
+    language: fr
+    value: "D\xC9SACTIVER LES PUBLICIT\xC9S"
+  - fieldName: NoAdsTile
+    language: kk
+    value: "\u0416\u0410\u0420\u041D\u0410\u041C\u0410\u041B\u0410\u0420\u0414\u042B
+      \u04E8\u0428\u0406\u0420\u0423"
+  - fieldName: RabbitShopTitle
+    language: en
+    value: Rabbit Shop
+  - fieldName: RabbitShopTitle
+    language: ru
+    value: "\u041A\u0440\u043E\u043B\u0438\u0447\u044C\u044F \u043B\u0430\u0432\u043A\u0430"
+  - fieldName: RabbitShopTitle
+    language: de
+    value: Kaninchenladen
+  - fieldName: RabbitShopTitle
+    language: es
+    value: Tienda de conejos
+  - fieldName: RabbitShopTitle
+    language: it
+    value: Negozio di conigli
+  - fieldName: RabbitShopTitle
+    language: tr
+    value: "Tav\u015Fan D\xFCkkan\u0131"
+  - fieldName: RabbitShopTitle
+    language: pt
+    value: Loja de coelhos
+  - fieldName: RabbitShopTitle
+    language: id
+    value: Toko Kelinci
+  - fieldName: RabbitShopTitle
+    language: tg
+    value: "\u041C\u0430\u0493\u043E\u0437\u0430\u0438 \u0445\u0430\u0440\u0433\u04EF\u0448"
+  - fieldName: RabbitShopTitle
+    language: uz
+    value: Quyon do'koni
+  - fieldName: RabbitShopTitle
+    language: fr
+    value: Boutique de lapins
+  - fieldName: RabbitShopTitle
+    language: kk
+    value: "\u049A\u043E\u044F\u043D \u0434\u04AF\u043A\u0435\u043D\u0456"
+  - fieldName: ShopTitle
+    language: en
+    value: Shop
+  - fieldName: ShopTitle
+    language: ru
+    value: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D"
+  - fieldName: ShopTitle
+    language: de
+    value: Laden
+  - fieldName: ShopTitle
+    language: es
+    value: Comercio
+  - fieldName: ShopTitle
+    language: it
+    value: Negozio
+  - fieldName: ShopTitle
+    language: tr
+    value: "Ma\u011Faza"
+  - fieldName: ShopTitle
+    language: pt
+    value: Comprar
+  - fieldName: ShopTitle
+    language: id
+    value: Toko
+  - fieldName: ShopTitle
+    language: tg
+    value: "\u041C\u0430\u0493\u043E\u0437\u0430"
+  - fieldName: ShopTitle
+    language: uz
+    value: Do'kon
+  - fieldName: ShopTitle
+    language: fr
+    value: Boutique
+  - fieldName: ShopTitle
+    language: kk
+    value: "\u0414\u04AF\u043A\u0435\u043D"
+  - fieldName: StarterPackOfferTitle
+    language: en
+    value: BEST PACK
+  - fieldName: StarterPackOfferTitle
+    language: ru
+    value: "\u041B\u0423\u0427\u0428\u0418\u0419 \u041D\u0410\u0411\u041E\u0420"
+  - fieldName: StarterPackOfferTitle
+    language: de
+    value: BESTES PAKET
+  - fieldName: ShopCategoryOffers
+    language: en
+    value: OFFERS
+  - fieldName: ShopCategoryOffers
+    language: ru
+    value: "\u0410\u041A\u0426\u0418\u0418"
+  - fieldName: ShopCategoryOffers
+    language: de
+    value: BIETET AN
+  - fieldName: ShopCategoryClues
+    language: en
+    value: CLUES
+  - fieldName: ShopCategoryClues
+    language: ru
+    value: "\u041F\u041E\u0414\u0421\u041A\u0410\u0417\u041A\u0418"
+  - fieldName: ShopCategoryClues
+    language: de
+    value: HINWEISE
+  - fieldName: ShopCategoryClues
+    language: es
+    value: PISTAS
+  - fieldName: ShopCategoryClues
+    language: it
+    value: INDIZI
+  - fieldName: ShopCategoryClues
+    language: tr
+    value: "\u0130PU\xC7LARI"
+  - fieldName: ShopCategoryClues
+    language: pt
+    value: PISTAS
+  - fieldName: ShopCategoryClues
+    language: id
+    value: PETUNJUK
+  - fieldName: ShopCategoryClues
+    language: tg
+    value: "\u0414\u0410\u0421\u0422\u0420\u0410\u0421\u0425\u041E"
+  - fieldName: ShopCategoryClues
+    language: uz
+    value: MA'LUMOTLAR
+  - fieldName: ShopCategoryClues
+    language: fr
+    value: DES INDICES
+  - fieldName: ShopCategoryClues
+    language: kk
+    value: "\u041A\u0415\u0420\u0415\u041A\u0422\u0415\u0420"
+  - fieldName: ShopCategorySkins
+    language: en
+    value: SKINS
+  - fieldName: ShopCategorySkins
+    language: ru
+    value: "\u041A\u041E\u0421\u041C\u0415\u0422\u0418\u041A\u0410"
+  - fieldName: ShopCategorySkins
+    language: de
+    value: TEXTUR
+  - fieldName: ShopCategorySkins
+    language: es
+    value: PIELES
+  - fieldName: ShopCategorySkins
+    language: it
+    value: PELLI
+  - fieldName: ShopCategorySkins
+    language: tr
+    value: "DI\u015E G\xD6R\xDCN\xDCMLER"
+  - fieldName: ShopCategorySkins
+    language: pt
+    value: PELES
+  - fieldName: ShopCategorySkins
+    language: id
+    value: KULIT
+  - fieldName: ShopCategorySkins
+    language: tg
+    value: "\u041F\u04EF\u0441\u0442\u04B3\u043E"
+  - fieldName: ShopCategorySkins
+    language: uz
+    value: TERILAR
+  - fieldName: ShopCategorySkins
+    language: fr
+    value: PEAUX
+  - fieldName: ShopCategorySkins
+    language: kk
+    value: "\u0411\u0415\u0420\u0406\u041B\u0415\u0420"
+  - fieldName: ShopCategoryCoinByAds
+    language: en
+    value: COINS
+  - fieldName: ShopCategoryCoinByAds
+    language: ru
+    value: "\u041C\u041E\u041D\u0415\u0422\u042B"
+  - fieldName: ShopCategoryCoinByAds
+    language: de
+    value: MUENZEN
+  - fieldName: ShopCategoryCoinByAds
+    language: es
+    value: MONEDAS
+  - fieldName: ShopCategoryCoinByAds
+    language: it
+    value: MONETE
+  - fieldName: ShopCategoryCoinByAds
+    language: tr
+    value: PARALAR
+  - fieldName: ShopCategoryCoinByAds
+    language: pt
+    value: MOEDAS
+  - fieldName: ShopCategoryCoinByAds
+    language: id
+    value: KOIN
+  - fieldName: ShopCategoryCoinByAds
+    language: tg
+    value: "\u0422\u0410\u041D\u0413\u0410"
+  - fieldName: ShopCategoryCoinByAds
+    language: uz
+    value: TANGALAR
+  - fieldName: ShopCategoryCoinByAds
+    language: fr
+    value: "PI\xC8CES DE MONNAIE"
+  - fieldName: ShopCategoryCoinByAds
+    language: kk
+    value: "\u0422\u0418\u042B\u041D\u0414\u0410\u0420"
+  - fieldName: ShopCategoryInApps
+    language: en
+    value: BUY
+  - fieldName: ShopCategoryInApps
+    language: ru
+    value: "\u041A\u0423\u041F\u0418\u0422\u042C"
+  - fieldName: ShopCategoryInApps
+    language: de
+    value: KAUFEN
+  - fieldName: ShopCategoryInApps
+    language: es
+    value: COMPRAR
+  - fieldName: ShopCategoryInApps
+    language: it
+    value: ACQUISTARE
+  - fieldName: ShopCategoryInApps
+    language: tr
+    value: SATIN ALMAK
+  - fieldName: ShopCategoryInApps
+    language: pt
+    value: COMPRAR
+  - fieldName: ShopCategoryInApps
+    language: id
+    value: MEMBELI
+  - fieldName: ShopCategoryInApps
+    language: tg
+    value: "\u0425\u0410\u0420\u0418\u0414"
+  - fieldName: ShopCategoryInApps
+    language: uz
+    value: SOTIB OLISH
+  - fieldName: ShopCategoryInApps
+    language: fr
+    value: ACHETER
+  - fieldName: ShopCategoryInApps
+    language: kk
+    value: "\u0421\u0410\u0422\u042B\u041F \u0410\u041B\u0423"
+  - fieldName: StarterPackOfferPopupTitle
+    language: en
+    value: Best Pack
+  - fieldName: StarterPackOfferPopupTitle
+    language: ru
+    value: "\u041B\u0443\u0447\u0448\u0438\u0439 \u043D\u0430\u0431\u043E\u0440"
+  - fieldName: StarterPackOfferPopupTitle
+    language: de
+    value: Bestes Paket
+  - fieldName: ShopCategoryNoAds
+    language: en
+    value: Turn off ads
+  - fieldName: ShopCategoryNoAds
+    language: ru
+    value: "\u041E\u0442\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0440\u0435\u043A\u043B\u0430\u043C\u0443"
+  - fieldName: ShopCategoryNoAds
+    language: de
+    value: Werbung ausschalten
+  - fieldName: ShopCategoryNoAds
+    language: es
+    value: Desactivar anuncios
+  - fieldName: ShopCategoryNoAds
+    language: it
+    value: Disattiva gli annunci
+  - fieldName: ShopCategoryNoAds
+    language: tr
+    value: "Reklamlar\u0131 kapat"
+  - fieldName: ShopCategoryNoAds
+    language: pt
+    value: "Desativar an\xFAncios"
+  - fieldName: ShopCategoryNoAds
+    language: id
+    value: Matikan iklan
+  - fieldName: ShopCategoryNoAds
+    language: tg
+    value: "\u0420\u0435\u043A\u043B\u0430\u043C\u0430\u04B3\u043E\u0440\u043E \u0445\u043E\u043C\u04EF\u0448
+      \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: ShopCategoryNoAds
+    language: uz
+    value: Reklamalarni o'chirib qo'ying
+  - fieldName: ShopCategoryNoAds
+    language: fr
+    value: "D\xE9sactiver les publicit\xE9s"
+  - fieldName: ShopCategoryNoAds
+    language: kk
+    value: "\u0416\u0430\u0440\u043D\u0430\u043C\u0430\u043B\u0430\u0440\u0434\u044B
+      \u04E9\u0448\u0456\u0440\u0456\u04A3\u0456\u0437"
+  - fieldName: UnderstoodBT
+    language: en
+    value: Ok
+  - fieldName: UnderstoodBT
+    language: ru
+    value: "\u041F\u043E\u043D\u044F\u0442\u043D\u043E"
+  - fieldName: UnderstoodBT
+    language: de
+    value: Verstanden
+  - fieldName: UnderstoodBT
+    language: es
+    value: De acuerdo
+  - fieldName: UnderstoodBT
+    language: it
+    value: Inteso
+  - fieldName: UnderstoodBT
+    language: tr
+    value: Tamam
+  - fieldName: UnderstoodBT
+    language: pt
+    value: OK
+  - fieldName: UnderstoodBT
+    language: id
+    value: Oke
+  - fieldName: UnderstoodBT
+    language: tg
+    value: "\u0414\u0443\u0440\u0443\u0441\u0442"
+  - fieldName: UnderstoodBT
+    language: uz
+    value: Kelishdikmi
+  - fieldName: UnderstoodBT
+    language: fr
+    value: D'accord
+  - fieldName: UnderstoodBT
+    language: kk
+    value: "\u0416\u0430\u0440\u0430\u0439\u0434\u044B \u043C\u0430"
+  - fieldName: FreeBT
+    language: en
+    value: FREE
+  - fieldName: FreeBT
+    language: ru
+    value: "\u0411\u0415\u0421\u041F\u041B\u0410\u0422\u041D\u041E"
+  - fieldName: FreeBT
+    language: de
+    value: KOSTENLOS
+  - fieldName: FreeBT
+    language: es
+    value: GRATIS
+  - fieldName: FreeBT
+    language: it
+    value: GRATUITO
+  - fieldName: FreeBT
+    language: tr
+    value: "\xD6ZG\xDCR"
+  - fieldName: FreeBT
+    language: pt
+    value: LIVRE
+  - fieldName: FreeBT
+    language: id
+    value: BEBAS
+  - fieldName: FreeBT
+    language: tg
+    value: "\u0420\u041E\u0419\u0413\u041E\u041D"
+  - fieldName: FreeBT
+    language: uz
+    value: OZOD
+  - fieldName: FreeBT
+    language: fr
+    value: GRATUIT
+  - fieldName: FreeBT
+    language: kk
+    value: "\u0422\u0415\u0413\u0406\u041D"
+  - fieldName: ReadyBT
+    language: en
+    value: Ready!
+  - fieldName: ReadyBT
+    language: ru
+    value: "\u0413\u043E\u0442\u043E\u0432\u043E!"
+  - fieldName: ReadyBT
+    language: de
+    value: Fertig!
+  - fieldName: ReadyBT
+    language: es
+    value: "\xA1Listo!"
+  - fieldName: ReadyBT
+    language: it
+    value: Pronto!
+  - fieldName: ReadyBT
+    language: tr
+    value: "Haz\u0131r!"
+  - fieldName: ReadyBT
+    language: pt
+    value: Preparar!
+  - fieldName: ReadyBT
+    language: id
+    value: Siap!
+  - fieldName: ReadyBT
+    language: tg
+    value: "\u0422\u0430\u0439\u0451\u0440!"
+  - fieldName: ReadyBT
+    language: uz
+    value: Tayyor!
+  - fieldName: ReadyBT
+    language: fr
+    value: "Pr\xEAt!"
+  - fieldName: ReadyBT
+    language: kk
+    value: "\u0414\u0430\u0439\u044B\u043D!"
+  - fieldName: DestroyBT
+    language: en
+    value: Destroy
+  - fieldName: DestroyBT
+    language: ru
+    value: "\u0423\u043D\u0438\u0447\u0442\u043E\u0436\u0438\u0442\u044C"
+  - fieldName: DestroyBT
+    language: de
+    value: Zerstoeren
+  - fieldName: DestroyBT
+    language: es
+    value: Destruir
+  - fieldName: DestroyBT
+    language: it
+    value: Distruggere
+  - fieldName: DestroyBT
+    language: tr
+    value: Tahrip etmek
+  - fieldName: DestroyBT
+    language: pt
+    value: Destruir
+  - fieldName: DestroyBT
+    language: id
+    value: Menghancurkan
+  - fieldName: DestroyBT
+    language: tg
+    value: "\u041D\u043E\u0431\u0443\u0434 \u043A\u0430\u0440\u0434\u0430\u043D"
+  - fieldName: DestroyBT
+    language: uz
+    value: Yo'q qilish
+  - fieldName: DestroyBT
+    language: fr
+    value: "D\xE9truire"
+  - fieldName: DestroyBT
+    language: kk
+    value: "\u0416\u043E\u044E"
+  - fieldName: UndoBT
+    language: en
+    value: Undo
+  - fieldName: UndoBT
+    language: ru
+    value: "\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C"
+  - fieldName: UndoBT
+    language: de
+    value: Rueckgaengig machen
+  - fieldName: UndoBT
+    language: es
+    value: Deshacer
+  - fieldName: UndoBT
+    language: it
+    value: Disfare
+  - fieldName: UndoBT
+    language: tr
+    value: Geri alma
+  - fieldName: UndoBT
+    language: pt
+    value: Desfazer
+  - fieldName: UndoBT
+    language: id
+    value: Membuka
+  - fieldName: UndoBT
+    language: tg
+    value: "\u0411\u0435\u043A\u043E\u0440 \u043A\u0430\u0440\u0434\u0430\u043D"
+  - fieldName: UndoBT
+    language: uz
+    value: Bekor qilish
+  - fieldName: UndoBT
+    language: fr
+    value: annuler
+  - fieldName: UndoBT
+    language: kk
+    value: "\u0411\u043E\u043B\u0434\u044B\u0440\u043C\u0430\u0443"
+  - fieldName: SellBT
+    language: en
+    value: Sell
+  - fieldName: SellBT
+    language: ru
+    value: "\u041F\u0440\u043E\u0434\u0430\u0442\u044C"
+  - fieldName: SellBT
+    language: de
+    value: Verkaufen
+  - fieldName: SellBT
+    language: es
+    value: Vender
+  - fieldName: SellBT
+    language: it
+    value: Vendere
+  - fieldName: SellBT
+    language: tr
+    value: Satmak
+  - fieldName: SellBT
+    language: pt
+    value: Vender
+  - fieldName: SellBT
+    language: id
+    value: Menjual
+  - fieldName: SellBT
+    language: tg
+    value: "\u0424\u0443\u0440\u04EF\u0448"
+  - fieldName: SellBT
+    language: uz
+    value: Sotish
+  - fieldName: SellBT
+    language: fr
+    value: Vendre
+  - fieldName: SellBT
+    language: kk
+    value: "\u0421\u0430\u0442\u0443"
+  - fieldName: SpeedUpBT
+    language: en
+    value: Speed up
+  - fieldName: SpeedUpBT
+    language: ru
+    value: "\u0423\u0441\u043A\u043E\u0440\u0438\u0442\u044C"
+  - fieldName: SpeedUpBT
+    language: de
+    value: Beschleunigen
+  - fieldName: SpeedUpBT
+    language: es
+    value: Acelerar
+  - fieldName: SpeedUpBT
+    language: it
+    value: Accelerare
+  - fieldName: SpeedUpBT
+    language: tr
+    value: "H\u0131zland\u0131r\u0131n"
+  - fieldName: SpeedUpBT
+    language: pt
+    value: Acelerar
+  - fieldName: SpeedUpBT
+    language: id
+    value: Mempercepat
+  - fieldName: SpeedUpBT
+    language: tg
+    value: "\u0421\u0443\u0440\u044A\u0430\u0442 \u0434\u0438\u04B3\u0435\u0434"
+  - fieldName: SpeedUpBT
+    language: uz
+    value: Tezlikni oshirmoq
+  - fieldName: SpeedUpBT
+    language: fr
+    value: "Acc\xE9l\xE9rer"
+  - fieldName: SpeedUpBT
+    language: kk
+    value: "\u0416\u044B\u043B\u0434\u0430\u043C\u0434\u0430\u0442\u0443"
+  - fieldName: UpdateOfferBT
+    language: en
+    value: Update the offer
+  - fieldName: UpdateOfferBT
+    language: ru
+    value: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435"
+  - fieldName: UpdateOfferBT
+    language: de
+    value: Angebot erneuern
+  - fieldName: UpdateOfferBT
+    language: es
+    value: Actualizar la oferta
+  - fieldName: UpdateOfferBT
+    language: it
+    value: Aggiorna l'offerta
+  - fieldName: UpdateOfferBT
+    language: tr
+    value: "Teklifi g\xFCncelle"
+  - fieldName: UpdateOfferBT
+    language: pt
+    value: Atualizar a oferta
+  - fieldName: UpdateOfferBT
+    language: id
+    value: Perbarui penawaran
+  - fieldName: UpdateOfferBT
+    language: tg
+    value: "\u041F\u0435\u0448\u043D\u0438\u04B3\u043E\u0434\u0440\u043E \u043D\u0430\u0432\u0441\u043E\u0437\u04E3
+      \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: UpdateOfferBT
+    language: uz
+    value: Taklifni yangilang
+  - fieldName: UpdateOfferBT
+    language: fr
+    value: "Mettre \xE0 jour l'offre"
+  - fieldName: UpdateOfferBT
+    language: kk
+    value: "\u04B0\u0441\u044B\u043D\u044B\u0441\u0442\u044B \u0436\u0430\u04A3\u0430\u0440\u0442\u044B\u04A3\u044B\u0437"
+  - fieldName: YesBT
+    language: en
+    value: Yes
+  - fieldName: YesBT
+    language: ru
+    value: "\u0414\u0430"
+  - fieldName: YesBT
+    language: de
+    value: Ja
+  - fieldName: YesBT
+    language: es
+    value: "S\xED"
+  - fieldName: YesBT
+    language: it
+    value: Si
+  - fieldName: YesBT
+    language: tr
+    value: Evet
+  - fieldName: YesBT
+    language: pt
+    value: Sim
+  - fieldName: YesBT
+    language: id
+    value: Ya
+  - fieldName: YesBT
+    language: tg
+    value: "\u0411\u0430\u043B\u0435"
+  - fieldName: YesBT
+    language: uz
+    value: Ha
+  - fieldName: YesBT
+    language: fr
+    value: Oui
+  - fieldName: YesBT
+    language: kk
+    value: "\u0418\u04D9"
+  - fieldName: NoBT
+    language: en
+    value: No
+  - fieldName: NoBT
+    language: ru
+    value: "\u041D\u0435\u0442"
+  - fieldName: NoBT
+    language: de
+    value: Nein
+  - fieldName: NoBT
+    language: es
+    value: No
+  - fieldName: NoBT
+    language: it
+    value: No
+  - fieldName: NoBT
+    language: tr
+    value: HAYIR
+  - fieldName: NoBT
+    language: pt
+    value: "N\xE3o"
+  - fieldName: NoBT
+    language: id
+    value: TIDAK
+  - fieldName: NoBT
+    language: tg
+    value: "\u041D\u0435"
+  - fieldName: NoBT
+    language: uz
+    value: Yo'q
+  - fieldName: NoBT
+    language: fr
+    value: Non
+  - fieldName: NoBT
+    language: kk
+    value: "\u0416\u043E\u049B"
+  - fieldName: OpenBT
+    language: en
+    value: Open!
+  - fieldName: OpenBT
+    language: ru
+    value: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C!"
+  - fieldName: OpenBT
+    language: de
+    value: Oeffnen!
+  - fieldName: OpenBT
+    language: es
+    value: "\xA1Abierto!"
+  - fieldName: OpenBT
+    language: it
+    value: Aprire!
+  - fieldName: OpenBT
+    language: tr
+    value: "A\xE7\u0131k!"
+  - fieldName: OpenBT
+    language: pt
+    value: Abrir!
+  - fieldName: OpenBT
+    language: id
+    value: Membuka!
+  - fieldName: OpenBT
+    language: tg
+    value: "\u041A\u0443\u0448\u043E\u0434\u0430\u043D!"
+  - fieldName: OpenBT
+    language: uz
+    value: Ochiq!
+  - fieldName: OpenBT
+    language: fr
+    value: Ouvrir!
+  - fieldName: OpenBT
+    language: kk
+    value: "\u0410\u0448\u044B\u049B!"
+  - fieldName: TakeBT
+    language: en
+    value: Take!
+  - fieldName: TakeBT
+    language: ru
+    value: "\u0412\u0437\u044F\u0442\u044C!"
+  - fieldName: TakeBT
+    language: de
+    value: Nehmen!
+  - fieldName: TakeBT
+    language: es
+    value: "\xA1Llevar!"
+  - fieldName: TakeBT
+    language: it
+    value: Prendere!
+  - fieldName: TakeBT
+    language: tr
+    value: Almak!
+  - fieldName: TakeBT
+    language: pt
+    value: Pegar!
+  - fieldName: TakeBT
+    language: id
+    value: Mengambil!
+  - fieldName: TakeBT
+    language: tg
+    value: "\u0411\u0438\u0433\u0438\u0440\u0435\u0434!"
+  - fieldName: TakeBT
+    language: uz
+    value: Oling!
+  - fieldName: TakeBT
+    language: fr
+    value: Prendre!
+  - fieldName: TakeBT
+    language: kk
+    value: "\u0410\u043B\u044B\u04A3\u044B\u0437!"
+  - fieldName: TakeAllBT
+    language: en
+    value: Take all!
+  - fieldName: TakeAllBT
+    language: ru
+    value: "\u0412\u0437\u044F\u0442\u044C \u0432\u0441\u0451!"
+  - fieldName: TakeAllBT
+    language: de
+    value: Alles nehmen!
+  - fieldName: TakeAllBT
+    language: es
+    value: "\xA1Tomalo todo!"
+  - fieldName: TakeAllBT
+    language: it
+    value: Prendi tutto!
+  - fieldName: TakeAllBT
+    language: tr
+    value: Hepsini al!
+  - fieldName: TakeAllBT
+    language: pt
+    value: Leve tudo!
+  - fieldName: TakeAllBT
+    language: id
+    value: Ambil semua!
+  - fieldName: TakeAllBT
+    language: tg
+    value: "\u04B2\u0430\u043C\u0430\u0430\u0448\u0440\u043E \u0433\u0438\u0440\u0435\u0434!"
+  - fieldName: TakeAllBT
+    language: uz
+    value: Hammasini oling!
+  - fieldName: TakeAllBT
+    language: fr
+    value: Prendre toutes!
+  - fieldName: TakeAllBT
+    language: kk
+    value: "\u0411\u0430\u0440\u043B\u044B\u0493\u044B\u043D \u0430\u043B!"
+  - fieldName: CartoonBT
+    language: en
+    value: Cartoon!
+  - fieldName: CartoonBT
+    language: ru
+    value: "\u041C\u0443\u043B\u044C\u0442\u0438\u043A!"
+  - fieldName: CartoonBT
+    language: de
+    value: Trickfilm!
+  - fieldName: CartoonBT
+    language: es
+    value: "\xA1Dibujos animados!"
+  - fieldName: CartoonBT
+    language: it
+    value: Cartone animato!
+  - fieldName: CartoonBT
+    language: tr
+    value: "Karikat\xFCr!"
+  - fieldName: CartoonBT
+    language: pt
+    value: Desenho animado!
+  - fieldName: CartoonBT
+    language: id
+    value: Kartun!
+  - fieldName: CartoonBT
+    language: tg
+    value: "\u041C\u0443\u043B\u044C\u0442\u0444\u0438\u043B\u044C\u043C!"
+  - fieldName: CartoonBT
+    language: uz
+    value: Multfilm!
+  - fieldName: CartoonBT
+    language: fr
+    value: "Dessin anim\xE9!"
+  - fieldName: CartoonBT
+    language: kk
+    value: "\u041C\u0443\u043B\u044C\u0442\u0444\u0438\u043B\u044C\u043C!"
+  - fieldName: UpgradeHoldButton
+    language: en
+    value: Upgrade
+  - fieldName: UpgradeHoldButton
+    language: ru
+    value: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u044C"
+  - fieldName: UpgradeHoldButton
+    language: de
+    value: Verbessern
+  - fieldName: UpgradeHoldButton
+    language: es
+    value: Mejora
+  - fieldName: UpgradeHoldButton
+    language: it
+    value: Aggiornamento
+  - fieldName: UpgradeHoldButton
+    language: tr
+    value: "G\xFCncelleme"
+  - fieldName: UpgradeHoldButton
+    language: pt
+    value: Atualizar
+  - fieldName: UpgradeHoldButton
+    language: id
+    value: Meningkatkan
+  - fieldName: UpgradeHoldButton
+    language: tg
+    value: "\u041D\u0430\u0432\u0441\u043E\u0437\u04E3"
+  - fieldName: UpgradeHoldButton
+    language: uz
+    value: Yangilash
+  - fieldName: UpgradeHoldButton
+    language: fr
+    value: "Mise \xE0 niveau"
+  - fieldName: UpgradeHoldButton
+    language: kk
+    value: "\u0416\u0430\u04A3\u0430\u043B\u0430\u0443"
+  - fieldName: UpgradeFinalButton
+    language: en
+    value: Complete
+  - fieldName: UpgradeFinalButton
+    language: ru
+    value: "\u0417\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C"
+  - fieldName: UpgradeFinalButton
+    language: de
+    value: Beenden
+  - fieldName: UpgradeFinalButton
+    language: es
+    value: Completo
+  - fieldName: UpgradeFinalButton
+    language: it
+    value: Completare
+  - fieldName: UpgradeFinalButton
+    language: tr
+    value: Tamamlamak
+  - fieldName: UpgradeFinalButton
+    language: pt
+    value: Completo
+  - fieldName: UpgradeFinalButton
+    language: id
+    value: Menyelesaikan
+  - fieldName: UpgradeFinalButton
+    language: tg
+    value: "\u0410\u043D\u04B7\u043E\u043C"
+  - fieldName: UpgradeFinalButton
+    language: uz
+    value: Bajarildi
+  - fieldName: UpgradeFinalButton
+    language: fr
+    value: Complet
+  - fieldName: UpgradeFinalButton
+    language: kk
+    value: "\u0410\u044F\u049B\u0442\u0430\u043B\u0434\u044B"
+  - fieldName: PrivacyPolicyButton
+    language: en
+    value: Privacy Policy
+  - fieldName: PrivacyPolicyButton
+    language: ru
+    value: "\u041F\u043E\u043B\u0438\u0442\u0438\u043A\u0430 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
+  - fieldName: PrivacyPolicyButton
+    language: de
+    value: Nutzungsbedingungen
+  - fieldName: PrivacyPolicyButton
+    language: es
+    value: "Pol\xEDtica de privacidad"
+  - fieldName: PrivacyPolicyButton
+    language: it
+    value: Politica sulla riservatezza
+  - fieldName: PrivacyPolicyButton
+    language: tr
+    value: "Gizlilik Politikas\u0131"
+  - fieldName: PrivacyPolicyButton
+    language: pt
+    value: "pol\xEDtica de Privacidade"
+  - fieldName: PrivacyPolicyButton
+    language: id
+    value: Kebijakan pribadi
+  - fieldName: PrivacyPolicyButton
+    language: tg
+    value: "\u0421\u0438\u0451\u0441\u0430\u0442\u0438 \u041A\u043E\u0440\u0431\u0443\u0440\u0434\u0438
+      \u041C\u0430\u044A\u043B\u0443\u043C\u043E\u0442\u0438 \u0428\u0430\u0445\u0441\u04E3"
+  - fieldName: PrivacyPolicyButton
+    language: uz
+    value: Maxfiylik siyosati
+  - fieldName: PrivacyPolicyButton
+    language: fr
+    value: "politique de confidentialit\xE9"
+  - fieldName: PrivacyPolicyButton
+    language: kk
+    value: "\u049A\u04B1\u043F\u0438\u044F\u043B\u044B\u043B\u044B\u049B \u0441\u0430\u044F\u0441\u0430\u0442\u044B"
+  - fieldName: StartBT
+    language: en
+    value: START
+  - fieldName: StartBT
+    language: ru
+    value: "\u0421\u0422\u0410\u0420\u0422"
+  - fieldName: StartBT
+    language: de
+    value: START
+  - fieldName: StartBT
+    language: es
+    value: COMENZAR
+  - fieldName: StartBT
+    language: it
+    value: INIZIO
+  - fieldName: StartBT
+    language: tr
+    value: "BA\u015ELANGI\xC7"
+  - fieldName: StartBT
+    language: pt
+    value: "COME\xC7AR"
+  - fieldName: StartBT
+    language: id
+    value: AWAL
+  - fieldName: StartBT
+    language: tg
+    value: "\u0421\u0410\u0420"
+  - fieldName: StartBT
+    language: uz
+    value: START
+  - fieldName: StartBT
+    language: fr
+    value: COMMENCER
+  - fieldName: StartBT
+    language: kk
+    value: "\u0411\u0410\u0421\u0422\u0410\u0423"
+  - fieldName: NoThanksBT
+    language: en
+    value: NO, THANKS
+  - fieldName: NoThanksBT
+    language: ru
+    value: "\u041D\u0415\u0422, \u0421\u041F\u0410\u0421\u0418\u0411\u041E"
+  - fieldName: NoThanksBT
+    language: de
+    value: NEIN, DANKE
+  - fieldName: NoThanksBT
+    language: es
+    value: NO, GRACIAS
+  - fieldName: NoThanksBT
+    language: it
+    value: NO GRAZIE
+  - fieldName: NoThanksBT
+    language: tr
+    value: "HAYIR, TE\u015EEKK\xDCRLER"
+  - fieldName: NoThanksBT
+    language: pt
+    value: "N\xC3O, OBRIGADO"
+  - fieldName: NoThanksBT
+    language: id
+    value: TIDAK, TERIMA KASIH
+  - fieldName: NoThanksBT
+    language: tg
+    value: "\u041D\u0415 \u0422\u0410\u0428\u0410\u041A\u041A\u0423\u0420"
+  - fieldName: NoThanksBT
+    language: uz
+    value: YO'Q RAHMAT
+  - fieldName: NoThanksBT
+    language: fr
+    value: NON MERCI
+  - fieldName: NoThanksBT
+    language: kk
+    value: "\u0416\u041E\u049A \u0420\u0410\u049A\u041C\u0415\u0422"
+  - fieldName: SkipLevelBT
+    language: en
+    value: SKIP LEVEL
+  - fieldName: SkipLevelBT
+    language: ru
+    value: "\u041F\u0420\u041E\u041F\u0423\u0421\u0422\u0418\u0422\u042C \u0423\u0420\u041E\u0412\u0415\u041D\u042C"
+  - fieldName: SkipLevelBT
+    language: de
+    value: EBENE UEBERSPRINGEN
+  - fieldName: SkipLevelBT
+    language: es
+    value: SALTAR NIVEL
+  - fieldName: SkipLevelBT
+    language: it
+    value: SALTA LIVELLO
+  - fieldName: SkipLevelBT
+    language: tr
+    value: "SEV\u0130YEY\u0130 ATLA"
+  - fieldName: SkipLevelBT
+    language: pt
+    value: "PULAR N\xCDVEL"
+  - fieldName: SkipLevelBT
+    language: id
+    value: LEWATI LEVEL
+  - fieldName: SkipLevelBT
+    language: tg
+    value: "\u0413\u0423\u0417\u0410\u0420\u0415\u0414 \u0414\u0410\u0420\u0410\u0427\u0410"
+  - fieldName: SkipLevelBT
+    language: uz
+    value: DARAJA O'TKAZISH
+  - fieldName: SkipLevelBT
+    language: fr
+    value: SAUTER UN NIVEAU
+  - fieldName: SkipLevelBT
+    language: kk
+    value: "\u0414\u0415\u04A2\u0413\u0415\u0419\u0414\u0406 \u04E8\u0422\u041A\u0406\u0417\u0423"
+  - fieldName: BuyNoAdsButton
+    language: en
+    value: TURN OFF ADS
+  - fieldName: BuyNoAdsButton
+    language: ru
+    value: "\u041E\u0422\u041A\u041B\u042E\u0427\u0418\u0422\u042C \u0420\u0415\u041A\u041B\u0410\u041C\u0423"
+  - fieldName: BuyNoAdsButton
+    language: de
+    value: WERBUND AUSSCHALTEN
+  - fieldName: BuyNoAdsButton
+    language: es
+    value: APAGAR ANUNCIOS
+  - fieldName: BuyNoAdsButton
+    language: it
+    value: DISATTIVARE GLI ANNUNCI
+  - fieldName: BuyNoAdsButton
+    language: tr
+    value: REKLAMLARI KAPATIN
+  - fieldName: BuyNoAdsButton
+    language: pt
+    value: "DESLIGAR AN\xDANCIOS"
+  - fieldName: BuyNoAdsButton
+    language: id
+    value: MATIKAN IKLAN
+  - fieldName: BuyNoAdsButton
+    language: tg
+    value: "\u0420\u0415\u041A\u041B\u0410\u041C\u0410\u0425\u041E\u0420\u041E \u0425\u041E\u041C\u0423\u0428
+      \u041A\u0423\u041D\u0415\u0414"
+  - fieldName: BuyNoAdsButton
+    language: uz
+    value: REKLAMALARNI O'CHIRISh
+  - fieldName: BuyNoAdsButton
+    language: fr
+    value: "D\xC9SACTIVER LES PUBLICIT\xC9S"
+  - fieldName: BuyNoAdsButton
+    language: kk
+    value: "\u0416\u0410\u0420\u041D\u0410\u041C\u0410\u041B\u0410\u0420\u0414\u042B
+      \u04E8\u0428\u0406\u0420\u0423"
+  - fieldName: NoAdsBT
+    language: en
+    value: TURN OFF ADS
+  - fieldName: NoAdsBT
+    language: ru
+    value: "\u041E\u0422\u041A\u041B\u042E\u0427\u0418\u0422\u042C \u0420\u0415\u041A\u041B\u0410\u041C\u0423"
+  - fieldName: NoAdsBT
+    language: de
+    value: WERBUND AUSSCHALTEN
+  - fieldName: NoAdsBT
+    language: es
+    value: APAGAR ANUNCIOS
+  - fieldName: NoAdsBT
+    language: it
+    value: DISATTIVARE GLI ANNUNCI
+  - fieldName: NoAdsBT
+    language: tr
+    value: REKLAMLARI KAPATIN
+  - fieldName: NoAdsBT
+    language: pt
+    value: "DESLIGAR AN\xDANCIOS"
+  - fieldName: NoAdsBT
+    language: id
+    value: MATIKAN IKLAN
+  - fieldName: NoAdsBT
+    language: tg
+    value: "\u0420\u0415\u041A\u041B\u0410\u041C\u0410\u0425\u041E\u0420\u041E \u0425\u041E\u041C\u0423\u0428
+      \u041A\u0423\u041D\u0415\u0414"
+  - fieldName: NoAdsBT
+    language: uz
+    value: REKLAMALARNI O'CHIRISh
+  - fieldName: NoAdsBT
+    language: fr
+    value: "D\xC9SACTIVER LES PUBLICIT\xC9S"
+  - fieldName: NoAdsBT
+    language: kk
+    value: "\u0416\u0410\u0420\u041D\u0410\u041C\u0410\u041B\u0410\u0420\u0414\u042B
+      \u04E8\u0428\u0406\u0420\u0423"
+  - fieldName: UnlockSkinBT
+    language: en
+    value: UNLOCK
+  - fieldName: UnlockSkinBT
+    language: ru
+    value: "\u0420\u0410\u0417\u0411\u041B\u041E\u041A\u0418\u0420\u041E\u0412\u0410\u0422\u042C"
+  - fieldName: UnlockSkinBT
+    language: de
+    value: FREISCHALTEN
+  - fieldName: UnlockSkinBT
+    language: es
+    value: DESBLOQUEAR
+  - fieldName: UnlockSkinBT
+    language: it
+    value: SBLOCCARE
+  - fieldName: UnlockSkinBT
+    language: tr
+    value: "K\u0130L\u0130D\u0130N\u0130 A\xC7"
+  - fieldName: UnlockSkinBT
+    language: pt
+    value: DESBLOQUEAR
+  - fieldName: UnlockSkinBT
+    language: id
+    value: MEMBUKA KUNCI
+  - fieldName: UnlockSkinBT
+    language: tg
+    value: "\u041A\u0423\u0428\u041E\u0414\u0410\u041D"
+  - fieldName: UnlockSkinBT
+    language: uz
+    value: QULFNI OCHISH
+  - fieldName: UnlockSkinBT
+    language: fr
+    value: OUVRIR
+  - fieldName: UnlockSkinBT
+    language: kk
+    value: "\u0410\u0428\u0423"
+  - fieldName: RateNowButton
+    language: en
+    value: RATE
+  - fieldName: RateNowButton
+    language: ru
+    value: "\u041E\u0426\u0415\u041D\u0418\u0422\u042C"
+  - fieldName: RateNowButton
+    language: de
+    value: BEWERTEN
+  - fieldName: RateNowButton
+    language: es
+    value: TASA
+  - fieldName: RateNowButton
+    language: it
+    value: VALUTARE
+  - fieldName: RateNowButton
+    language: tr
+    value: ORAN
+  - fieldName: RateNowButton
+    language: pt
+    value: AVALIAR
+  - fieldName: RateNowButton
+    language: id
+    value: KECEPATAN
+  - fieldName: RateNowButton
+    language: tg
+    value: "\u049A\u0423\u0420\u0411"
+  - fieldName: RateNowButton
+    language: uz
+    value: RATE
+  - fieldName: RateNowButton
+    language: fr
+    value: TAUX
+  - fieldName: RateNowButton
+    language: kk
+    value: "\u0411\u0410\u0492\u0410\u041C"
+  - fieldName: RateLaterButton
+    language: en
+    value: LATER
+  - fieldName: RateLaterButton
+    language: ru
+    value: "\u041F\u041E\u0417\u0416\u0415"
+  - fieldName: RateLaterButton
+    language: de
+    value: SPAETER
+  - fieldName: RateLaterButton
+    language: es
+    value: "M\xC1S TARDE"
+  - fieldName: RateLaterButton
+    language: it
+    value: DOPO
+  - fieldName: RateLaterButton
+    language: tr
+    value: DAHA SONRA
+  - fieldName: RateLaterButton
+    language: pt
+    value: MAIS TARDE
+  - fieldName: RateLaterButton
+    language: id
+    value: NANTI
+  - fieldName: RateLaterButton
+    language: tg
+    value: "\u0411\u0410\u042A\u0414\u0422\u0410\u0420"
+  - fieldName: RateLaterButton
+    language: uz
+    value: KEYIN
+  - fieldName: RateLaterButton
+    language: fr
+    value: PLUS TARD
+  - fieldName: RateLaterButton
+    language: kk
+    value: "\u041A\u0415\u0419\u0406\u041D"
+  - fieldName: InviteForHelp
+    language: en
+    value: Ask for help
+  - fieldName: InviteForHelp
+    language: ru
+    value: "\u041F\u043E\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u043E\u043C\u043E\u0449\u0438"
+  - fieldName: InviteForHelp
+    language: de
+    value: Bitten Sie um Hilfe
+  - fieldName: InviteForHelp
+    language: es
+    value: Pedir ayuda
+  - fieldName: InviteForHelp
+    language: it
+    value: Chiedere aiuto
+  - fieldName: InviteForHelp
+    language: tr
+    value: "Yard\u0131m isteyin"
+  - fieldName: InviteForHelp
+    language: pt
+    value: "Pe\xE7a por ajuda"
+  - fieldName: InviteForHelp
+    language: id
+    value: Meminta bantuan
+  - fieldName: InviteForHelp
+    language: tg
+    value: "\u041A\u04EF\u043C\u0430\u043A \u043F\u0443\u0440\u0441\u0435\u0434"
+  - fieldName: InviteForHelp
+    language: uz
+    value: Yordam so'rang
+  - fieldName: InviteForHelp
+    language: fr
+    value: Demander de l'aide
+  - fieldName: InviteForHelp
+    language: kk
+    value: "\u041A\u04E9\u043C\u0435\u043A \u0441\u04B1\u0440\u0430\u0443"
+  - fieldName: JoinCommunityButton
+    language: en
+    value: Join us!
+  - fieldName: JoinCommunityButton
+    language: ru
+    value: "\u041F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u044C\u0441\u044F
+      \u043A \u043D\u0430\u043C!"
+  - fieldName: JoinCommunityButton
+    language: de
+    value: Begleiten Sie uns!
+  - fieldName: JoinCommunityButton
+    language: es
+    value: "\xA1\xDAnete a nosotros!"
+  - fieldName: JoinCommunityButton
+    language: it
+    value: Unisciti a noi!
+  - fieldName: JoinCommunityButton
+    language: tr
+    value: "Bize kat\u0131l\u0131n!"
+  - fieldName: JoinCommunityButton
+    language: pt
+    value: "Junte-se a n\xF3s!"
+  - fieldName: JoinCommunityButton
+    language: id
+    value: Bergabunglah dengan kami!
+  - fieldName: JoinCommunityButton
+    language: tg
+    value: "\u0411\u043E \u043C\u043E \u04B3\u0430\u043C\u0440\u043E\u04B3 \u0448\u0443\u0434\u0430\u043D!"
+  - fieldName: JoinCommunityButton
+    language: uz
+    value: Bizga qo'shiling!
+  - fieldName: JoinCommunityButton
+    language: fr
+    value: Rejoignez-nous!
+  - fieldName: JoinCommunityButton
+    language: kk
+    value: "\u0411\u0456\u0437\u0433\u0435 \u049B\u043E\u0441\u044B\u043B\u044B\u04A3\u044B\u0437\u0434\u0430\u0440!"
+  - fieldName: InviteToGame
+    language: en
+    value: Invite friend!
+  - fieldName: InviteToGame
+    language: ru
+    value: "\u041F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u0442\u044C \u0434\u0440\u0443\u0433\u0430!"
+  - fieldName: InviteToGame
+    language: de
+    value: Freund einladen!
+  - fieldName: InviteToGame
+    language: es
+    value: "\xA1Invitar a un amigo!"
+  - fieldName: InviteToGame
+    language: it
+    value: Invita un amico!
+  - fieldName: InviteToGame
+    language: tr
+    value: "Arkada\u015F davet etmek!"
+  - fieldName: InviteToGame
+    language: pt
+    value: Convidar amigo!
+  - fieldName: InviteToGame
+    language: id
+    value: Mengundang teman!
+  - fieldName: InviteToGame
+    language: tg
+    value: "\u0414\u04EF\u0441\u0442\u0440\u043E \u0434\u0430\u044A\u0432\u0430\u0442
+      \u043A\u0443\u043D\u0435\u0434!"
+  - fieldName: InviteToGame
+    language: uz
+    value: Do'stingizni taklif qiling!
+  - fieldName: InviteToGame
+    language: fr
+    value: Inviter un ami!
+  - fieldName: InviteToGame
+    language: kk
+    value: "\u0414\u043E\u0441\u0442\u044B \u0448\u0430\u049B\u044B\u0440!"
+  - fieldName: ShareText
+    language: en
+    value: I really like this puzzle, join me!
+  - fieldName: ShareText
+    language: ru
+    value: "\u041C\u043D\u0435 \u043E\u0447\u0435\u043D\u044C \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F
+      \u044D\u0442\u0430 \u0433\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043A\u0430,
+      \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u044F\u0439\u0442\u0435\u0441\u044C!"
+  - fieldName: ShareText
+    language: de
+    value: "Ich mag dieses R\xE4tsel wirklich, mach mit!"
+  - fieldName: ShareText
+    language: es
+    value: "Me gusta mucho este rompecabezas, \xA1\xFAnete a m\xED!"
+  - fieldName: ShareText
+    language: it
+    value: Mi piace molto questo puzzle, unisciti a me!
+  - fieldName: ShareText
+    language: tr
+    value: "Bu bulmacay\u0131 ger\xE7ekten \xE7ok be\u011Fendim, bana kat\u0131l\u0131n!"
+  - fieldName: ShareText
+    language: pt
+    value: "Eu realmente gosto desse quebra-cabe\xE7a, junte-se a mim!"
+  - fieldName: ShareText
+    language: id
+    value: Saya sangat suka teka-teki ini, bergabunglah dengan saya!
+  - fieldName: ShareText
+    language: tg
+    value: "\u041C\u0430\u043D \u0434\u0430\u0440 \u04B3\u0430\u049B\u0438\u049B\u0430\u0442
+      \u0438\u043D \u043C\u0443\u0430\u043C\u043C\u043E\u0440\u043E \u0434\u04EF\u0441\u0442
+      \u043C\u0435\u0434\u043E\u0440\u0430\u043C, \u0431\u0430 \u043C\u0430\u043D
+      \u04B3\u0430\u043C\u0440\u043E\u04B3 \u0448\u0430\u0432\u0435\u0434!"
+  - fieldName: ShareText
+    language: uz
+    value: "Menga bu jumboq juda yoqadi, menga qo\u2018shiling!"
+  - fieldName: ShareText
+    language: fr
+    value: J'aime beaucoup ce puzzle, rejoignez-moi !
+  - fieldName: ShareText
+    language: kk
+    value: "\u041C\u0430\u0493\u0430\u043D \u0431\u04B1\u043B \u0431\u0430\u0441\u049B\u0430\u0442\u044B\u0440\u0493\u044B\u0448
+      \u04E9\u0442\u0435 \u04B1\u043D\u0430\u0439\u0434\u044B, \u043C\u0430\u0493\u0430\u043D
+      \u049B\u043E\u0441\u044B\u043B\u044B\u04A3\u044B\u0437!"
+  - fieldName: ShareButton
+    language: en
+    value: SHARE WITH FRIENDS
+  - fieldName: ShareButton
+    language: ru
+    value: "\u041F\u041E\u0414\u0415\u041B\u0418\u0422\u042C\u0421\u042F \u0421 \u0414\u0420\u0423\u0417\u042C\u042F\u041C\u0418"
+  - fieldName: ShareButton
+    language: de
+    value: MIT FREUNDEN TEILEN
+  - fieldName: ShareButton
+    language: es
+    value: COMPARTIR CON AMIGOS
+  - fieldName: ShareButton
+    language: it
+    value: CONDIVIDERE CON GLI AMICI
+  - fieldName: ShareButton
+    language: tr
+    value: "ARKADA\u015ELARINLA PAYLA\u015E"
+  - fieldName: ShareButton
+    language: pt
+    value: COMPARTILHE COM AMIGOS
+  - fieldName: ShareButton
+    language: id
+    value: BERBAGI DENGAN TEMAN
+  - fieldName: ShareButton
+    language: tg
+    value: "\u0411\u041E \u0414\u04EE\u0421\u0422\u041E\u041D \u041F\u0410\u0414\u0410\u0420
+      \u041D\u0410\u041C\u041E\u0415\u0414"
+  - fieldName: ShareButton
+    language: uz
+    value: DO'STLARGA ULOSING
+  - fieldName: ShareButton
+    language: fr
+    value: PARTAGER AVEC DES AMIS
+  - fieldName: ShareButton
+    language: kk
+    value: "\u0414\u041E\u0421\u0422\u0410\u0420\u041C\u0415\u041D \u0411\u04E8\u041B\u0406\u0421\u0406\u0417"
+  - fieldName: OpenGiftBT
+    language: en
+    value: OPEN GIFT
+  - fieldName: OpenGiftBT
+    language: ru
+    value: "\u041E\u0422\u041A\u0420\u042B\u0422\u042C \u041F\u041E\u0414\u0410\u0420\u041E\u041A"
+  - fieldName: OpenGiftBT
+    language: de
+    value: GESCHENK OEFFNEN
+  - fieldName: OpenGiftBT
+    language: es
+    value: REGALO ABIERTO
+  - fieldName: OpenGiftBT
+    language: it
+    value: REGALO APERTO
+  - fieldName: OpenGiftBT
+    language: tr
+    value: "HED\u0130YE A\xC7"
+  - fieldName: OpenGiftBT
+    language: pt
+    value: PRESENTE ABERTO
+  - fieldName: OpenGiftBT
+    language: id
+    value: BUKA HADIAH
+  - fieldName: OpenGiftBT
+    language: tg
+    value: "\u0422\u0423\u0425\u0424\u0410\u0418 \u041A\u0423\u0428\u041E\u0414\u0410"
+  - fieldName: OpenGiftBT
+    language: uz
+    value: SEVGINI OCH
+  - fieldName: OpenGiftBT
+    language: fr
+    value: CADEAU OUVERT
+  - fieldName: OpenGiftBT
+    language: kk
+    value: "\u0410\u0428\u042B\u049A \u0421\u042B\u0419\u041B\u042B\u049A"
+  - fieldName: SelectButton
+    language: en
+    value: Select
+  - fieldName: SelectButton
+    language: ru
+    value: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C"
+  - fieldName: SelectButton
+    language: de
+    value: Auswaehlen
+  - fieldName: SelectButton
+    language: es
+    value: Seleccionar
+  - fieldName: SelectButton
+    language: it
+    value: Selezionare
+  - fieldName: SelectButton
+    language: tr
+    value: "Se\xE7me"
+  - fieldName: SelectButton
+    language: pt
+    value: Selecione
+  - fieldName: SelectButton
+    language: id
+    value: Pilih
+  - fieldName: SelectButton
+    language: tg
+    value: "\u0418\u043D\u0442\u0438\u0445\u043E\u0431 \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: SelectButton
+    language: uz
+    value: Tanlang
+  - fieldName: SelectButton
+    language: fr
+    value: "S\xE9lectionner"
+  - fieldName: SelectButton
+    language: kk
+    value: "\u0442\u0430\u04A3\u0434\u0430\u04A3\u044B\u0437"
+  - fieldName: Clue1_1
+    language: en
+    value: Place three same squares side by side to merge them
+  - fieldName: Clue1_1
+    language: ru
+    value: "\u041F\u043E\u043C\u0435\u0441\u0442\u0438\u0442\u0435 \u0442\u0440\u0438
+      \u043E\u0434\u0438\u043D\u0430\u043A\u043E\u0432\u044B\u0445 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u0430
+      \u0440\u044F\u0434\u043E\u043C, \u0447\u0442\u043E\u0431\u044B \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0438\u0442\u044C
+      \u0438\u0445"
+  - fieldName: Clue1_1
+    language: de
+    value: Platzieren Sie drei gleiche Quadrate nebeneinander, um sie zu verbinden
+  - fieldName: Clue1_1
+    language: es
+    value: Coloque tres cuadrados iguales uno al lado del otro para fusionarlos
+  - fieldName: Clue1_1
+    language: it
+    value: Posiziona tre quadrati uguali uno accanto all'altro per unirli
+  - fieldName: Clue1_1
+    language: tr
+    value: "Birle\u015Ftirmek i\xE7in \xFC\xE7 ayn\u0131 kareyi yan yana yerle\u015Ftirin"
+  - fieldName: Clue1_1
+    language: pt
+    value: "Coloque tr\xEAs quadrados iguais lado a lado para mescl\xE1-los"
+  - fieldName: Clue1_1
+    language: id
+    value: Tempatkan tiga kotak yang sama berdampingan untuk menggabungkannya
+  - fieldName: Clue1_1
+    language: tg
+    value: "\u0421\u0435 \u043C\u0443\u0440\u0430\u0431\u0431\u0430\u044A\u0440\u043E
+      \u043F\u0430\u04B3\u043B\u04EF \u0431\u0430 \u043F\u0430\u04B3\u043B\u04EF
+      \u04B7\u043E\u0439\u0433\u0438\u0440 \u043A\u0443\u043D\u0435\u0434, \u0442\u043E
+      \u043E\u043D\u04B3\u043E\u0440\u043E \u044F\u043A\u04B7\u043E\u044F \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: Clue1_1
+    language: uz
+    value: Ularni birlashtirish uchun uchta bir xil kvadratlarni yonma-yon qo'ying
+  - fieldName: Clue1_1
+    language: fr
+    value: "Placez trois m\xEAmes carr\xE9s c\xF4te \xE0 c\xF4te pour les fusionner"
+  - fieldName: Clue1_1
+    language: kk
+    value: "\u041E\u043B\u0430\u0440\u0434\u044B \u0431\u0456\u0440\u0456\u043A\u0442\u0456\u0440\u0443
+      \u04AF\u0448\u0456\u043D \u04AF\u0448 \u0431\u0456\u0440\u0434\u0435\u0439
+      \u0448\u0430\u0440\u0448\u044B\u043D\u044B \u049B\u0430\u0442\u0430\u0440 \u049B\u043E\u0439\u044B\u04A3\u044B\u0437"
+  - fieldName: Clue1_2
+    language: en
+    value: Next square
+  - fieldName: Clue1_2
+    language: ru
+    value: "\u0421\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u043A\u0432\u0430\u0434\u0440\u0430\u0442"
+  - fieldName: Clue1_2
+    language: de
+    value: Naechster Quadrat
+  - fieldName: Clue1_2
+    language: es
+    value: Siguiente casilla
+  - fieldName: Clue1_2
+    language: it
+    value: Piazza successiva
+  - fieldName: Clue1_2
+    language: tr
+    value: Sonraki kare
+  - fieldName: Clue1_2
+    language: pt
+    value: "Pr\xF3ximo quadrado"
+  - fieldName: Clue1_2
+    language: id
+    value: Kotak berikutnya
+  - fieldName: Clue1_2
+    language: tg
+    value: "\u041C\u0430\u0439\u0434\u043E\u043D\u0438 \u043E\u044F\u043D\u0434\u0430"
+  - fieldName: Clue1_2
+    language: uz
+    value: Keyingi kvadrat
+  - fieldName: Clue1_2
+    language: fr
+    value: "Carr\xE9 suivant"
+  - fieldName: Clue1_2
+    language: kk
+    value: "\u041A\u0435\u043B\u0435\u0441\u0456 \u0448\u0430\u0440\u0448\u044B"
+  - fieldName: Clue2_1
+    language: en
+    value: Your score
+  - fieldName: Clue2_1
+    language: ru
+    value: "\u0412\u0430\u0448\u0438 \u043E\u0447\u043A\u0438"
+  - fieldName: Clue2_1
+    language: de
+    value: Ihre Punkte
+  - fieldName: Clue2_1
+    language: es
+    value: "Tu puntuaci\xF3n"
+  - fieldName: Clue2_1
+    language: it
+    value: Il tuo punteggio
+  - fieldName: Clue2_1
+    language: tr
+    value: "Puan\u0131n"
+  - fieldName: Clue2_1
+    language: pt
+    value: "Sua pontua\xE7\xE3o"
+  - fieldName: Clue2_1
+    language: id
+    value: Nilai Anda
+  - fieldName: Clue2_1
+    language: tg
+    value: "\u0425\u043E\u043B\u0438 \u0448\u0443\u043C\u043E"
+  - fieldName: Clue2_1
+    language: uz
+    value: Sizning ballingiz
+  - fieldName: Clue2_1
+    language: fr
+    value: Ton score
+  - fieldName: Clue2_1
+    language: kk
+    value: "\u0421\u0456\u0437\u0434\u0456\u04A3 \u04B1\u043F\u0430\u0439\u044B\u04A3\u044B\u0437"
+  - fieldName: Clue2_2
+    language: en
+    value: Level Goal
+  - fieldName: Clue2_2
+    language: ru
+    value: "\u0426\u0435\u043B\u044C \u0443\u0440\u043E\u0432\u043D\u044F"
+  - fieldName: Clue2_2
+    language: de
+    value: Ziel der Ebene
+  - fieldName: Clue2_2
+    language: es
+    value: Objetivo de nivel
+  - fieldName: Clue2_2
+    language: it
+    value: Obiettivo di livello
+  - fieldName: Clue2_2
+    language: tr
+    value: Seviye Hedefi
+  - fieldName: Clue2_2
+    language: pt
+    value: "Meta de n\xEDvel"
+  - fieldName: Clue2_2
+    language: id
+    value: Tujuan Tingkat
+  - fieldName: Clue2_2
+    language: tg
+    value: "\u04B2\u0430\u0434\u0430\u0444\u0438 \u0441\u0430\u0442\u04B3\u0438"
+  - fieldName: Clue2_2
+    language: uz
+    value: Maqsad darajasi
+  - fieldName: Clue2_2
+    language: fr
+    value: Objectif de niveau
+  - fieldName: Clue2_2
+    language: kk
+    value: "\u0414\u0435\u04A3\u0433\u0435\u0439\u043B\u0456\u043A \u043C\u0430\u049B\u0441\u0430\u0442"
+  - fieldName: Clue3
+    language: en
+    value: Joker combines with any square
+  - fieldName: Clue3
+    language: ru
+    value: "\u0414\u0436\u043E\u043A\u0435\u0440 \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u044F\u0435\u0442\u0441\u044F
+      \u0441 \u043B\u044E\u0431\u044B\u043C \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u043E\u043C"
+  - fieldName: Clue3
+    language: de
+    value: Joker vereint sich mit jedem Quadrat
+  - fieldName: Clue3
+    language: es
+    value: Joker combina con cualquier cuadrado.
+  - fieldName: Clue3
+    language: it
+    value: Joker si combina con qualsiasi quadrato
+  - fieldName: Clue3
+    language: tr
+    value: "Joker herhangi bir kareyle birle\u015Fir"
+  - fieldName: Clue3
+    language: pt
+    value: Joker combina com qualquer quadrado
+  - fieldName: Clue3
+    language: id
+    value: Joker dapat dipadukan dengan kotak apa pun
+  - fieldName: Clue3
+    language: tg
+    value: "Joker \u0431\u043E \u04B3\u0430\u043C\u0430 \u0433\u0443\u043D\u0430
+      \u043C\u0443\u0440\u0430\u0431\u0431\u0430\u044A \u043E\u043C\u0435\u0445\u0442\u0430
+      \u043C\u0435\u0448\u0430\u0432\u0430\u0434"
+  - fieldName: Clue3
+    language: uz
+    value: Joker har qanday kvadrat bilan birlashadi
+  - fieldName: Clue3
+    language: fr
+    value: "Joker se combine avec n'importe quel carr\xE9"
+  - fieldName: Clue3
+    language: kk
+    value: "\u0414\u0436\u043E\u043A\u0435\u0440 \u043A\u0435\u0437 \u043A\u0435\u043B\u0433\u0435\u043D
+      \u0448\u0430\u0440\u0448\u044B\u043C\u0435\u043D \u0431\u0456\u0440\u0456\u043A\u0442\u0456\u0440\u0435\u0434\u0456"
+  - fieldName: Clue4
+    language: en
+    value: Walls reduce space
+  - fieldName: Clue4
+    language: ru
+    value: "\u0421\u0442\u0435\u043D\u043A\u0438 \u0437\u0430\u043D\u0438\u043C\u0430\u044E\u0442
+      \u043C\u0435\u0441\u0442\u043E"
+  - fieldName: Clue4
+    language: de
+    value: Waende nehmen Platz ein
+  - fieldName: Clue4
+    language: es
+    value: Las paredes reducen el espacio
+  - fieldName: Clue4
+    language: it
+    value: Le pareti riducono lo spazio
+  - fieldName: Clue4
+    language: tr
+    value: "Duvarlar alan\u0131 azalt\u0131r"
+  - fieldName: Clue4
+    language: pt
+    value: "Paredes reduzem espa\xE7o"
+  - fieldName: Clue4
+    language: id
+    value: Dinding mengurangi ruang
+  - fieldName: Clue4
+    language: tg
+    value: "\u0414\u0435\u0432\u043E\u0440\u04B3\u043E \u0444\u043E\u0441\u0438\u043B\u0430\u0440\u043E
+      \u043A\u0430\u043C \u043C\u0435\u043A\u0443\u043D\u0430\u043D\u0434"
+  - fieldName: Clue4
+    language: uz
+    value: Devorlar bo'sh joyni kamaytiradi
+  - fieldName: Clue4
+    language: fr
+    value: "Les murs r\xE9duisent l'espace"
+  - fieldName: Clue4
+    language: kk
+    value: "\u049A\u0430\u0431\u044B\u0440\u0493\u0430\u043B\u0430\u0440 \u043A\u0435\u04A3\u0456\u0441\u0442\u0456\u043A\u0442\u0456
+      \u0430\u0437\u0430\u0439\u0442\u0430\u0434\u044B"
+  - fieldName: Clue5
+    language: en
+    value: Destroy the wall with a bomb
+  - fieldName: Clue5
+    language: ru
+    value: "\u0412\u0437\u043E\u0440\u0432\u0438\u0442\u0435 \u0441\u0442\u0435\u043D\u043A\u0443
+      \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u0431\u043E\u043C\u0431\u044B"
+  - fieldName: Clue5
+    language: de
+    value: Wand zerstoeren mit der Bombe
+  - fieldName: Clue5
+    language: es
+    value: Destruye el muro con una bomba.
+  - fieldName: Clue5
+    language: it
+    value: Distruggi il muro con una bomba
+  - fieldName: Clue5
+    language: tr
+    value: "Duvar\u0131 bombayla yok et"
+  - fieldName: Clue5
+    language: pt
+    value: Destrua a parede com uma bomba
+  - fieldName: Clue5
+    language: id
+    value: Hancurkan tembok dengan bom
+  - fieldName: Clue5
+    language: tg
+    value: "\u0414\u0435\u0432\u043E\u0440\u0440\u043E \u0431\u043E \u0431\u043E\u043C\u0431\u0430
+      \u0432\u0430\u0439\u0440\u043E\u043D \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: Clue5
+    language: uz
+    value: Devorni bomba bilan yo'q qiling
+  - fieldName: Clue5
+    language: fr
+    value: "D\xE9truisez le mur avec une bombe"
+  - fieldName: Clue5
+    language: kk
+    value: "\u049A\u0430\u0431\u044B\u0440\u0493\u0430\u043D\u044B \u0431\u043E\u043C\u0431\u0430\u043C\u0435\u043D
+      \u049B\u0438\u0440\u0430\u0442\u044B\u04A3\u044B\u0437"
+  - fieldName: Clue6
+    language: en
+    value: Undo the last action
+  - fieldName: Clue6
+    language: ru
+    value: "\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u0435 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435
+      \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435"
+  - fieldName: Clue6
+    language: de
+    value: Letzten Schritt rueckgaengig machen
+  - fieldName: Clue6
+    language: es
+    value: "Deshacer la \xFAltima acci\xF3n"
+  - fieldName: Clue6
+    language: it
+    value: Annulla l'ultima azione
+  - fieldName: Clue6
+    language: tr
+    value: Son eylemi geri al
+  - fieldName: Clue6
+    language: pt
+    value: "Desfazer a \xFAltima a\xE7\xE3o"
+  - fieldName: Clue6
+    language: id
+    value: Membatalkan tindakan terakhir
+  - fieldName: Clue6
+    language: tg
+    value: "\u0410\u043C\u0430\u043B\u0438 \u043E\u0445\u0438\u0440\u0438\u043D\u0440\u043E
+      \u0431\u0435\u043A\u043E\u0440 \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: Clue6
+    language: uz
+    value: Oxirgi amalni bekor qiling
+  - fieldName: Clue6
+    language: fr
+    value: "Annuler la derni\xE8re action"
+  - fieldName: Clue6
+    language: kk
+    value: "\u0421\u043E\u04A3\u0493\u044B \u04D9\u0440\u0435\u043A\u0435\u0442\u0442\u0456
+      \u0431\u043E\u043B\u0434\u044B\u0440\u043C\u0430\u0443"
+  - fieldName: Clue7
+    language: en
+    value: The store is available. Let's see what's there!
+  - fieldName: Clue7
+    language: ru
+    value: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0442\u0435\u043F\u0435\u0440\u044C
+      \u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D. \u0414\u0430\u0432\u0430\u0439\u0442\u0435
+      \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0438\u043C, \u0447\u0442\u043E
+      \u0442\u0430\u043C!"
+  - fieldName: Clue7
+    language: de
+    value: Laden ist jetzt erreichbar. Entdecken Sie, was er zu bieten hat!
+  - fieldName: Clue7
+    language: es
+    value: "La tienda est\xE1 disponible. \xA1Veamos qu\xE9 hay ah\xED!"
+  - fieldName: Clue7
+    language: it
+    value: "Il negozio \xE8 disponibile. Vediamo cosa c'\xE8!"
+  - fieldName: Clue7
+    language: tr
+    value: "Ma\u011Faza mevcuttur. Bakal\u0131m orada ne var!"
+  - fieldName: Clue7
+    language: pt
+    value: "A loja est\xE1 dispon\xEDvel. Vamos ver o que h\xE1 l\xE1!"
+  - fieldName: Clue7
+    language: id
+    value: Toko tersedia. Mari kita lihat apa yang ada di sana!
+  - fieldName: Clue7
+    language: tg
+    value: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u0434\u0430\u0441\u0442\u0440\u0430\u0441
+      \u0430\u0441\u0442. \u0411\u0438\u0451\u0435\u0434 \u0431\u0443\u0431\u0438\u043D\u0435\u043C,
+      \u043A\u0438 \u0434\u0430\u0440 \u043E\u043D \u04B7\u043E \u0447\u04E3 \u04B3\u0430\u0441\u0442!"
+  - fieldName: Clue7
+    language: uz
+    value: Do'kon mavjud. Keling, u erda nima borligini ko'rib chiqaylik!
+  - fieldName: Clue7
+    language: fr
+    value: Le magasin est disponible. Voyons ce qu'il y a !
+  - fieldName: Clue7
+    language: kk
+    value: "\u0414\u04AF\u043A\u0435\u043D \u049B\u043E\u043B \u0436\u0435\u0442\u0456\u043C\u0434\u0456.
+      \u041E\u043D\u0434\u0430 \u043D\u0435 \u0431\u0430\u0440 \u0435\u043A\u0435\u043D\u0456\u043D
+      \u043A\u04E9\u0440\u0435\u0439\u0456\u043A!"
+  - fieldName: Clue8
+    language: en
+    value: Change look of the squares with skin
+  - fieldName: Clue8
+    language: ru
+    value: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u0435 \u0432\u043D\u0435\u0448\u043D\u0438\u0439
+      \u0432\u0438\u0434 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u043E\u0432 \u0441
+      \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u043A\u043E\u0441\u043C\u0435\u0442\u0438\u043A\u0438"
+  - fieldName: Clue8
+    language: de
+    value: Veraendern Sie das Aussehen der Quadrate mit Texturen
+  - fieldName: Clue8
+    language: es
+    value: Cambiar aspecto de los cuadrados con piel.
+  - fieldName: Clue8
+    language: it
+    value: Cambia l'aspetto dei quadrati con la pelle
+  - fieldName: Clue8
+    language: tr
+    value: "Deri ile karelerin g\xF6r\xFCn\xFCm\xFCn\xFC de\u011Fi\u015Ftirin"
+  - fieldName: Clue8
+    language: pt
+    value: "Mude a apar\xEAncia dos quadrados com skin"
+  - fieldName: Clue8
+    language: id
+    value: Ubah tampilan kotak dengan kulit
+  - fieldName: Clue8
+    language: tg
+    value: "\u041D\u0430\u043C\u0443\u0434\u0438 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u04B3\u043E\u0440\u043E
+      \u0431\u043E \u043F\u04EF\u0441\u0442 \u0442\u0430\u0493\u0438\u0440 \u0434\u0438\u04B3\u0435\u0434"
+  - fieldName: Clue8
+    language: uz
+    value: Teri bilan kvadratlarning ko'rinishini o'zgartiring
+  - fieldName: Clue8
+    language: fr
+    value: "Changer l'apparence des carr\xE9s avec de la peau"
+  - fieldName: Clue8
+    language: kk
+    value: "\u0422\u0435\u0440\u0456\u043C\u0435\u043D \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u0442\u0430\u0440\u0434\u044B\u04A3
+      \u043A\u04E9\u0440\u0456\u043D\u0456\u0441\u0456\u043D \u04E9\u0437\u0433\u0435\u0440\u0442\u0456\u04A3\u0456\u0437"
+  - fieldName: Clue9
+    language: en
+    value: Swap two squares
+  - fieldName: Clue9
+    language: ru
+    value: "\u041F\u043E\u043C\u0435\u043D\u044F\u0439\u0442\u0435 \u0434\u0432\u0430
+      \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u0430 \u043C\u0435\u0441\u0442\u0430\u043C\u0438"
+  - fieldName: Clue9
+    language: de
+    value: Tauschen Sie zwei Quadrate aus
+  - fieldName: Clue9
+    language: es
+    value: Intercambiar dos celdas
+  - fieldName: Clue9
+    language: it
+    value: Scambia due celle
+  - fieldName: Clue9
+    language: tr
+    value: "\u0130ki h\xFCcreyi de\u011Fi\u015Ftir"
+  - fieldName: Clue9
+    language: pt
+    value: "Trocar duas c\xE9lulas"
+  - fieldName: Clue9
+    language: id
+    value: Tukar dua sel
+  - fieldName: Clue9
+    language: tg
+    value: "\u0414\u0443 \u04B3\u0443\u04B7\u0430\u0439\u0440\u0430\u0440\u043E \u0438\u0432\u0430\u0437
+      \u043A\u0443\u043D\u0435\u0434"
+  - fieldName: Clue9
+    language: uz
+    value: Ikki hujayrani almashtiring
+  - fieldName: Clue9
+    language: fr
+    value: "\xC9changez deux cellules"
+  - fieldName: Clue9
+    language: kk
+    value: "\u0415\u043A\u0456 \u04B1\u044F\u0448\u044B\u049B\u0442\u044B \u0430\u0443\u044B\u0441\u0442\u044B\u0440\u044B\u04A3\u044B\u0437"
+  - fieldName: RollButton
+    language: en
+    value: Roll
+  - fieldName: RollButton
+    language: ru
+    value: "\u041A\u0440\u0443\u0442\u0438\u0442\u044C"
+  - fieldName: RollButton
+    language: de
+    value: Drehen
+  - fieldName: DailyTaskResetDesc
+    language: en
+    value: 'Daily reset in: {0}'
+  - fieldName: DailyTaskResetDesc
+    language: ru
+    value: "\u0421\u0431\u0440\u043E\u0441 \u0437\u0430\u0434\u0430\u043D\u0438\u0439
+      \u0447\u0435\u0440\u0435\u0437: {0}"
+  - fieldName: DailyTaskResetDesc
+    language: de
+    value: "Zur\xFCcksetzen von Aufgaben \xFCber: {0}"
+  - fieldName: LevelCompleteCountDesc
+    language: en
+    value: 'Complete levels: {0}/{1}'
+  - fieldName: LevelCompleteCountDesc
+    language: ru
+    value: "\u041F\u0440\u043E\u0439\u0434\u0438\u0442\u0435 \u0443\u0440\u043E\u0432\u043D\u0438:
+      {0}/{1}"
+  - fieldName: LevelCompleteCountDesc
+    language: de
+    value: "Schlie\xDFen SIe die Levels ab: {0}/{1}"
+  - fieldName: ClueSwapSpentDesc
+    language: en
+    value: 'Use swap hint: {0}/{1}'
+  - fieldName: ClueSwapSpentDesc
+    language: ru
+    value: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0443
+      \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0438: {0}/{1}"
+  - fieldName: ClueSwapSpentDesc
+    language: de
+    value: 'Verwenden Sie den Permutationshinweis: {0}/{1}'
+  - fieldName: ClueBombSpentDesc
+    language: en
+    value: 'Use bomb hint: {0}/{1}'
+  - fieldName: ClueBombSpentDesc
+    language: ru
+    value: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0443
+      \u0431\u043E\u043C\u0431\u044B: {0}/{1}"
+  - fieldName: ClueBombSpentDesc
+    language: de
+    value: 'Bombenhinweis verwenden: {0}/{1}'
+  - fieldName: AdShowedDesc
+    language: en
+    value: 'Watch ad: {0}/{1}'
+  - fieldName: AdShowedDesc
+    language: ru
+    value: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0440\u0435\u043A\u043B\u0430\u043C\u0443:
+      {0}/{1}"
+  - fieldName: AdShowedDesc
+    language: de
+    value: 'Sehen Sie sich die Werbung an: {0}/{1}'
+  - fieldName: AllTaskCompleteDesc
+    language: en
+    value: 'Complete all tasks: {0}/{1}'
+  - fieldName: AllTaskCompleteDesc
+    language: ru
+    value: "\u0412\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u0435 \u0432\u0441\u0435
+      \u0437\u0430\u0434\u0430\u043D\u0438\u044F: {0}/{1}"
+  - fieldName: AllTaskCompleteDesc
+    language: de
+    value: 'Erledigen Sie alle Aufgaben: {0}/{1}'
+  - fieldName: DailyButton
+    language: en
+    value: Daily
+  - fieldName: DailyButton
+    language: ru
+    value: "\u0415\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u044B\u0435"
+  - fieldName: DailyButton
+    language: de
+    value: "T\xE4glich"
+  - fieldName: RepeatButton
+    language: en
+    value: Repeat
+  - fieldName: RepeatButton
+    language: ru
+    value: "\u041F\u043E\u0432\u0442\u043E\u0440\u044F\u044E\u0449\u0438\u0435\u0441\u044F"
+  - fieldName: RepeatButton
+    language: de
+    value: Wiederholt
+  - fieldName: TasksTitle
+    language: en
+    value: QUESTS
+  - fieldName: TasksTitle
+    language: ru
+    value: "\u0417\u0410\u0414\u0410\u041D\u0418\u042F"
+  - fieldName: TasksTitle
+    language: de
+    value: AUFGABEN
+  - fieldName: CloseButton
+    language: en
+    value: Close
+  - fieldName: CloseButton
+    language: ru
+    value: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C"
+  - fieldName: CloseButton
+    language: de
+    value: "Schlie\xDFen"
+  - fieldName: WaveCountDesc
+    language: en
+    value: 'Upgrade squares with wave: {0}/{1}'
+  - fieldName: WaveCountDesc
+    language: ru
+    value: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u0435 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u044B
+      \u0432\u043E\u043B\u043D\u043E\u0439: {0}/{1}"
+  - fieldName: WaveCountDesc
+    language: de
+    value: 'Werten Sie Quadrate mit Welle auf: {0}/{1}'
+  - fieldName: CritCountDesc
+    language: en
+    value: 'Upgrade squares with crit: {0}/{1}'
+  - fieldName: CritCountDesc
+    language: ru
+    value: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u0435 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u044B
+      \u043A\u0440\u0438\u0442\u043E\u043C: {0}/{1}"
+  - fieldName: CritCountDesc
+    language: de
+    value: 'Verbessern Sie Quadrate mit kritischem Treffer: {0}/{1}'
+  - fieldName: SquaresMergedDesc
+    language: en
+    value: 'Merge squares: {0}/{1}'
+  - fieldName: SquaresMergedDesc
+    language: ru
+    value: "\u0421\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u0435 \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u044B:
+      {0}/{1}"
+  - fieldName: SquaresMergedDesc
+    language: de
+    value: 'Quadrate verbinden: {0}/{1}'
+  - fieldName: LevelEndTitle
+    language: en
+    value: LEVEL ENDED
+  - fieldName: LevelEndTitle
+    language: ru
+    value: "\u0423\u0420\u041E\u0412\u0415\u041D\u042C \u0417\u0410\u041A\u041E\u041D\u0427\u0418\u041B\u0421\u042F"
+  - fieldName: LevelEndTitle
+    language: de
+    value: LEVEL BEENDET
+  - fieldName: NoMoreTurns
+    language: en
+    value: no more moves
+  - fieldName: NoMoreTurns
+    language: ru
+    value: "\u043D\u0435\u0442 \u0445\u043E\u0434\u043E\u0432"
+  - fieldName: NoMoreTurns
+    language: de
+    value: keine Bewegungen mehr
+  - fieldName: RarityChanceTitle
+    language: en
+    value: PROBABILITY
+  - fieldName: RarityChanceTitle
+    language: ru
+    value: "\u0412\u0415\u0420\u041E\u042F\u0422\u041D\u041E\u0421\u0422\u042C"
+  - fieldName: RarityChanceTitle
+    language: de
+    value: WAHRSCHEINLICHKEIT
+  - fieldName: CommonName
+    language: en
+    value: Common
+  - fieldName: CommonName
+    language: ru
+    value: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439"
+  - fieldName: CommonName
+    language: de
+    value: Gewoehnlich
+  - fieldName: UncommonName
+    language: en
+    value: Uncommon
+  - fieldName: UncommonName
+    language: ru
+    value: "\u041D\u0435\u043E\u0431\u044B\u0447\u043D\u044B\u0439"
+  - fieldName: UncommonName
+    language: de
+    value: "Ungew\xF6hnlich"
+  - fieldName: RareName
+    language: en
+    value: Rare
+  - fieldName: RareName
+    language: ru
+    value: "\u0420\u0435\u0434\u043A\u0438\u0439"
+  - fieldName: RareName
+    language: de
+    value: Selten
+  - fieldName: EpicName
+    language: en
+    value: Epic
+  - fieldName: EpicName
+    language: ru
+    value: "\u042D\u043F\u0438\u0447\u043D\u044B\u0439"
+  - fieldName: EpicName
+    language: de
+    value: Episch
+  - fieldName: LegendaryName
+    language: en
+    value: Legendary
+  - fieldName: LegendaryName
+    language: ru
+    value: "\u041B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u044B\u0439"
+  - fieldName: LegendaryName
+    language: de
+    value: "Legend\xE4r"
+  - fieldName: MythicName
+    language: en
+    value: Mythic
+  - fieldName: MythicName
+    language: ru
+    value: "\u041C\u0438\u0444\u0438\u0447\u0435\u0441\u043A\u0438\u0439"
+  - fieldName: MythicName
+    language: de
+    value: Mythisch
+  - fieldName: SummonSkins
+    language: en
+    value: SUMMON SKINS
+  - fieldName: SummonSkins
+    language: ru
+    value: "\u041F\u041E\u041B\u0423\u0427\u0418\u0422\u042C \u041A\u041E\u0421\u041C\u0415\u0422\u0418\u041A\u0423"
+  - fieldName: SummonSkins
+    language: de
+    value: Skins erhalten
+  - fieldName: SummonButton
+    language: en
+    value: Summon x{0}
+  - fieldName: SummonButton
+    language: ru
+    value: "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0445{0}"
+  - fieldName: SummonButton
+    language: de
+    value: Erhalten x{0}
+  - fieldName: ChooseSeedTitle
+    language: en
+    value: START WITH
+  - fieldName: ChooseSeedTitle
+    language: ru
+    value: "\u041D\u0410\u0427\u041D\u0418\u0422\u0415 \u0421"
+  - fieldName: ChooseSeedTitle
+    language: de
+    value: BEGINNEN MIT
+  - fieldName: AddSeedButton
+    language: en
+    value: Create new
+  - fieldName: AddSeedButton
+    language: ru
+    value: "\u0421\u043E\u0437\u0434\u0430\u0442\u044C"
+  - fieldName: AddSeedButton
+    language: de
+    value: Erstelle neu
+  - fieldName: MaxCount
+    language: en
+    value: Delete to add new
+  - fieldName: MaxCount
+    language: ru
+    value: "\u0423\u0434\u0430\u043B\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B
+      \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0432\u044B\u0435"
+  - fieldName: MaxCount
+    language: de
+    value: "L\xF6schen, um Neues hinzuzuf\xFCgen"
+  - fieldName: BonusLevelCategory
+    language: en
+    value: BONUS LEVEL
+  - fieldName: BonusLevelCategory
+    language: ru
+    value: "\u0411\u041E\u041D\u0423\u0421\u041D\u042B\u0419 \u0423\u0420\u041E\u0412\u0415\u041D\u042C"
+  - fieldName: BonusLevelCategory
+    language: de
+    value: "PR\xC4MIE EBENE"
+  - fieldName: Multiplier
+    language: en
+    value: Multiplier
+  - fieldName: Multiplier
+    language: ru
+    value: "\u041C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044C"
+  - fieldName: Multiplier
+    language: de
+    value: Multiplikator
+  - fieldName: SkinsRareCountTile
+    language: en
+    value: Skins rare count
+  - fieldName: SkinsRareCountTile
+    language: ru
+    value: "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u043A\u0438\u043D\u043E\u0432
+      \u043F\u043E \u0440\u0435\u0434\u043A\u043E\u0441\u0442\u0438"
+  - fieldName: SkinsRareCountTile
+    language: de
+    value: Anzahl der Skins nach Seltenheit
+  - fieldName: LeadboardStatsTile
+    language: en
+    value: Leaderboard Awards
+  - fieldName: LeadboardStatsTile
+    language: ru
+    value: "\u041D\u0430\u0433\u0440\u0430\u0434\u044B \u0442\u0430\u0431\u043B\u0438\u0446\u044B
+      \u043B\u0438\u0434\u0435\u0440\u043E\u0432"
+  - fieldName: LeadboardStatsTile
+    language: de
+    value: Leaderboard-Auszeichnungen
+  - fieldName: NoLeadPrewAwards
+    language: en
+    value: No awards for the past period
+  - fieldName: NoLeadPrewAwards
+    language: ru
+    value: "\u041D\u0435\u0442 \u043D\u0430\u0433\u0440\u0430\u0434 \u0437\u0430
+      \u043F\u0440\u043E\u0448\u043B\u044B\u0439 \u043F\u0435\u0440\u0438\u043E\u0434"
+  - fieldName: NoLeadPrewAwards
+    language: de
+    value: "Keine Auszeichnungen f\xFCr den vergangenen Zeitraum"
+  - fieldName: PrevLeadRewardsBT
+    language: en
+    value: Previous awards
+  - fieldName: PrevLeadRewardsBT
+    language: ru
+    value: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0435 \u043D\u0430\u0433\u0440\u0430\u0434\u044B"
+  - fieldName: PrevLeadRewardsBT
+    language: de
+    value: "Fr\xFChere Auszeichnungen"
+  - fieldName: CurrentLeadRewardsBT
+    language: en
+    value: Current period
+  - fieldName: CurrentLeadRewardsBT
+    language: ru
+    value: "\u0422\u0435\u043A\u0443\u0449\u0438\u0439 \u043F\u0435\u0440\u0438\u043E\u0434"
+  - fieldName: CurrentLeadRewardsBT
+    language: de
+    value: Derzeitige Periode
+  - fieldName: RatingPlace
+    language: en
+    value: 'Place in the rating: '
+  - fieldName: RatingPlace
+    language: ru
+    value: "\u041C\u0435\u0441\u0442\u043E \u0432 \u0440\u0435\u0439\u0442\u0438\u043D\u0433\u0435: "
+  - fieldName: RatingPlace
+    language: de
+    value: 'Platz im Ranking: '
+  - fieldName: RewardsTile
+    language: en
+    value: REWARDS
+  - fieldName: RewardsTile
+    language: ru
+    value: "\u041D\u0410\u0413\u0420\u0410\u0414\u042B "
+  - fieldName: RewardsTile
+    language: de
+    value: AUSZEICHNUNGEN
+  - fieldName: Month
+    language: en
+    value: Month
+  - fieldName: Month
+    language: ru
+    value: "\u041C\u0435\u0441\u044F\u0446"
+  - fieldName: Month
+    language: de
+    value: Monat
+  - fieldName: Week
+    language: en
+    value: Week
+  - fieldName: Week
+    language: ru
+    value: "\u041D\u0435\u0434\u0435\u043B\u044F"
+  - fieldName: Week
+    language: de
+    value: Woche
+  - fieldName: RestartBT
+    language: en
+    value: Restart
+  - fieldName: RestartBT
+    language: ru
+    value: "\u041F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u043A"
+  - fieldName: RestartBT
+    language: de
+    value: Neu starten
+  - fieldName: ShowMultiplierBT
+    language: en
+    value: Show multiplier
+  - fieldName: ShowMultiplierBT
+    language: ru
+    value: "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u043C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044C"
+  - fieldName: ShowMultiplierBT
+    language: de
+    value: Multiplikator anzeigen
+  - fieldName: InfinityLevel
+    language: en
+    value: Infinity level
+  - fieldName: InfinityLevel
+    language: ru
+    value: "\u0411\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u044B\u0439 \u0443\u0440\u043E\u0432\u0435\u043D\u044C"
+  - fieldName: InfinityLevel
+    language: de
+    value: Endloses ebene
+  - fieldName: Cashback
+    language: en
+    value: Cashback
+  - fieldName: Cashback
+    language: ru
+    value: "\u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0435\u043D\u043E \u043C\u043E\u043D\u0435\u0442"
+  - fieldName: Cashback
+    language: de
+    value: Cashback
+  - fieldName: NoMovesTile
+    language: en
+    value: The moves are over
+  - fieldName: NoMovesTile
+    language: ru
+    value: "\u0425\u043E\u0434\u044B \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C"
+  - fieldName: NoMovesTile
+    language: de
+    value: "Die Umz\xFCge sind vorbei "
+  - fieldName: ResultScores
+    language: en
+    value: Scores
+  - fieldName: ResultScores
+    language: ru
+    value: "\u041E\u0447\u043A\u0438"
+  - fieldName: ResultScores
+    language: de
+    value: Partituren
+  - fieldName: NewBestScores
+    language: en
+    value: New record!
+  - fieldName: NewBestScores
+    language: ru
+    value: "\u041D\u043E\u0432\u044B\u0439 \u0440\u0435\u043A\u043E\u0440\u0434!"
+  - fieldName: NewBestScores
+    language: de
+    value: Neuer Eintrag!
+  - fieldName: YourRewardsText
+    language: en
+    value: Your reward
+  - fieldName: YourRewardsText
+    language: ru
+    value: "\u0422\u0432\u043E\u044F \u043D\u0430\u0433\u0440\u0430\u0434\u0430"
+  - fieldName: YourRewardsText
+    language: de
+    value: Deine Belohnung
+  - fieldName: GeneratedSeedsText
+    language: en
+    value: Level generation
+  - fieldName: GeneratedSeedsText
+    language: ru
+    value: "\u0413\u0435\u043D\u0435\u0440\u0430\u0446\u0438\u0438 \u0443\u0440\u043E\u0432\u043D\u0435\u0439"
+  - fieldName: GeneratedSeedsText
+    language: de
+    value: Level-Generierung
+  - fieldName: MonthlyText
+    language: en
+    value: Monthly
+  - fieldName: MonthlyText
+    language: ru
+    value: "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439"
+  - fieldName: MonthlyText
+    language: de
+    value: Monatlich
+  - fieldName: WeeklyText
+    language: en
+    value: Weekly
+  - fieldName: WeeklyText
+    language: ru
+    value: "\u0415\u0436\u0435\u043D\u0435\u0434\u0435\u043B\u044C\u043D\u044B\u0439"
+  - fieldName: WeeklyText
+    language: de
+    value: "W\xF6chentlich"
+  - fieldName: LvTextWithParams
+    language: en
+    value: Lvl {0}
+  - fieldName: LvTextWithParams
+    language: ru
+    value: "\u0423\u0440. {0}"
+  - fieldName: LvTextWithParams
+    language: de
+    value: Ebene {0}
+  - fieldName: TryCountText
+    language: en
+    value: 'Attempts:'
+  - fieldName: TryCountText
+    language: ru
+    value: "\u041F\u043E\u043F\u044B\u0442\u043E\u043A:"
+  - fieldName: TryCountText
+    language: de
+    value: 'Versuche:'
+  - fieldName: ResultsText
+    language: en
+    value: Results
+  - fieldName: ResultsText
+    language: ru
+    value: "\u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u044B"
+  - fieldName: ResultsText
+    language: de
+    value: Ergebnisse
+  - fieldName: AllRewardsPlace
+    language: en
+    value: 'Rank:'
+  - fieldName: AllRewardsPlace
+    language: ru
+    value: "\u041C\u0435\u0441\u0442\u043E \u0432 \u0440\u0435\u0439\u0442\u0438\u043D\u0433\u0435: "
+  - fieldName: AllRewardsPlace
+    language: de
+    value: 'Rang:'
+  - fieldName: AllRewardsRewards
+    language: en
+    value: Awards
+  - fieldName: AllRewardsRewards
+    language: ru
+    value: "\u041D\u0430\u0433\u0440\u0430\u0434\u044B"
+  - fieldName: AllRewardsRewards
+    language: de
+    value: Auszeichnungen
+  - fieldName: CompetitionsTile
+    language: en
+    value: Competitions
+  - fieldName: CompetitionsTile
+    language: ru
+    value: "\u0421\u043E\u0440\u0435\u0432\u043D\u043E\u0432\u0430\u043D\u0438\u044F"
+  - fieldName: CompetitionsTile
+    language: de
+    value: Wettbewerbe
+  - fieldName: LevelEndedTile
+    language: en
+    value: Level ended
+  - fieldName: LevelEndedTile
+    language: ru
+    value: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D"
+  - fieldName: LevelEndedTile
+    language: de
+    value: Level abgeschlossen
+  - fieldName: BackAgainText
+    language: en
+    value: Come back again ;)
+  - fieldName: BackAgainText
+    language: ru
+    value: "\u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0439\u0441\u044F \u0441\u043D\u043E\u0432\u0430
+      ;)"
+  - fieldName: BackAgainText
+    language: de
+    value: "Komm wieder zur\xFCck ;)"
+  - fieldName: ClueRating4_5
+    language: en
+    value: The multiplier increases based on the levels completed and the number
+      of skins
+  - fieldName: ClueRating4_5
+    language: ru
+    value: "\u041C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044C \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F
+      \u043E\u0442 \u043F\u0440\u043E\u0439\u0434\u0435\u043D\u043D\u044B\u0445 \u0443\u0440\u043E\u0432\u043D\u0435\u0439
+      \u0438 \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u0430 \u0441\u043A\u0438\u043D\u043E\u0432"
+  - fieldName: ClueRating4_5
+    language: de
+    value: "Der Multiplikator erh\xF6ht sich basierend auf den abgeschlossenen Levels
+      und der Anzahl der Skins"
+  - fieldName: ClueInf1
+    language: en
+    value: Open the endless level panel
+  - fieldName: ClueInf1
+    language: ru
+    value: "\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u043F\u0430\u043D\u0435\u043B\u044C
+      \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u043E\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F"
+  - fieldName: ClueInf1
+    language: de
+    value: "\xD6ffne das Endlos-Level-Panel"
+  - fieldName: ClueInf2
+    language: en
+    value: Some endless levels have a time limit
+  - fieldName: ClueInf2
+    language: ru
+    value: "\u041D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u044B\u0435
+      \u0443\u0440\u043E\u0432\u043D\u0438 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u044B
+      \u043F\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438"
+  - fieldName: ClueInf2
+    language: de
+    value: Einige endlose Level haben ein Zeitlimit
+  - fieldName: ClueInf2_5
+    language: en
+    value: You can generate a new level or delete it
+  - fieldName: ClueInf2_5
+    language: ru
+    value: "\u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u0433\u0435\u043D\u0435\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+      \u043D\u043E\u0432\u044B\u0439 \u0443\u0440\u043E\u0432\u0435\u043D\u044C \u0438\u043B\u0438
+      \u0443\u0434\u0430\u043B\u0438\u0442\u044C \u0435\u0433\u043E"
+  - fieldName: ClueInf2_5
+    language: de
+    value: "Sie k\xF6nnen ein neues Level erstellen oder l\xF6schen"
+  - fieldName: ClueInf3
+    language: en
+    value: Run an endless level. When starting a level, 1 ticket is spent
+  - fieldName: ClueInf3
+    language: ru
+    value: "\u0417\u0430\u043F\u0443\u0441\u0442\u0438\u0442\u0435 \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u044B\u0439
+      \u0443\u0440\u043E\u0432\u0435\u043D\u044C. \u041F\u0440\u0438 \u0437\u0430\u043F\u0443\u0441\u043A\u0435
+      \u0443\u0440\u043E\u0432\u043D\u044F \u0442\u0440\u0430\u0442\u0438\u0442\u0441\u044F
+      1 \u0431\u0438\u043B\u0435\u0442"
+  - fieldName: ClueInf3
+    language: de
+    value: "F\xFChren Sie ein endloses Level durch. Beim Starten eines Levels wird
+      1 Ticket ausgegeben"
+  - fieldName: ClueRating1
+    language: en
+    value: Open the rating points panel
+  - fieldName: ClueRating1
+    language: ru
+    value: "\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u043F\u0430\u043D\u0435\u043B\u044C
+      \u0440\u0435\u0439\u0442\u0438\u043D\u0433\u043E\u0432\u044B\u0445 \u043E\u0447\u043A\u043E\u0432"
+  - fieldName: ClueRating1
+    language: de
+    value: "\xD6ffnen Sie das Bewertungspunktfenster"
+  - fieldName: ClueRating2
+    language: en
+    value: This shows your place in the ranking points table and the rewards given
+      out at the end of the period
+  - fieldName: ClueRating2
+    language: ru
+    value: "\u0422\u0443\u0442 \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+      \u0432\u0430\u0448\u0435 \u043C\u0435\u0441\u0442\u043E \u0432 \u0442\u0430\u0431\u043B\u0438\u0446\u0435
+      \u0440\u0435\u0439\u0442\u0438\u043D\u0433\u043E\u0432\u044B\u0445 \u043E\u0447\u043A\u043E\u0432
+      \u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u044B, \u0432\u044B\u0434\u0430\u0432\u0430\u0435\u043C\u044B\u0435
+      \u0432 \u043A\u043E\u043D\u0446\u0435 \u043F\u0435\u0440\u0438\u043E\u0434\u0430"
+  - fieldName: ClueRating2
+    language: de
+    value: Hier werden Ihr Platz in der Ranglistentabelle und die am Ende des Zeitraums
+      vergebenen Belohnungen angezeigt
+  - fieldName: ClueRating2_5
+    language: en
+    value: You receive rating points along with coins
+  - fieldName: ClueRating2_5
+    language: ru
+    value: " \u0420\u0435\u0439\u0442\u0438\u043D\u0433\u043E\u0432\u044B\u0435 \u043E\u0447\u043A\u0438
+      \u0432\u044B \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0435 \u0432\u043C\u0435\u0441\u0442\u0435
+      \u0441 \u043C\u043E\u043D\u0435\u0442\u0430\u043C\u0438"
+  - fieldName: ClueRating2_5
+    language: de
+    value: "Sie erhalten Bewertungspunkte zusammen mit M\xFCnzen"
+  - fieldName: ClueRating3
+    language: en
+    value: Open the multiplier window
+  - fieldName: ClueRating3
+    language: ru
+    value: "\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u043E\u043A\u043D\u043E
+      \u043C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044F"
+  - fieldName: ClueRating3
+    language: de
+    value: "\xD6ffnen Sie das Multiplikatorfenster"
+  - fieldName: ClueRating4
+    language: en
+    value: This shows your multiplier and the number of skins by rarity
+  - fieldName: ClueRating4
+    language: ru
+    value: "\u0422\u0443\u0442 \u043F\u043E\u043A\u0430\u0437\u0430\u043D \u0432\u0430\u0448
+      \u043C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044C \u0438 \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E
+      \u0441\u043A\u0438\u043D\u043E\u0432 \u043F\u043E \u0440\u0435\u0434\u043A\u043E\u0441\u0442\u0438"
+  - fieldName: ClueRating4
+    language: de
+    value: Hier werden Ihr Multiplikator und die Anzahl der Skins nach Seltenheit
+      angezeigt
+  - fieldName: NotPlayedText
+    language: en
+    value: Play to rank and get rewards!
+  - fieldName: NotPlayedText
+    language: ru
+    value: "\u0418\u0433\u0440\u0430\u0439\u0442\u0435, \u0447\u0442\u043E\u0431\u044B
+      \u0437\u0430\u043D\u044F\u0442\u044C \u043C\u0435\u0441\u0442\u043E \u0438
+      \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u043D\u0430\u0433\u0440\u0430\u0434\u044B!"
+  - fieldName: NotPlayedText
+    language: de
+    value: Spielen Sie, um Rang zu erreichen und Belohnungen zu erhalten!
+  languageList:
+  - en
+  - ru
+  - de
+  - es
+  - it
+  - tr
+  - pt
+  - id
+  - tg
+  - uz
+  - fr
+  - kk

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ec882dad1fe4aadbb694a37b3b79ea5, type: 3}
+  m_Name: StarterPackPurchaseSale
+  m_EditorClassIdentifier: 
+  id: starterpack_sale
+  repeatable: 1
+  icon: {fileID: 21300000, guid: 3299c11d68b7ca946a75b32103b117e2, type: 3}
+  type: 2
+  statType: 0
+  value: 0
+  packedItems:
+    purchaseItems:
+    - {fileID: 11400000, guid: 24b1e51cbd775404f8acfec593297f4e, type: 2}
+    - {fileID: 11400000, guid: bcbe8976c9fef45d39a33f0d08664491, type: 2}
+    - {fileID: 11400000, guid: 2077dfd397b9f56439e72e3f1f6c30a1, type: 2}
+    - {fileID: 11400000, guid: 5820489e2c7b7ad4384703eeab0a278f, type: 2}
+    - {fileID: 11400000, guid: ca68872101c2846fc9a1c3321e6ad922, type: 2}
+  purchaseExt: {fileID: 0}

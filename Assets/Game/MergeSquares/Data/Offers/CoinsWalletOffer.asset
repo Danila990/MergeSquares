@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a684c2279c50b784fb9da02a10543da4, type: 3}
+  m_Name: CoinsWalletOffer
+  m_EditorClassIdentifier: 
+  id: CoinsWalletOffer
+  isSingle: 0
+  isTimeLimitEnabled: 1
+  timeLimit: 86400
+  offerPopupType: 0
+  isShowPopupOnCreate: 0
+  isHasPurchase: 1
+  _purchase: {fileID: 11400000, guid: ad063ca224a3d034e9fa9ccd0db38b22, type: 2}
+  salePurchase: {fileID: 11400000, guid: af4dab7453a7d4da4877ac82f834ee3a, type: 2}

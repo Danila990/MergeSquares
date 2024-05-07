@@ -1,0 +1,1513 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18862f8599a04d0c853917b2ccedc9b2, type: 3}
+  m_Name: MergeSquaresLevelRepository
+  m_EditorClassIdentifier: 
+  data:
+  - id: 1
+    size: {x: 4, y: 3}
+    nextValues:
+    - chance: 1
+      value: 2
+    units: []
+    taskModel:
+      type: 1
+      value: 8
+    reward: 10
+  - id: 2
+    size: {x: 4, y: 3}
+    nextValues:
+    - chance: 80
+      value: 2
+    - chance: 20
+      value: 4
+    units: []
+    taskModel:
+      type: 1
+      value: 8
+    reward: 10
+  - id: 3
+    size: {x: 4, y: 5}
+    nextValues:
+    - chance: 60
+      value: 2
+    - chance: 40
+      value: 4
+    units: []
+    taskModel:
+      type: 1
+      value: 16
+    reward: 10
+  - id: 4
+    size: {x: 2, y: 2}
+    nextValues:
+    - chance: 1
+      value: 2
+    units:
+    - position: {x: 1, y: 0}
+      value: 0
+    - position: {x: 0, y: 1}
+      value: 1
+    - position: {x: 1, y: 1}
+      value: 2
+    taskModel:
+      type: 1
+      value: 8
+    reward: 10
+  - id: 5
+    size: {x: 4, y: 4}
+    nextValues:
+    - chance: 20
+      value: 1
+    - chance: 65
+      value: 2
+    - chance: 15
+      value: 4
+    units: []
+    taskModel:
+      type: 1
+      value: 32
+    reward: 10
+  - id: 6
+    size: {x: 4, y: 5}
+    nextValues:
+    - chance: 12
+      value: 1
+    - chance: 50
+      value: 2
+    - chance: 25
+      value: 4
+    - chance: 5
+      value: 8
+    units: []
+    taskModel:
+      type: 1
+      value: 32
+    reward: 10
+  - id: 7
+    size: {x: 4, y: 4}
+    nextValues:
+    - chance: 13
+      value: 1
+    - chance: 55
+      value: 2
+    - chance: 30
+      value: 4
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 1, y: 0}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    taskModel:
+      type: 1
+      value: 16
+    reward: 10
+  - id: 8
+    size: {x: 5, y: 4}
+    nextValues:
+    - chance: 10
+      value: 1
+    - chance: 40
+      value: 2
+    - chance: 25
+      value: 4
+    - chance: 10
+      value: 8
+    units:
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 4, y: 3}
+      value: 0
+    - position: {x: 0, y: 0}
+      value: 0
+    taskModel:
+      type: 0
+      value: 250
+    reward: 10
+  - id: 9
+    size: {x: 5, y: 5}
+    nextValues:
+    - chance: 9
+      value: 1
+    - chance: 35
+      value: 2
+    - chance: 30
+      value: 4
+    - chance: 5
+      value: 8
+    - chance: 5
+      value: 16
+    units:
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    - position: {x: 4, y: 2}
+      value: 0
+    taskModel:
+      type: 0
+      value: 250
+    reward: 10
+  - id: 10
+    size: {x: 5, y: 5}
+    nextValues:
+    - chance: 8
+      value: 1
+    - chance: 30
+      value: 2
+    - chance: 25
+      value: 4
+    - chance: 10
+      value: 8
+    - chance: 5
+      value: 16
+    units:
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    - position: {x: 4, y: 2}
+      value: 0
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 0, y: 4}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    taskModel:
+      type: 0
+      value: 250
+    reward: 15
+  - id: 11
+    size: {x: 5, y: 6}
+    nextValues:
+    - chance: 7
+      value: 1
+    - chance: 25
+      value: 2
+    - chance: 30
+      value: 4
+    - chance: 5
+      value: 8
+    - chance: 10
+      value: 16
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 0, y: 5}
+      value: 0
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 4, y: 5}
+      value: 0
+    - position: {x: 1, y: 2}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    taskModel:
+      type: 0
+      value: 500
+    reward: 15
+  - id: 12
+    size: {x: 6, y: 6}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 30
+      value: 2
+    - chance: 10
+      value: 4
+    units:
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    taskModel:
+      type: 1
+      value: 32
+    reward: 15
+  - id: 13
+    size: {x: 6, y: 6}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 15
+      value: 2
+    - chance: 30
+      value: 4
+    - chance: 5
+      value: 8
+    - chance: 10
+      value: 16
+    - chance: 5
+      value: 32
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 0, y: 5}
+      value: 0
+    - position: {x: 5, y: 0}
+      value: 0
+    - position: {x: 5, y: 5}
+      value: 0
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 3, y: 0}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 0, y: 3}
+      value: 0
+    - position: {x: 5, y: 2}
+      value: 0
+    - position: {x: 5, y: 3}
+      value: 0
+    taskModel:
+      type: 1
+      value: 64
+    reward: 15
+  - id: 14
+    size: {x: 5, y: 5}
+    nextValues:
+    - chance: 25
+      value: 1
+    - chance: 10
+      value: 2
+    - chance: 25
+      value: 4
+    - chance: 10
+      value: 8
+    units:
+    - position: {x: 1, y: 1}
+      value: 0
+    - position: {x: 2, y: 1}
+      value: 0
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 1, y: 2}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    taskModel:
+      type: 1
+      value: 64
+    reward: 15
+  - id: 15
+    size: {x: 5, y: 6}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 30
+      value: 4
+    - chance: 5
+      value: 8
+    - chance: 10
+      value: 16
+    - chance: 5
+      value: 32
+    units:
+    - position: {x: 1, y: 0}
+      value: 0
+    - position: {x: 1, y: 1}
+      value: 0
+    - position: {x: 1, y: 2}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    taskModel:
+      type: 1
+      value: 128
+    reward: 15
+  - id: 16
+    size: {x: 6, y: 6}
+    nextValues:
+    - chance: 10
+      value: 1
+    - chance: 5
+      value: 2
+    - chance: 25
+      value: 4
+    - chance: 10
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 5
+      value: 32
+    units:
+    - position: {x: 1, y: 1}
+      value: 0
+    - position: {x: 4, y: 1}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 4, y: 3}
+      value: 0
+    - position: {x: 2, y: 4}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    taskModel:
+      type: 1
+      value: 128
+    reward: 15
+  - id: 17
+    size: {x: 7, y: 6}
+    nextValues:
+    - chance: 10
+      value: 1
+    - chance: 5
+      value: 2
+    - chance: 20
+      value: 4
+    - chance: 15
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 5
+      value: 32
+    units:
+    - position: {x: 1, y: 0}
+      value: 0
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 5, y: 0}
+      value: 0
+    - position: {x: 0, y: 1}
+      value: 0
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 6, y: 1}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 6, y: 2}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 5, y: 3}
+      value: 0
+    - position: {x: 2, y: 4}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    taskModel:
+      type: 1
+      value: 256
+    reward: 15
+  - id: 18
+    size: {x: 7, y: 7}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 5
+      value: 2
+    - chance: 15
+      value: 4
+    - chance: 20
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 5
+      value: 32
+    - chance: 5
+      value: 64
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 0, y: 6}
+      value: 0
+    - position: {x: 6, y: 0}
+      value: 0
+    - position: {x: 6, y: 6}
+      value: 0
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 2, y: 6}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 0, y: 4}
+      value: 0
+    - position: {x: 6, y: 2}
+      value: 0
+    - position: {x: 6, y: 4}
+      value: 0
+    - position: {x: 4, y: 6}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 2, y: 4}
+      value: 0
+    - position: {x: 4, y: 2}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    taskModel:
+      type: 0
+      value: 500
+    reward: 15
+  - id: 19
+    size: {x: 7, y: 7}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 5
+      value: 2
+    - chance: 15
+      value: 4
+    - chance: 20
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 5
+      value: 32
+    - chance: 5
+      value: 64
+    units:
+    - position: {x: 0, y: 0}
+      value: 64
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 6, y: 0}
+      value: 64
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 6, y: 2}
+      value: 0
+    - position: {x: 0, y: 4}
+      value: 0
+    - position: {x: 6, y: 4}
+      value: 0
+    - position: {x: 0, y: 6}
+      value: 64
+    - position: {x: 2, y: 6}
+      value: 0
+    - position: {x: 4, y: 6}
+      value: 0
+    - position: {x: 6, y: 6}
+      value: 64
+    taskModel:
+      type: 0
+      value: 500
+    reward: 15
+  - id: 20
+    size: {x: 7, y: 7}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 5
+      value: 2
+    - chance: 15
+      value: 4
+    - chance: 20
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 5
+      value: 32
+    - chance: 5
+      value: 64
+    units:
+    - position: {x: 2, y: 1}
+      value: 0
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 4, y: 1}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 128
+    - position: {x: 4, y: 2}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 4, y: 3}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 2
+    - position: {x: 3, y: 5}
+      value: 4
+    - position: {x: 4, y: 5}
+      value: 2
+    - position: {x: 3, y: 6}
+      value: 2
+    taskModel:
+      type: 1
+      value: 256
+    reward: 20
+  - id: 21
+    size: {x: 7, y: 7}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 5
+      value: 2
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 1, y: 0}
+      value: 0
+    - position: {x: 5, y: 0}
+      value: 0
+    - position: {x: 6, y: 0}
+      value: 0
+    - position: {x: 0, y: 1}
+      value: 0
+    - position: {x: 1, y: 1}
+      value: 2
+    - position: {x: 3, y: 1}
+      value: 2
+    - position: {x: 5, y: 1}
+      value: 2
+    - position: {x: 6, y: 1}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 4
+    - position: {x: 4, y: 2}
+      value: 4
+    - position: {x: 1, y: 3}
+      value: 2
+    - position: {x: 3, y: 3}
+      value: 8
+    - position: {x: 5, y: 3}
+      value: 2
+    - position: {x: 2, y: 4}
+      value: 4
+    - position: {x: 4, y: 4}
+      value: 4
+    - position: {x: 0, y: 5}
+      value: 0
+    - position: {x: 1, y: 5}
+      value: 2
+    - position: {x: 3, y: 5}
+      value: 2
+    - position: {x: 5, y: 5}
+      value: 2
+    - position: {x: 6, y: 5}
+      value: 0
+    - position: {x: 0, y: 6}
+      value: 0
+    - position: {x: 1, y: 6}
+      value: 0
+    - position: {x: 5, y: 6}
+      value: 0
+    - position: {x: 6, y: 6}
+      value: 0
+    taskModel:
+      type: 1
+      value: 256
+    reward: 20
+  - id: 22
+    size: {x: 7, y: 8}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 10
+      value: 4
+    - chance: 15
+      value: 8
+    units:
+    - position: {x: 2, y: 1}
+      value: 0
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 4, y: 1}
+      value: 0
+    - position: {x: 5, y: 2}
+      value: 128
+    - position: {x: 0, y: 3}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    - position: {x: 5, y: 4}
+      value: 0
+    - position: {x: 6, y: 4}
+      value: 0
+    - position: {x: 0, y: 7}
+      value: 2
+    - position: {x: 1, y: 7}
+      value: 4
+    - position: {x: 2, y: 7}
+      value: 2
+    - position: {x: 3, y: 7}
+      value: 4
+    - position: {x: 4, y: 7}
+      value: 2
+    - position: {x: 5, y: 7}
+      value: 4
+    - position: {x: 6, y: 7}
+      value: 2
+    taskModel:
+      type: 1
+      value: 512
+    reward: 20
+  - id: 23
+    size: {x: 7, y: 8}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 10
+      value: 4
+    - chance: 15
+      value: 8
+    - chance: 20
+      value: 16
+    - chance: 10
+      value: 32
+    - chance: 5
+      value: 64
+    units:
+    - position: {x: 2, y: 1}
+      value: 8
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 4, y: 1}
+      value: 0
+    - position: {x: 5, y: 1}
+      value: 8
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 5, y: 2}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 8
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 5, y: 3}
+      value: 0
+    - position: {x: 5, y: 4}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 8
+    - position: {x: 4, y: 5}
+      value: 0
+    - position: {x: 5, y: 5}
+      value: 8
+    - position: {x: 1, y: 6}
+      value: 8
+    - position: {x: 2, y: 6}
+      value: 0
+    - position: {x: 3, y: 6}
+      value: 0
+    - position: {x: 4, y: 6}
+      value: 8
+    - position: {x: 0, y: 7}
+      value: 0
+    - position: {x: 1, y: 7}
+      value: 0
+    - position: {x: 2, y: 7}
+      value: 8
+    taskModel:
+      type: 1
+      value: 512
+    reward: 20
+  - id: 24
+    size: {x: 7, y: 8}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 10
+      value: 4
+    - chance: 25
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 5
+      value: 32
+    - chance: 5
+      value: 64
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 0, y: 7}
+      value: 0
+    - position: {x: 6, y: 0}
+      value: 0
+    - position: {x: 6, y: 7}
+      value: 0
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 2, y: 7}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 0, y: 5}
+      value: 0
+    - position: {x: 6, y: 2}
+      value: 0
+    - position: {x: 6, y: 5}
+      value: 0
+    - position: {x: 4, y: 7}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 2, y: 5}
+      value: 0
+    - position: {x: 4, y: 2}
+      value: 0
+    - position: {x: 4, y: 5}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    taskModel:
+      type: 0
+      value: 500
+    reward: 20
+  - id: 25
+    size: {x: 7, y: 8}
+    nextValues:
+    - chance: 10
+      value: 4
+    - chance: 25
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 5
+      value: 32
+    - chance: 5
+      value: 64
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 0, y: 7}
+      value: 0
+    - position: {x: 6, y: 0}
+      value: 0
+    - position: {x: 6, y: 7}
+      value: 0
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 2, y: 7}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 0, y: 5}
+      value: 0
+    - position: {x: 6, y: 2}
+      value: 0
+    - position: {x: 6, y: 5}
+      value: 0
+    - position: {x: 4, y: 7}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 2, y: 5}
+      value: 0
+    - position: {x: 4, y: 2}
+      value: 0
+    - position: {x: 4, y: 5}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    taskModel:
+      type: 0
+      value: 1000
+    reward: 20
+  - id: 26
+    size: {x: 7, y: 9}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 25
+      value: 8
+    - chance: 10
+      value: 16
+    - chance: 5
+      value: 32
+    - chance: 5
+      value: 64
+    - chance: 5
+      value: 128
+    units:
+    - position: {x: 3, y: 0}
+      value: 0
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 0, y: 4}
+      value: 0
+    - position: {x: 1, y: 4}
+      value: 0
+    - position: {x: 2, y: 4}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    - position: {x: 5, y: 4}
+      value: 0
+    - position: {x: 6, y: 4}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    - position: {x: 3, y: 6}
+      value: 0
+    - position: {x: 3, y: 7}
+      value: 0
+    - position: {x: 3, y: 8}
+      value: 0
+    taskModel:
+      type: 0
+      value: 1000
+    reward: 20
+  - id: 27
+    size: {x: 7, y: 9}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 50
+      value: 8
+    - chance: 10
+      value: 16
+    - chance: 5
+      value: 32
+    - chance: 5
+      value: 128
+    units:
+    - position: {x: 0, y: 0}
+      value: 128
+    - position: {x: 1, y: 0}
+      value: 0
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 5, y: 0}
+      value: 0
+    - position: {x: 6, y: 0}
+      value: 128
+    - position: {x: 0, y: 1}
+      value: 0
+    - position: {x: 1, y: 1}
+      value: 0
+    - position: {x: 5, y: 1}
+      value: 0
+    - position: {x: 6, y: 1}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 6, y: 2}
+      value: 0
+    - position: {x: 0, y: 6}
+      value: 0
+    - position: {x: 6, y: 6}
+      value: 0
+    - position: {x: 0, y: 7}
+      value: 0
+    - position: {x: 1, y: 7}
+      value: 0
+    - position: {x: 5, y: 7}
+      value: 0
+    - position: {x: 6, y: 7}
+      value: 0
+    - position: {x: 0, y: 8}
+      value: 128
+    - position: {x: 1, y: 8}
+      value: 0
+    - position: {x: 2, y: 8}
+      value: 0
+    - position: {x: 4, y: 8}
+      value: 0
+    - position: {x: 5, y: 8}
+      value: 0
+    - position: {x: 6, y: 8}
+      value: 128
+    taskModel:
+      type: 0
+      value: 1000
+    reward: 20
+  - id: 28
+    size: {x: 7, y: 9}
+    nextValues:
+    - chance: 20
+      value: 8
+    - chance: 5
+      value: 16
+    - chance: 15
+      value: 32
+    - chance: 5
+      value: 64
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 6, y: 0}
+      value: 0
+    - position: {x: 0, y: 1}
+      value: 0
+    - position: {x: 6, y: 1}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 6, y: 2}
+      value: 0
+    - position: {x: 0, y: 3}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 6, y: 3}
+      value: 0
+    - position: {x: 0, y: 4}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    - position: {x: 6, y: 4}
+      value: 0
+    - position: {x: 0, y: 5}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    - position: {x: 6, y: 5}
+      value: 0
+    - position: {x: 0, y: 6}
+      value: 0
+    - position: {x: 3, y: 6}
+      value: 0
+    - position: {x: 6, y: 6}
+      value: 0
+    - position: {x: 0, y: 7}
+      value: 0
+    - position: {x: 6, y: 7}
+      value: 0
+    - position: {x: 0, y: 8}
+      value: 0
+    - position: {x: 6, y: 8}
+      value: 0
+    taskModel:
+      type: 0
+      value: 1500
+    reward: 20
+  - id: 29
+    size: {x: 5, y: 9}
+    nextValues:
+    - chance: 5
+      value: 1
+    units:
+    - position: {x: 0, y: 0}
+      value: 2
+    - position: {x: 2, y: 0}
+      value: 2
+    - position: {x: 4, y: 0}
+      value: 2
+    - position: {x: 1, y: 1}
+      value: 4
+    - position: {x: 3, y: 1}
+      value: 4
+    - position: {x: 0, y: 2}
+      value: 8
+    - position: {x: 2, y: 2}
+      value: 8
+    - position: {x: 4, y: 2}
+      value: 8
+    - position: {x: 1, y: 3}
+      value: 16
+    - position: {x: 3, y: 3}
+      value: 16
+    - position: {x: 0, y: 4}
+      value: 0
+    - position: {x: 1, y: 4}
+      value: 0
+    - position: {x: 2, y: 4}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    - position: {x: 0, y: 5}
+      value: 16
+    - position: {x: 2, y: 5}
+      value: 16
+    - position: {x: 4, y: 5}
+      value: 16
+    - position: {x: 1, y: 6}
+      value: 8
+    - position: {x: 3, y: 6}
+      value: 8
+    - position: {x: 0, y: 7}
+      value: 4
+    - position: {x: 2, y: 7}
+      value: 4
+    - position: {x: 4, y: 7}
+      value: 4
+    - position: {x: 1, y: 8}
+      value: 2
+    - position: {x: 3, y: 8}
+      value: 2
+    taskModel:
+      type: 1
+      value: 512
+    reward: 20
+  - id: 30
+    size: {x: 6, y: 9}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 5
+      value: 8
+    - chance: 20
+      value: 16
+    - chance: 15
+      value: 32
+    - chance: 10
+      value: 64
+    - chance: 5
+      value: 128
+    units:
+    - position: {x: 2, y: 1}
+      value: 4
+    - position: {x: 4, y: 1}
+      value: 4
+    - position: {x: 1, y: 2}
+      value: 4
+    - position: {x: 3, y: 2}
+      value: 4
+    - position: {x: 2, y: 3}
+      value: 4
+    - position: {x: 4, y: 3}
+      value: 4
+    - position: {x: 1, y: 5}
+      value: 2
+    - position: {x: 3, y: 5}
+      value: 2
+    - position: {x: 2, y: 6}
+      value: 2
+    - position: {x: 4, y: 6}
+      value: 2
+    - position: {x: 1, y: 7}
+      value: 2
+    - position: {x: 3, y: 7}
+      value: 2
+    taskModel:
+      type: 1
+      value: 512
+    reward: 25
+  - id: 31
+    size: {x: 6, y: 9}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 10
+      value: 16
+    - chance: 20
+      value: 32
+    - chance: 10
+      value: 64
+    - chance: 5
+      value: 128
+    units:
+    - position: {x: 5, y: 0}
+      value: 0
+    - position: {x: 4, y: 1}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 0
+    - position: {x: 5, y: 3}
+      value: 0
+    - position: {x: 1, y: 4}
+      value: 0
+    - position: {x: 4, y: 4}
+      value: 0
+    - position: {x: 0, y: 5}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    - position: {x: 2, y: 6}
+      value: 0
+    - position: {x: 1, y: 7}
+      value: 0
+    - position: {x: 0, y: 8}
+      value: 0
+    taskModel:
+      type: 1
+      value: 1024
+    reward: 25
+  - id: 32
+    size: {x: 5, y: 9}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 25
+      value: 2
+    units:
+    - position: {x: 1, y: 1}
+      value: 0
+    - position: {x: 2, y: 1}
+      value: 0
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 1, y: 2}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 0
+    - position: {x: 1, y: 4}
+      value: 0
+    - position: {x: 2, y: 4}
+      value: 128
+    - position: {x: 3, y: 4}
+      value: 0
+    - position: {x: 1, y: 5}
+      value: 0
+    - position: {x: 2, y: 5}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    - position: {x: 1, y: 6}
+      value: 0
+    - position: {x: 2, y: 6}
+      value: 0
+    - position: {x: 3, y: 6}
+      value: 0
+    - position: {x: 1, y: 7}
+      value: 0
+    - position: {x: 2, y: 7}
+      value: 0
+    - position: {x: 3, y: 7}
+      value: 0
+    taskModel:
+      type: 1
+      value: 256
+    reward: 25
+  - id: 33
+    size: {x: 4, y: 9}
+    nextValues:
+    - chance: 25
+      value: 64
+    - chance: 5
+      value: 128
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 1, y: 0}
+      value: 0
+    - position: {x: 2, y: 0}
+      value: 0
+    - position: {x: 3, y: 0}
+      value: 0
+    - position: {x: 0, y: 1}
+      value: 0
+    - position: {x: 1, y: 1}
+      value: 0
+    - position: {x: 2, y: 1}
+      value: 0
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 1, y: 2}
+      value: 0
+    - position: {x: 2, y: 2}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 0, y: 6}
+      value: 0
+    - position: {x: 1, y: 6}
+      value: 0
+    - position: {x: 2, y: 6}
+      value: 0
+    - position: {x: 3, y: 6}
+      value: 0
+    - position: {x: 0, y: 7}
+      value: 0
+    - position: {x: 1, y: 7}
+      value: 0
+    - position: {x: 2, y: 7}
+      value: 0
+    - position: {x: 3, y: 7}
+      value: 0
+    - position: {x: 0, y: 8}
+      value: 0
+    - position: {x: 1, y: 8}
+      value: 0
+    - position: {x: 2, y: 8}
+      value: 0
+    - position: {x: 3, y: 8}
+      value: 0
+    taskModel:
+      type: 1
+      value: 512
+    reward: 25
+  - id: 34
+    size: {x: 5, y: 9}
+    nextValues:
+    - chance: 100
+      value: 32
+    units:
+    - position: {x: 0, y: 0}
+      value: 0
+    - position: {x: 1, y: 0}
+      value: 32
+    - position: {x: 3, y: 0}
+      value: 32
+    - position: {x: 4, y: 0}
+      value: 0
+    - position: {x: 0, y: 1}
+      value: 0
+    - position: {x: 2, y: 1}
+      value: 32
+    - position: {x: 4, y: 1}
+      value: 0
+    - position: {x: 0, y: 2}
+      value: 0
+    - position: {x: 4, y: 2}
+      value: 0
+    - position: {x: 2, y: 4}
+      value: 256
+    - position: {x: 0, y: 6}
+      value: 0
+    - position: {x: 4, y: 6}
+      value: 0
+    - position: {x: 0, y: 7}
+      value: 0
+    - position: {x: 2, y: 7}
+      value: 32
+    - position: {x: 4, y: 7}
+      value: 0
+    - position: {x: 0, y: 8}
+      value: 0
+    - position: {x: 1, y: 8}
+      value: 32
+    - position: {x: 3, y: 8}
+      value: 32
+    - position: {x: 4, y: 8}
+      value: 0
+    taskModel:
+      type: 1
+      value: 512
+    reward: 25
+  - id: 35
+    size: {x: 5, y: 9}
+    nextValues:
+    - chance: 10
+      value: 1
+    - chance: 5
+      value: 16
+    - chance: 10
+      value: 32
+    - chance: 5
+      value: 64
+    - chance: 5
+      value: 128
+    units:
+    - position: {x: 1, y: 1}
+      value: 8
+    - position: {x: 2, y: 1}
+      value: 8
+    - position: {x: 3, y: 1}
+      value: 8
+    - position: {x: 1, y: 2}
+      value: 8
+    - position: {x: 3, y: 2}
+      value: 8
+    - position: {x: 3, y: 3}
+      value: 8
+    - position: {x: 2, y: 4}
+      value: 8
+    - position: {x: 3, y: 4}
+      value: 8
+    - position: {x: 2, y: 5}
+      value: 8
+    - position: {x: 2, y: 7}
+      value: 8
+    taskModel:
+      type: 1
+      value: 1024
+    reward: 25
+  - id: 36
+    size: {x: 3, y: 9}
+    nextValues:
+    - chance: 5
+      value: 1
+    - chance: 20
+      value: 32
+    - chance: 10
+      value: 64
+    - chance: 5
+      value: 128
+    units:
+    - position: {x: 1, y: 1}
+      value: 16
+    - position: {x: 1, y: 2}
+      value: 16
+    - position: {x: 1, y: 3}
+      value: 16
+    - position: {x: 1, y: 4}
+      value: 16
+    - position: {x: 1, y: 5}
+      value: 16
+    - position: {x: 1, y: 7}
+      value: 16
+    taskModel:
+      type: 1
+      value: 1024
+    reward: 25
+  - id: 37
+    size: {x: 3, y: 6}
+    nextValues:
+    - chance: 5
+      value: 32
+    - chance: 50
+      value: 64
+    - chance: 15
+      value: 128
+    - chance: 10
+      value: 256
+    units:
+    - position: {x: 1, y: 3}
+      value: 32
+    - position: {x: 2, y: 3}
+      value: 32
+    - position: {x: 2, y: 4}
+      value: 32
+    - position: {x: 1, y: 5}
+      value: 32
+    taskModel:
+      type: 1
+      value: 1024
+    reward: 25
+  - id: 38
+    size: {x: 3, y: 3}
+    nextValues:
+    - chance: 5
+      value: 1
+    units:
+    - position: {x: 1, y: 1}
+      value: 2
+    taskModel:
+      type: 0
+      value: 1000
+    reward: 25
+  - id: 39
+    size: {x: 5, y: 5}
+    nextValues:
+    - chance: 5
+      value: 32
+    units:
+    - position: {x: 1, y: 1}
+      value: 1
+    - position: {x: 3, y: 1}
+      value: 1
+    - position: {x: 0, y: 3}
+      value: 1
+    - position: {x: 4, y: 3}
+      value: 1
+    - position: {x: 1, y: 4}
+      value: 1
+    - position: {x: 2, y: 4}
+      value: 1
+    - position: {x: 3, y: 4}
+      value: 1
+    taskModel:
+      type: 0
+      value: 1500
+    reward: 25
+  - id: 40
+    size: {x: 7, y: 7}
+    nextValues:
+    - chance: 25
+      value: 32
+    - chance: 10
+      value: 64
+    - chance: 5
+      value: 128
+    - chance: 5
+      value: 256
+    units:
+    - position: {x: 3, y: 1}
+      value: 0
+    - position: {x: 3, y: 2}
+      value: 0
+    - position: {x: 1, y: 3}
+      value: 0
+    - position: {x: 2, y: 3}
+      value: 0
+    - position: {x: 3, y: 3}
+      value: 256
+    - position: {x: 4, y: 3}
+      value: 0
+    - position: {x: 5, y: 3}
+      value: 0
+    - position: {x: 3, y: 4}
+      value: 0
+    - position: {x: 3, y: 5}
+      value: 0
+    taskModel:
+      type: 0
+      value: 2500
+    reward: 25

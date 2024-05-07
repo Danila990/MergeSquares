@@ -1,0 +1,357 @@
+  <!DOCTYPE html>
+  <html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Merge Squares</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      const yandexMetricaCounterId = 94591811;
+      ym(yandexMetricaCounterId, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/94591811" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    
+    <!-- Yandex Games SDK -->
+    <script src="https://yandex.ru/games/sdk/v2"></script>
+    
+  </head>
+  <body>
+    <div id="unity-container" style = "position: absolute; width: 100%; height: 100%; left: 0%; top: 0%;">
+      <canvas id="unity-canvas" style = "position: absolute; width: 100%; height: 100%;"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+    </div>
+    
+    <script>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      //var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      var myGameInstance = null;
+      var yandexServiceName = 'CloudService(Clone)';
+
+      const canFullscreen = (function () {
+        for (const key of [
+          'exitFullscreen',
+          'webkitExitFullscreen',
+          'webkitCancelFullScreen',
+          'mozCancelFullScreen',
+          'msExitFullscreen',
+        ]) {
+          if (key in document) {
+            return true;
+          }
+        }
+        return false;
+      }());
+
+      canvas.addEventListener("touchstart", () => {
+        container.focus();
+        window.focus();
+        canvas.focus();
+      });
+      canvas.addEventListener("pointerdown", () => {
+        container.focus();
+        window.focus();
+        canvas.focus();
+      });
+      document.addEventListener("pointerdown", () => {
+        container.focus();
+        window.focus();
+        canvas.focus();
+      });
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
+      var config = {
+        dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+        frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+        codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "{{{ COMPANY_NAME }}}",
+        productName: "{{{ PRODUCT_NAME }}}",
+        productVersion: "{{{ PRODUCT_VERSION }}}",
+        showBanner: unityShowBanner,
+      };
+
+      // By default Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+      }
+
+      loadingBar.style.display = "block";
+
+      let player;
+      let payments = null;
+      let promptCanShow = false;
+      var reviewCanShow = false;
+      let initSDK = false;
+      let initGame = false;
+      let firstAd = true;
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          myGameInstance = unityInstance;
+          loadingBar.style.display = "none";
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+
+      YaGames.init()
+        .then(ysdk => {
+          console.log('[YandexService][YaGames.init] Init Yandex SDK');
+          window.ysdk = ysdk;
+          initSDK = true;
+          InitPayments();
+
+          try {
+            ysdk.shortcut.canShowPrompt().then(prompt => {
+              if (prompt.canShow) {
+                promptCanShow = true;
+              }
+            });
+          } catch (e) {
+            console.error('[YandexService][YaGames.init] CRASH canShowPrompt: ', e.message);
+          }
+
+          try {
+            ysdk.feedback.canReview().then(({ value, reason }) => {
+              if (value) {
+                reviewCanShow = true;
+              } else {
+                console.log('[YandexService][YaGames.init] reviewCanShow = false', reason)
+              }
+            })
+
+            ysdk.shortcut.canShowPrompt().then(prompt => {
+              if (prompt.canShow) {
+                promptCanShow = true;
+              }
+            });
+          } catch (e) {
+            console.error('[YandexService][YaGames.init] CRASH canShowFeedback: ', e.message);
+          }
+
+          if (initGame == true) {
+            InitSDK();
+          }
+          if (firstAd)
+            ysdk.adv.showFullscreenAdv();
+        });
+
+      function InitSDK(callbackMethodName = 'OnInitSDK') {
+        console.log('Init GAME');
+        initGame = true;
+        if (initSDK == true) {
+          InitPlayer(callbackMethodName);
+        }
+      }
+
+      function InitPlayer(callbackMethodName) {
+        try {
+          return ysdk.getPlayer().then(_player => {
+            player = _player;
+            if (player.getMode() === 'lite') {
+              console.log('[YandexService][InitPlayer][' + callbackMethodName + ']' + 'Not Authorized');
+              myGameInstance.SendMessage(yandexServiceName, callbackMethodName, 0);
+            } else {
+              console.log('[YandexService][InitPlayer][' + callbackMethodName + ']' + 'Player was inited');
+              myGameInstance.SendMessage(yandexServiceName, callbackMethodName, 1);
+              window.focus();
+            }
+          }).catch(e => {
+            console.error('[YandexService][InitPlayer][' + callbackMethodName + ']' + 'Authorized err: ', e.message);
+            myGameInstance.SendMessage(yandexServiceName, callbackMethodName, -1);
+          });
+        } catch (e) {
+          console.error('[YandexService][InitPlayer][' + callbackMethodName + ']' + 'CRASH init Player: ', e.message);
+          myGameInstance.SendMessage(yandexServiceName, callbackMethodName, -1);
+          window.focus();
+        }
+      }
+
+      function InitPayments() {
+        try {
+          ysdk.getPayments({signed: true}).then(_payments => {
+            console.log('[YandexService][InitPayments] Purchases are available');
+            payments = _payments;
+          }).catch(e => {
+            console.log('[YandexService][InitPayments] Purchases are not available', e.message);
+          })
+        } catch (e) {
+          console.error('[YandexService][InitPayments] CRASH Init Payments: ', e.message);
+        }
+      }
+
+      function Purchase(id) {
+        try {
+          if (payments != null) {
+            payments.purchase({id: id}).then(purchase => {
+              console.log('[YandexService][Purchase] Purchase Success: ' + id);
+              myGameInstance.SendMessage(yandexServiceName, 'OnPurchase', (id + '.' + 1));
+              window.focus();
+            }).catch(e => {
+              console.log('[YandexService][Purchase] Purchase Failed ', e.message);
+              myGameInstance.SendMessage(yandexServiceName, 'OnPurchase', (id + '.' + 0));
+              window.focus();
+            })
+          } else {
+            console.error('[YandexService][Purchase] Payments == null');
+            myGameInstance.SendMessage(yandexServiceName, 'OnPurchase', (id + '.' + 0));
+          }
+        } catch (e) {
+          console.error('[YandexService][Purchase] CRASH Buy Payments: ', e.message);
+          myGameInstance.SendMessage(yandexServiceName, 'OnPurchase', (id + '.' + 0));
+          window.focus();
+        }
+      }
+
+      function GetPurchases() {
+        try {
+          if (payments != null) {
+            payments.getCatalog()
+              .then(products => {
+                let productID = [products.length];
+                let title = [products.length];
+                let description = [products.length];
+                let imageURI = [products.length];
+                let priceValue = [products.length];
+                let purchased = [products.length];
+
+                for (i = 0; i < products.length; i++) {
+                  productID[i] = products[i].id;
+                  title[i] = products[i].title;
+                  description[i] = products[i].description;
+                  imageURI[i] = products[i].imageURI;
+                  priceValue[i] = products[i].priceValue;
+                  purchased[i] = 0;
+                }
+
+                payments.getPurchases().then(purchases => {
+                  for (i1 = 0; i1 < products.length; i1++) {
+                    for (i2 = 0; i2 < purchases.length; i2++) {
+                      if (products[i1].id === purchases[i2].productID){
+                        purchased[i1]++;
+                      }
+                    }
+                  }
+                })
+                .then(() => {
+                  var jsonPayments = {
+                    "id": productID,
+                    "title": title,
+                    "description": description,
+                    "imageURI": imageURI,
+                    "priceValue": priceValue,
+                    "purchased": purchased
+                  };
+                  myGameInstance.SendMessage(yandexServiceName, 'OnPurchasesGot', JSON.stringify(jsonPayments));
+                })
+              });
+          }
+          else{
+            console.log('[YandexService][GetPurchases] Get Payments: payments == null');
+          }
+        } catch (e) {
+          console.error('[YandexService][GetPurchases] CRASH Get Payments: ', e.message);
+        }
+      }
+
+      function Auth() {
+        try {
+          ysdk.auth.openAuthDialog().then(() => {
+            InitPlayer('OnAuth');
+          }).catch(e => {
+            console.log('[YandexService][Auth] Auth Failed ', e.message);
+            InitSDK('OnAuth');
+          });
+        } catch (e) {
+          console.log('[YandexService][Auth] CRASH Open Auth Dialog: ', e.message);
+          myGameInstance.SendMessage(yandexServiceName, 'OnAuth', 0);
+        }
+      }
+
+      function GameReady() {
+        ysdk.features.LoadingAPI?.ready();
+      }
+      
+      document.body.appendChild(script);
+    </script>
+  </body>
+  </html>
